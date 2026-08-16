@@ -1,0 +1,92 @@
+{
+  "target": "FY2026Q2",
+  "metrics": {
+    "Net sales": {
+      "method": "growth",
+      "series": {
+        "FY2024Q2": {
+          "value": 43175,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Net sales | $ | 43,175 |"
+        },
+        "FY2025Q1": {
+          "value": 39856,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Net sales         | $ 41,765         | $ 39,856"
+        },
+        "FY2025Q2": {
+          "value": 45277,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Net sales | $ | 45,277 | | $ | 43,175"
+        },
+        "FY2025Q3": {
+          "value": 41352,
+          "source": "challenge/offline-data/home-depot/filings/2025-11-18__hd-us-20251118-q3-8k__359994.md: Net sales         | $ 41,352         | $ 40,217"
+        },
+        "FY2025Q4": {
+          "value": 38198,
+          "source": "challenge/offline-data/home-depot/filings/2026-02-24__hd-us-20260224-q4-8k__615609.md: Net sales         | $ 38,198         | $ 39,704"
+        },
+        "FY2026Q1": {
+          "value": 41765,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Net sales         | $ 41,765         | $ 39,856"
+        }
+      }
+    },
+    "Adjusted diluted EPS": {
+      "method": "growth",
+      "series": {
+        "FY2024Q2": {
+          "value": 4.67,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Adjusted diluted earnings per share of $4.67 in the same period of fiscal 2024."
+        },
+        "FY2025Q1": {
+          "value": 3.56,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Adjusted diluted earnings per share for the first quarter of fiscal 2026 were $3.43, compared with adjusted diluted earnings per share of $3.56 in the same period of fiscal 2025."
+        },
+        "FY2025Q2": {
+          "value": 4.68,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Adjusted diluted earnings per share for the second quarter of fiscal 2025 were $4.68, compared with adjusted diluted earnings per share of $4.67 in the same period of fiscal 2024."
+        },
+        "FY2025Q3": {
+          "value": 3.74,
+          "source": "challenge/offline-data/home-depot/filings/2025-11-18__hd-us-20251118-q3-8k__359994.md: Adjusted diluted earnings per share for the third quarter of fiscal 2025 were $3.74, compared with adjusted diluted earnings per share of $3.78 in the same period of fiscal 2024."
+        },
+        "FY2025Q4": {
+          "value": 2.72,
+          "source": "challenge/offline-data/home-depot/filings/2026-02-24__hd-us-20260224-q4-8k__615609.md: Adjusted diluted earnings per share for the fourth quarter of fiscal 2025 were $2.72, compared with adjusted diluted earnings per share of $3.13 in the same period of fiscal 2024."
+        },
+        "FY2026Q1": {
+          "value": 3.43,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Adjusted diluted earnings per share for the first quarter of fiscal 2026 were $3.43, compared with adjusted diluted earnings per share of $3.56 in the same period of fiscal 2025."
+        }
+      }
+    },
+    "Comparable sales, total company": {
+      "method": "pct_blend",
+      "series": {
+        "FY2024Q2": {
+          "value": -3.3,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Comparable sales (% change) | 1.0 % | (3.3) %"
+        },
+        "FY2025Q1": {
+          "value": -0.3,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Comparable sales (% change)         | 0.6%         | (0.3)%"
+        },
+        "FY2025Q2": {
+          "value": 1.0,
+          "source": "challenge/offline-data/home-depot/filings/2025-08-19__hd-us-20250819-q2-8k__143666.md: Comparable sales for the second quarter of fiscal 2025 increased 1.0%..."
+        },
+        "FY2025Q3": {
+          "value": 0.2,
+          "source": "challenge/offline-data/home-depot/filings/2025-11-18__hd-us-20251118-q3-8k__359994.md: Comparable sales for the third quarter of fiscal 2025 increased 0.2%..."
+        },
+        "FY2025Q4": {
+          "value": 0.4,
+          "source": "challenge/offline-data/home-depot/filings/2026-02-24__hd-us-20260224-q4-8k__615609.md: Comparable sales for the fourth quarter of fiscal 2025 increased 0.4%..."
+        },
+        "FY2026Q1": {
+          "value": 0.6,
+          "source": "challenge/offline-data/home-depot/filings/2026-05-19__hd-us-20260519-q1-8k__1038584.md: Comparable sales for the first quarter of fiscal 2026 increased 0.6%..."
+        }
+      }
+    }
+  }
+}

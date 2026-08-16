@@ -1,0 +1,72 @@
+{
+  "target": "FY2026",
+  "metrics": {
+    "Net fees": {
+      "method": "growth",
+      "series": {
+        "FY2026H1": {
+          "value": 453.3,
+          "source": "challenge/offline-data/hays/slides/2026-02-27__has-ln-20260227-slide__643289.md: Net fees 453 3 496 0"
+        },
+        "FY2025H1": {
+          "value": 496.0,
+          "source": "challenge/offline-data/hays/slides/2026-02-27__has-ln-20260227-slide__643289.md: Net fees 453 3 496 0"
+        },
+        "FY2025": {
+          "value": 972.4,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Net fees (1) | 972.4 | 1,113.6"
+        },
+        "FY2024": {
+          "value": 1113.6,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Net fees (1) | 972.4 | 1,113.6"
+        }
+      }
+    },
+    "Pre-exceptional basic EPS": {
+      "method": "growth",
+      "series": {
+        "FY2026H1": {
+          "value": 0.46,
+          "source": "challenge/offline-data/hays/slides/2026-02-27__has-ln-20260227-slide__643289.md: Basic Earnings per share 0 46p 0 81p"
+        },
+        "FY2025H1": {
+          "value": 0.81,
+          "source": "challenge/offline-data/hays/slides/2026-02-27__has-ln-20260227-slide__643289.md: Basic Earnings per share 0 46p 0 81p"
+        },
+        "FY2025": {
+          "value": 1.31,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Basic earnings per share (before exceptional items) (2) | 1.31p | 4.03p"
+        },
+        "FY2024": {
+          "value": 4.03,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Basic earnings per share (before exceptional items) (2) | 1.31p | 4.03p"
+        }
+      }
+    },
+    "Pre-exceptional operating profit": {
+      "method": "growth",
+      "series": {
+        "FY2026H1": {
+          "value": 20.1,
+          "source": "challenge/offline-data/hays/call-transcripts/2026-02-27__has-ln-20260227-call-pres__643384.md: pre-exceptional operating profit decreased 25% on a like-for-like basis to GBP 20.1 million"
+        },
+        "FY2025H1": {
+          "value": 25.5,
+          "source": "challenge/offline-data/hays/slides/2026-02-27__has-ln-20260227-slide__643289.md: Operating profit 20 1 25 5"
+        },
+        "FY2025": {
+          "value": 45.6,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Operating profit (before exceptional items) (2) | 45.6 | 105.1"
+        },
+        "FY2024": {
+          "value": 105.1,
+          "source": "challenge/offline-data/hays/filings/2025-08-21__has-ln-20250821-filing__143845.md: Operating profit (before exceptional items) (2) | 45.6 | 105.1"
+        }
+      },
+      "override": {
+        "value": 46.0,
+        "source": "challenge/offline-data/hays/filings/2026-07-10__has-ln-20260710-q4-8k__1572805.md: we currently expect FY26 pre-exceptional operating profit will be at the top of the \u00a337.0 -46.0m consensus range"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+Tier 1 run — 2026-08-16 11:45:34 BST
+
+Home Depot (HD) -> FY2026Q2
+  Net sales [USDm]
+  Adjusted diluted EPS [USD / share]
+  Comparable sales, total company [%]
+  SKIPPED — history incomplete (see failures)
+
+Analog Devices (ADI) -> FY2026Q3
+  Revenue [USDm]
+  Adjusted diluted EPS [USD / share]
+  Adjusted gross margin [%]
+  SKIPPED — history incomplete (see failures)
+
+Hays plc (HAS) -> FY2026
+  Net fees [GBPm]
+  Pre-exceptional basic EPS [GBp]
+  Pre-exceptional operating profit [GBPm]
+  SKIPPED — history incomplete (see failures)
+
+Deere & Company (DE) -> FY2026Q3
+  Worldwide net sales and revenues [USDm]
+  Diluted EPS (GAAP) [USD / share]
+  Production & Precision Ag operating profit [USDm]
+  SKIPPED — history incomplete (see failures)
+
+FAILURES:
+  - HD / Net sales: need FY2025Q2 (same period last year)
+  - HD / Adjusted diluted EPS: need FY2025Q2 (same period last year)
+  - HD / Comparable sales, total company: need FY2025Q2 (same period last year)
+  - ADI / Revenue: need FY2025Q3 (same period last year)
+  - ADI / Adjusted diluted EPS: need FY2025Q3 (same period last year)
+  - ADI / Adjusted gross margin: need FY2025Q3 (same period last year)
+  - HAS / Net fees: need FY2025 (same period last year)
+  - HAS / Pre-exceptional basic EPS: need FY2025 (same period last year)
+  - HAS / Pre-exceptional operating profit: need FY2025 (same period last year)
+  - DE / Worldwide net sales and revenues: need FY2025Q3 (same period last year)
+  - DE / Diluted EPS (GAAP): need FY2025Q3 (same period last year)
+  - DE / Production & Precision Ag operating profit: need FY2025Q3 (same period last year)

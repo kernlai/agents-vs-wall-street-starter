@@ -1,0 +1,73 @@
+Tier 1 run — 2026-08-16 12:09:03 BST
+
+Home Depot (HD) -> FY2026Q2
+  Net sales [USDm]
+      recent YoY FY2025Q1->FY2026Q1: +4.8%
+      seasonal YoY FY2024Q2->FY2025Q2: +4.9%
+      growth method: FY2025Q2=45,277.00 x (1+0.048) = 47,456.36
+      => 47456.4
+  Adjusted diluted EPS [USD / share]
+      recent YoY FY2025Q1->FY2026Q1: -3.7%
+      seasonal YoY FY2024Q2->FY2025Q2: +0.2%
+      growth method: FY2025Q2=4.68 x (1-0.025) = 4.56
+      => 4.56
+  Comparable sales, total company [%]
+      pct_blend: 0.6xFY2026Q1(0.60) + 0.4xFY2025Q2(1.00) = 0.76
+      => 0.8
+    Summary!C7 <- 47456.4  (Net sales, USDm)
+    Summary!C8 <- 4.56  (Adjusted diluted EPS, USD / share)
+    Summary!C9 <- 0.8  (Comparable sales, total company, %)
+  wrote submission/HD-FY2026Q2.xlsx
+
+Analog Devices (ADI) -> FY2026Q3
+  Revenue [USDm]
+      OVERRIDE 3900.0 — Company guidance in 2026-05-20 q2-8k line 71: Q3 FY2026 revenue $3.9B +/- $100M
+      => 3900.0
+  Adjusted diluted EPS [USD / share]
+      OVERRIDE 3.3 — Company guidance in 2026-05-20 call-pres line 47: adjusted EPS $3.30 +/- $0.15
+      => 3.3
+  Adjusted gross margin [%]
+      pct_blend: 0.6xFY2026Q2(73.00) + 0.4xFY2025Q3(69.20) = 71.48
+      => 71.5
+    Summary!C7 <- 3900.0  (Revenue, USDm)
+    Summary!C8 <- 3.3  (Adjusted diluted EPS, USD / share)
+    Summary!C9 <- 71.5  (Adjusted gross margin, %)
+  wrote submission/ADI-FY2026Q3.xlsx
+
+Hays plc (HAS) -> FY2026
+  Net fees [GBPm]
+      interim YoY FY2025H1->FY2026H1: -9.0%
+      growth method: FY2025=972.40 x (1-0.090) = 884.59
+      => 884.6
+  Pre-exceptional basic EPS [GBp]
+      interim YoY FY2025H1->FY2026H1: -43.2%
+      seasonal YoY FY2024->FY2025: -67.5%
+      WARNING blended growth -50.5% is extreme — check the inputs
+      growth method: FY2025=1.31 x (1-0.505) = 0.65
+      => 0.65
+  Pre-exceptional operating profit [GBPm]
+      OVERRIDE 46.0 — Company guidance in 2026-07-10 q4-8k line 71: FY26 pre-exceptional operating profit at the TOP of the GBP 37.0-46.0m range (consensus 43.5m)
+      => 46.0
+    Summary!C7 <- 884.6  (Net fees, GBPm)
+    Summary!C8 <- 0.65  (Pre-exceptional basic EPS, GBp)
+    Summary!C9 <- 46.0  (Pre-exceptional operating profit, GBPm)
+  wrote submission/HAS-FY2026.xlsx
+
+Deere & Company (DE) -> FY2026Q3
+  Worldwide net sales and revenues [USDm]
+      recent YoY FY2025Q2->FY2026Q2: +4.7%
+      growth method: FY2025Q3=12,018.00 x (1+0.047) = 12,588.63
+      => 12588.6
+  Diluted EPS (GAAP) [USD / share]
+      recent YoY FY2025Q2->FY2026Q2: -1.4%
+      growth method: FY2025Q3=4.75 x (1-0.014) = 4.69
+      => 4.69
+  Production & Precision Ag operating profit [USDm]
+      recent YoY FY2025Q2->FY2026Q2: -38.5%
+      WARNING blended growth -38.5% is extreme — check the inputs
+      growth method: FY2025Q3=580.00 x (1-0.385) = 356.69
+      => 356.7
+    Summary!C7 <- 12588.6  (Worldwide net sales and revenues, USDm)
+    Summary!C8 <- 4.69  (Diluted EPS (GAAP), USD / share)
+    Summary!C9 <- 356.7  (Production & Precision Ag operating profit, USDm)
+  wrote submission/DE-FY2026Q3.xlsx

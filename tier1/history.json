@@ -1,0 +1,361 @@
+{
+  "_readme": [
+    "Values below were transcribed from research/tier1-candidates-*.md grep output,",
+    "each with its source document. null = still to fill (see FILL-ME notes).",
+    "Units: USDm/GBPm amounts, USD (HAS: pence) per share for EPS, percentage points for %.",
+    "'override' wins over the model when its value is non-null; delete the key (or set",
+    "value to null) to fall back to the seasonal-naive model."
+  ],
+  "HD": {
+    "target": "FY2026Q2",
+    "metrics": {
+      "Net sales": {
+        "method": "growth",
+        "series": {
+          "FY2026Q1": {
+            "value": 41765,
+            "source": "2026-05-19 q1-8k line 118"
+          },
+          "FY2025Q1": {
+            "value": 39856,
+            "source": "2026-05-19 q1-8k line 118"
+          },
+          "FY2025Q2": {
+            "value": 45277,
+            "source": "2025-08-19 q2-8k line 99"
+          },
+          "FY2024Q2": {
+            "value": 43175,
+            "source": "2025-08-19 q2-8k line 99"
+          }
+        }
+      },
+      "Adjusted diluted EPS": {
+        "method": "growth",
+        "series": {
+          "FY2026Q1": {
+            "value": 3.43,
+            "source": "2026-05-19 q1-8k line 256"
+          },
+          "FY2025Q1": {
+            "value": 3.56,
+            "source": "2026-05-19 q1-8k line 256"
+          },
+          "FY2025Q2": {
+            "value": 4.68,
+            "source": "2025-08-19 q2-8k line 246"
+          },
+          "FY2024Q2": {
+            "value": 4.67,
+            "source": "2025-08-19 q2-8k line 246"
+          }
+        }
+      },
+      "Comparable sales, total company": {
+        "method": "pct_blend",
+        "series": {
+          "FY2026Q1": {
+            "value": 0.6,
+            "source": "2026-05-19 q1-8k line 139"
+          },
+          "FY2025Q1": {
+            "value": -0.3,
+            "source": "2026-05-19 q1-8k line 139"
+          },
+          "FY2025Q4": {
+            "value": 0.4,
+            "source": "2026-02-24 q4-8k line 161"
+          },
+          "FY2025Q2": {
+            "value": 1.0,
+            "source": "2025-08-19 q2-8k line 120"
+          },
+          "FY2024Q2": {
+            "value": -3.3,
+            "source": "2025-08-19 q2-8k line 120"
+          }
+        }
+      }
+    }
+  },
+  "ADI": {
+    "target": "FY2026Q3",
+    "metrics": {
+      "Revenue": {
+        "method": "growth",
+        "override": {
+          "value": 3900,
+          "source": "Company guidance in 2026-05-20 q2-8k line 71: Q3 FY2026 revenue $3.9B +/- $100M"
+        },
+        "series": {
+          "FY2026Q2": {
+            "value": 3623.5,
+            "source": "2026-05-20 q2-8k line 40/150"
+          },
+          "FY2026Q1": {
+            "value": 3160.3,
+            "source": "2026-02-18 q1-8k-2 line 166"
+          },
+          "FY2025Q4": {
+            "value": 3076.1,
+            "source": "2026-02-18 q1-8k-2 line 347 trailing-quarters table"
+          },
+          "FY2025Q3": {
+            "value": 2880.3,
+            "source": "2026-02-18 q1-8k-2 line 347 trailing-quarters table"
+          },
+          "FY2025Q2": {
+            "value": 2640.1,
+            "source": "2026-05-20 q2-8k line 150"
+          },
+          "FY2025Q1": {
+            "value": 2423.2,
+            "source": "2026-02-18 q1-8k-2 line 166"
+          },
+          "FY2024Q3": {
+            "value": null,
+            "source": "FILL-ME (optional): 2025-08-20__adi-us-20250820-q3-8k__155976.md"
+          }
+        }
+      },
+      "Adjusted diluted EPS": {
+        "method": "growth",
+        "override": {
+          "value": 3.3,
+          "source": "Company guidance in 2026-05-20 call-pres line 47: adjusted EPS $3.30 +/- $0.15"
+        },
+        "series": {
+          "FY2026Q2": {
+            "value": 3.09,
+            "source": "2026-05-20 q2-8k line 51"
+          },
+          "FY2026Q1": {
+            "value": 2.46,
+            "source": "2026-02-18 q1-8k-2 line 71"
+          },
+          "FY2025Q2": {
+            "value": 1.85,
+            "source": "2026-05-20 q2-8k line 51"
+          },
+          "FY2025Q1": {
+            "value": 1.63,
+            "source": "2026-02-18 q1-8k-2 line 71"
+          },
+          "FY2025Q3": {
+            "value": 2.05,
+            "source": "2025-08-20 q3-8k line 349"
+          },
+          "FY2024Q3": {
+            "value": 1.58,
+            "source": "2025-08-20 q3-8k line 349"
+          }
+        }
+      },
+      "Adjusted gross margin": {
+        "method": "pct_blend",
+        "series": {
+          "FY2026Q2": {
+            "value": 73.0,
+            "source": "2026-05-20 q2-8k line 48"
+          },
+          "FY2026Q1": {
+            "value": 71.2,
+            "source": "2026-02-18 q1-8k-2 line 68"
+          },
+          "FY2025Q2": {
+            "value": 69.4,
+            "source": "2026-05-20 q2-8k line 48"
+          },
+          "FY2025Q1": {
+            "value": 68.8,
+            "source": "2026-02-18 q1-8k-2 line 68"
+          },
+          "FY2025Q3": {
+            "value": 69.2,
+            "source": "2025-08-20 q3-8k line 320"
+          },
+          "FY2024Q3": {
+            "value": 67.9,
+            "source": "2025-08-20 q3-8k line 320"
+          }
+        }
+      }
+    }
+  },
+  "DE": {
+    "target": "FY2026Q3",
+    "metrics": {
+      "Worldwide net sales and revenues": {
+        "method": "growth",
+        "series": {
+          "FY2026Q2": {
+            "value": 13369,
+            "source": "2026-05-21 q2-8k line 74"
+          },
+          "FY2026Q1": {
+            "value": 9611,
+            "source": "2026-02-19 q1-8k line 46"
+          },
+          "FY2025Q2": {
+            "value": 12763,
+            "source": "2026-05-21 q2-8k line 74"
+          },
+          "FY2025Q1": {
+            "value": 8508,
+            "source": "2026-02-19 q1-8k line 46"
+          },
+          "FY2025Q3": {
+            "value": 12018,
+            "source": "2025-08-15 call-q3-pres line 29: 'down 9% to $12.018 billion' (transcript shows DKK, a transcription artifact; USD)"
+          },
+          "FY2024Q3": {
+            "value": null,
+            "source": "FILL-ME: same slide, prior-year bar"
+          }
+        }
+      },
+      "Diluted EPS (GAAP)": {
+        "method": "growth",
+        "series": {
+          "FY2026Q2": {
+            "value": 6.55,
+            "source": "2026-05-21 q2-10q line 785"
+          },
+          "FY2026Q1": {
+            "value": 2.42,
+            "source": "2026-02-19 q1-10q line 706"
+          },
+          "FY2025Q2": {
+            "value": 6.64,
+            "source": "2026-05-21 q2-10q line 785"
+          },
+          "FY2025Q1": {
+            "value": 3.19,
+            "source": "2026-02-19 q1-10q line 706"
+          },
+          "FY2025Q4": {
+            "value": 3.93,
+            "source": "2025-11-26 slide line 52"
+          },
+          "FY2024Q4": {
+            "value": 4.55,
+            "source": "2025-11-26 slide line 52"
+          },
+          "FY2024Q2": {
+            "value": 8.53,
+            "source": "2025-05-15 slide line 69"
+          },
+          "FY2025Q3": {
+            "value": 4.75,
+            "source": "2025-08-15 call-q3-pres line 29: '$4.75 per diluted share'"
+          },
+          "FY2024Q3": {
+            "value": null,
+            "source": "FILL-ME: same slide"
+          }
+        }
+      },
+      "Production & Precision Ag operating profit": {
+        "method": "growth",
+        "series": {
+          "FY2026Q2": {
+            "value": 706,
+            "source": "2026-05-21 q2-8k line 318"
+          },
+          "FY2026Q1": {
+            "value": 139,
+            "source": "2026-02-19 q1-8k line 222"
+          },
+          "FY2025Q2": {
+            "value": 1148,
+            "source": "2026-05-21 q2-8k line 318"
+          },
+          "FY2025Q1": {
+            "value": 338,
+            "source": "2026-02-19 q1-8k line 222"
+          },
+          "FY2025Q3": {
+            "value": 580,
+            "source": "2025-08-15 call-q3-pres line 31: 'Operating profit was $580,000,000 with a 13.6% operating margin' (transcript shows EUR symbol; USD)"
+          },
+          "FY2024Q3": {
+            "value": null,
+            "source": "FILL-ME: same slide"
+          }
+        }
+      }
+    }
+  },
+  "HAS": {
+    "target": "FY2026",
+    "metrics": {
+      "Net fees": {
+        "method": "growth",
+        "series": {
+          "FY2025": {
+            "value": 972.4,
+            "source": "2025-08-21 slide line 83: group net fees down 11% to GBP 972.4m"
+          },
+          "FY2024": {
+            "value": null,
+            "source": "FILL-ME: same slide, prior-year column"
+          },
+          "FY2026H1": {
+            "value": 453.3,
+            "source": "2026-02-27 slide line 55: group net fees down 9% to GBP 453.3m"
+          },
+          "FY2025H1": {
+            "value": 498.3,
+            "source": "DERIVED: 453.3m is down 9% / down GBP 45m YoY (2026-02-27 slide line 55 + 2026-01-14 call-pres line 39) -> H1 25 = 453.3 + 45"
+          }
+        }
+      },
+      "Pre-exceptional basic EPS": {
+        "method": "growth",
+        "series": {
+          "FY2025": {
+            "value": 1.31,
+            "source": "2025-08-21 slide line 394 (1.31p vs 4.03p)"
+          },
+          "FY2024": {
+            "value": 4.03,
+            "source": "2025-08-21 slide line 394"
+          },
+          "FY2026H1": {
+            "value": 0.46,
+            "source": "DERIVED: 2026-02-27 slide line 223 'EPS down 43%' applied to H1 25 = 0.81p"
+          },
+          "FY2025H1": {
+            "value": 0.81,
+            "source": "2025-02-20 slide line 537: 0.81p vs 2.37p"
+          }
+        }
+      },
+      "Pre-exceptional operating profit": {
+        "method": "growth",
+        "override": {
+          "value": 46.0,
+          "source": "Company guidance in 2026-07-10 q4-8k line 71: FY26 pre-exceptional operating profit at the TOP of the GBP 37.0-46.0m range (consensus 43.5m)"
+        },
+        "series": {
+          "FY2026H1": {
+            "value": 20.1,
+            "source": "2026-02-27 slide line 70: operating profit down 25% to GBP 20.1m"
+          },
+          "FY2025": {
+            "value": 45.6,
+            "source": "2025-08-21 slide line 95: operating profit down 56% to GBP 45.6m"
+          },
+          "FY2024": {
+            "value": null,
+            "source": "FILL-ME: same slide"
+          },
+          "FY2025H1": {
+            "value": null,
+            "source": "FILL-ME: 2026-02-27 slide, prior-year column"
+          }
+        }
+      }
+    }
+  }
+}

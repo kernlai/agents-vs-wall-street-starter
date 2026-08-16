@@ -1,0 +1,23 @@
+{
+  "Net fees": {
+    "series": {},
+    "override": {
+      "value": null,
+      "source": null
+    }
+  },
+  "Pre-exceptional basic EPS": {
+    "series": {},
+    "override": {
+      "value": null,
+      "source": null
+    }
+  },
+  "Pre-exceptional operating profit": {
+    "series": {},
+    "override": {
+      "value": 46.0,
+      "source": "challenge/offline-data/hays/filings/2026-07-10__has-ln-20260710-q4-8k__1572805.md: we currently expect FY26 pre -exceptional operating profit will be at the top of the £37.0 -46.0m consensus range (2)"
+    }
+  }
+}

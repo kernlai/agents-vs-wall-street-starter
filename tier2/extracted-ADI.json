@@ -1,0 +1,76 @@
+{
+  "target": "FY2026Q3",
+  "metrics": {
+    "Revenue": {
+      "method": "growth",
+      "series": {
+        "FY2026Q2": {
+          "value": 3623,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Revenue | $ | 3,623"
+        },
+        "FY2025Q2": {
+          "value": 2640,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Revenue | $ | 3,623 | | | $ | 2,640"
+        },
+        "FY2025Q3": {
+          "value": 2880,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Revenue | $         | 2,880         | $ 2,312"
+        },
+        "FY2024Q3": {
+          "value": 2312,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Revenue | $         | 2,880         | $ 2,312"
+        }
+      },
+      "override": {
+        "value": 3900,
+        "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: For the third quarter of fiscal 2026, we are forecasting revenue of $3.9 billion, +/- $100 million."
+      }
+    },
+    "Adjusted diluted EPS": {
+      "method": "growth",
+      "series": {
+        "FY2026Q2": {
+          "value": 3.09,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Adjusted diluted earnings per share | $ | 3.09"
+        },
+        "FY2025Q2": {
+          "value": 1.85,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Adjusted diluted earnings per share | $ | 3.09 | | | $ | 1.85"
+        },
+        "FY2025Q3": {
+          "value": 2.05,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Adjusted diluted earnings per share | $         | 2.05         | $ 1.58"
+        },
+        "FY2024Q3": {
+          "value": 1.58,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Adjusted diluted earnings per share | $         | 2.05         | $ 1.58"
+        }
+      },
+      "override": {
+        "value": 3.3,
+        "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: We are planning for reported EPS to be $2.60, +/-$0.15, and adjusted EPS to be $3.30, +/-$0.15."
+      }
+    },
+    "Adjusted gross margin": {
+      "method": "pct_blend",
+      "series": {
+        "FY2026Q2": {
+          "value": 73.0,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Adjusted gross margin percentage | 73.0 | %"
+        },
+        "FY2025Q2": {
+          "value": 69.4,
+          "source": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md: Adjusted gross margin percentage | 73.0 | % | | 69.4 | %"
+        },
+        "FY2025Q3": {
+          "value": 69.2,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Adjusted gross margin percentage    |         | 69.2 %         | 67.9 %"
+        },
+        "FY2024Q3": {
+          "value": 67.9,
+          "source": "challenge/offline-data/analog-devices/filings/2025-08-20__adi-us-20250820-q3-8k__155976.md: Adjusted gross margin percentage    |         | 69.2 %         | 67.9 %"
+        }
+      }
+    }
+  }
+}

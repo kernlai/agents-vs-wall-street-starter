@@ -1,0 +1,92 @@
+{
+  "target": "FY2026Q3",
+  "metrics": {
+    "Worldwide net sales and revenues": {
+      "method": "growth",
+      "series": {
+        "FY2026Q2": {
+          "value": 13369,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: Total net sales and revenues | $ 13,369 | $ 12,763 | +5"
+        },
+        "FY2025Q2": {
+          "value": 12763,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: Total net sales and revenues | $ 13,369 | $ 12,763 | +5"
+        },
+        "FY2025Q3": {
+          "value": 12018,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: Total net sales and revenues | $12,018 | $13,152 | -9"
+        },
+        "FY2024Q3": {
+          "value": 13152,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: Total net sales and revenues | $12,018 | $13,152 | -9"
+        },
+        "FY2026Q1": {
+          "value": 9611,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: Worldwide net sales and revenues increased 13 percent, to $9,611 million, in the most recent quarter."
+        },
+        "FY2025Q1": {
+          "value": 8508,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: Net sales and revenues $ 9,611 $ 8,508 13%"
+        }
+      }
+    },
+    "Diluted EPS (GAAP)": {
+      "method": "growth",
+      "series": {
+        "FY2026Q2": {
+          "value": 6.55,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: or $6.55 per share, compared with net income of $1.804 billion, or $6.64 per share"
+        },
+        "FY2025Q2": {
+          "value": 6.64,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: or $6.55 per share, compared with net income of $1.804 billion, or $6.64 per share"
+        },
+        "FY2025Q3": {
+          "value": 4.75,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: or $4.75 per share, compared with net income of $1.734 billion, or $6.29 per share"
+        },
+        "FY2024Q3": {
+          "value": 6.29,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: or $4.75 per share, compared with net income of $1.734 billion, or $6.29 per share"
+        },
+        "FY2026Q1": {
+          "value": 2.42,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: or $2.42 per share, compared with net income of $869 million, or $3.19 per share"
+        },
+        "FY2025Q1": {
+          "value": 3.19,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: or $2.42 per share, compared with net income of $869 million, or $3.19 per share"
+        }
+      }
+    },
+    "Production & Precision Ag operating profit": {
+      "method": "growth",
+      "series": {
+        "FY2026Q2": {
+          "value": 706,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: Production & Precision Ag | Operating profit | $ 706 | $ 1,148"
+        },
+        "FY2025Q2": {
+          "value": 1148,
+          "source": "challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-8k__1042167.md: Production & Precision Ag | Operating profit | $ 706 | $ 1,148"
+        },
+        "FY2025Q3": {
+          "value": 580,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: Production & precision ag net sales | $ 4,273 ... Operating profit | $ 580 | $ 1,162"
+        },
+        "FY2024Q3": {
+          "value": 1162,
+          "source": "challenge/offline-data/deere/filings/2025-08-15__de-us-20250815-q3-8k__143410.md: Production & precision ag net sales | $ 4,273 ... Operating profit | $ 580 | $ 1,162"
+        },
+        "FY2026Q1": {
+          "value": 139,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: Production & Precision Agriculture | Operating profit | $ 139 | $ 338"
+        },
+        "FY2025Q1": {
+          "value": 338,
+          "source": "challenge/offline-data/deere/filings/2026-02-19__de-us-20260219-q1-8k__603009.md: Production & Precision Agriculture | Operating profit | $ 139 | $ 338"
+        }
+      }
+    }
+  }
+}
