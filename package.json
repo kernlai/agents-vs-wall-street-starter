@@ -8,7 +8,20 @@
     "check:entry": "node scripts/check-entry.mjs",
     "check:forecasts": "node scripts/check-forecasts.mjs submission",
     "check:submission": "npm run check:entry && npm run check:forecasts",
-    "test:starter": "python3 -m unittest discover -s starter -p 'test_*.py'"
+    "forecast": "./scripts/run.sh",
+    "validate": "python3 scripts/validate_forecasts.py evaluation/forecasts.json",
+    "write": "python3 scripts/write_workbooks.py",
+    "test:starter": "python3 -m unittest discover -s starter -p 'test_*.py'",
+    "test:signals": "python3 -m unittest discover -s tests -p 'test_signal_*.py'",
+    "signal:reports": "python3 -m signal_agent.cli --signal financial_reports",
+    "signal:forecast-input": "python3 -m signal_agent.forecast_input",
+    "research:profiles": "python3 -m signal_agent.company_research --stage profile",
+    "research:signals": "python3 -m signal_agent.company_research --stage signals",
+    "research:all": "python3 -m signal_agent.research_pipeline",
+    "forecast:aggregate": "python3 -m forecasting.aggregate",
+    "test:pipeline": "python3 -m unittest discover -s tests -p 'test_forecast_pipeline.py'",
+    "test:research": "python3 -m unittest discover -s tests -p 'test_*research*.py'",
+    "pipeline": "python3 -m pipeline.run"
   },
   "dependencies": {
     "xlsx": "^0.18.5"

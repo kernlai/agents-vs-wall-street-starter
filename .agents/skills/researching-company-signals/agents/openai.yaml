@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Company Signals"
+  short_description: "Research evidence-backed forecasting signals"
+  default_prompt: "Use $researching-company-signals to build a source-backed company profile and resolve approved metric signals."

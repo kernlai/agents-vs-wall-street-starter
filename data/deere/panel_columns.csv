@@ -1,0 +1,341 @@
+column,group,units,source_file,n_obs,first_quarter,last_quarter,forecast_row_populated,note
+de_net_sales_revenues_total,target,USDm,drv_peers.csv,71,2008 Q3,2026 Q2,no,TARGET 1: worldwide net sales and revenues
+de_eps_diluted_gaap,target,USD/share,drv_peers.csv,71,2008 Q3,2026 Q2,no,"TARGET 2: diluted EPS, GAAP"
+de_ppa_operating_profit,target,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,"TARGET 3: PPA operating profit, modern-PPA basis"
+de_ppa_net_sales,deere_internal_modern,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_ppa_operating_margin,deere_internal_modern,percent,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_sat_net_sales,deere_internal_modern,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_sat_operating_profit,deere_internal_modern,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_sat_operating_margin,deere_internal_modern,percent,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_cf_net_sales,deere_internal_modern,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_cf_operating_profit,deere_internal_modern,USDm,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_cf_operating_margin,deere_internal_modern,percent,de_segments_modern.csv,26,2020 Q1,2026 Q2,no,modern-PPA basis (FY2021+; FY2020 restated). Published WITH the target.
+de_at_net_sales_legacy,deere_internal_legacy,USDm,de_segments_legacy.csv,37,2011 Q4,2020 Q4,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_at_operating_profit_legacy,deere_internal_legacy,USDm,de_segments_legacy.csv,37,2011 Q4,2020 Q4,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_cf_net_sales_legacy,deere_internal_legacy,USDm,de_segments_legacy.csv,37,2011 Q4,2020 Q4,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_cf_operating_profit_legacy,deere_internal_legacy,USDm,de_segments_legacy.csv,37,2011 Q4,2020 Q4,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_ppa_share_of_ag_net_sales_modern,deere_internal_legacy,ratio,de_segments_legacy.csv,22,2021 Q1,2026 Q2,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_ppa_share_of_ag_operating_profit_modern,deere_internal_legacy,ratio,de_segments_legacy.csv,22,2021 Q1,2026 Q2,no,legacy-AT basis (pre-FY2021) / derived share ratios. Published WITH the target.
+de_net_sales_equipment,deere_internal_pnl,USDm,drv_steel_inputs.csv,70,2009 Q1,2026 Q2,no,equipment-operations basis. Published WITH the target.
+de_cost_of_sales,deere_internal_pnl,USDm,drv_steel_inputs.csv,70,2009 Q1,2026 Q2,no,equipment-operations basis. Published WITH the target.
+de_gross_profit_equipment,deere_internal_pnl,USDm,drv_steel_inputs.csv,70,2009 Q1,2026 Q2,no,equipment-operations basis. Published WITH the target.
+de_gross_margin_equipment,deere_internal_pnl,percent,drv_steel_inputs.csv,70,2009 Q1,2026 Q2,no,equipment-operations basis. Published WITH the target.
+de_operating_margin,deere_internal_pnl,percent,drv_peers.csv,42,2010 Q1,2023 Q3,no,us-gaap:OperatingIncomeLoss / Revenues; tagging stops after FY2024.
+de_ppa_net_sales_lag1,deere_internal_lag1,USDm,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_ppa_operating_margin_lag1,deere_internal_lag1,percent,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_sat_net_sales_lag1,deere_internal_lag1,USDm,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_sat_operating_profit_lag1,deere_internal_lag1,USDm,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_sat_operating_margin_lag1,deere_internal_lag1,percent,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cf_net_sales_lag1,deere_internal_lag1,USDm,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cf_operating_profit_lag1,deere_internal_lag1,USDm,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cf_operating_margin_lag1,deere_internal_lag1,percent,de_segments_modern.csv,26,2020 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_at_net_sales_legacy_lag1,deere_internal_lag1,USDm,de_segments_legacy.csv,37,2012 Q1,2021 Q1,no,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_at_operating_profit_legacy_lag1,deere_internal_lag1,USDm,de_segments_legacy.csv,37,2012 Q1,2021 Q1,no,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cf_net_sales_legacy_lag1,deere_internal_lag1,USDm,de_segments_legacy.csv,37,2012 Q1,2021 Q1,no,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cf_operating_profit_legacy_lag1,deere_internal_lag1,USDm,de_segments_legacy.csv,37,2012 Q1,2021 Q1,no,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_ppa_share_of_ag_net_sales_modern_lag1,deere_internal_lag1,ratio,de_segments_legacy.csv,22,2021 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_ppa_share_of_ag_operating_profit_modern_lag1,deere_internal_lag1,ratio,de_segments_legacy.csv,22,2021 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_net_sales_equipment_lag1,deere_internal_lag1,USDm,drv_steel_inputs.csv,70,2009 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_cost_of_sales_lag1,deere_internal_lag1,USDm,drv_steel_inputs.csv,70,2009 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_gross_profit_equipment_lag1,deere_internal_lag1,USDm,drv_steel_inputs.csv,70,2009 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_gross_margin_equipment_lag1,deere_internal_lag1,percent,drv_steel_inputs.csv,70,2009 Q2,2026 Q3,yes,one-quarter lag of a Deere-reported line: SAFE ex ante.
+de_operating_margin_lag1,deere_internal_lag1,percent,drv_peers.csv,42,2010 Q2,2023 Q4,no,one-quarter lag of a Deere-reported line: SAFE ex ante.
+fx_eur_usd_dfq,macro_fx,ratio,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_eur_usd_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_brl_dfq,macro_fx,ratio,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_brl_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_cad_dfq,macro_fx,ratio,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_cad_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_inr_dfq,macro_fx,ratio,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+fx_usd_inr_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+usd_index_dxy_dfq,macro_fx,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+usd_index_dxy_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_10y_treasury_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_10y_treasury_qend_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_fed_funds_rate_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_fed_funds_rate_qend_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_cpi_dfq,macro_fx,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_cpi_yoy_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_gdp_growth_dfq,macro_fx,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_industrial_production_dfq,macro_fx,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_housing_starts_dfq,macro_fx,count,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_consumer_sentiment_dfq,macro_fx,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned (_dfq grid).
+us_cpi_dfq_lag1,macro_fx_lag1,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+us_cpi_yoy_dfq_lag1,macro_fx_lag1,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+us_gdp_growth_dfq_lag1,macro_fx_lag1,percent,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+us_industrial_production_dfq_lag1,macro_fx_lag1,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+us_housing_starts_dfq_lag1,macro_fx_lag1,count,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+us_consumer_sentiment_dfq_lag1,macro_fx_lag1,index,drv_macro_fx.csv,73,2008 Q3,2026 Q3,yes,revised statistic: use the lag to avoid publication-lag look-ahead.
+ppi_corn_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_corn_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_cotton_raw_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_cotton_raw_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_diesel_no2_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_diesel_no2_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_fertilizer_materials_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_fertilizer_materials_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_nitrogenous_fertilizer_mfg_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_nitrogenous_fertilizer_mfg_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_soybean_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_soybean_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_wheat_all_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_wheat_all_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_wheat_hrw_avg_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+ppi_wheat_hrw_qe_fq,ag_commodities,index,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_corn_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_corn_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_corn_wb_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_corn_wb_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_cotton_avg_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_cotton_qe_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_cotton_wb_avg_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_cotton_wb_qe_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_dap_avg_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_dap_qe_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_diesel_retail_us_avg_fq,ag_commodities,USD/gallon,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_diesel_retail_us_qe_fq,ag_commodities,USD/gallon,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_phosphate_rock_avg_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,69,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_phosphate_rock_qe_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_potash_avg_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_potash_qe_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_soybean_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_soybean_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_soybean_wb_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_soybean_wb_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_sugar_avg_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,72,2008 Q3,2026 Q2,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_sugar_qe_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,72,2008 Q3,2026 Q2,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_sugar_wb_avg_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_sugar_wb_qe_fq,ag_commodities,USD/lb,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_tsp_avg_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_tsp_qe_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_urea_avg_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_urea_qe_fq,ag_commodities,USD/mt,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_hrw_wb_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_hrw_wb_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,70,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_srw_wb_avg_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,67,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wheat_srw_wb_qe_fq,ag_commodities,USD/bushel,drv_ag_commodities.csv,67,2008 Q3,2025 Q4,no,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wti_crude_avg_fq,ag_commodities,USD/barrel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_wti_crude_qe_fq,ag_commodities,USD/barrel,drv_ag_commodities.csv,73,2008 Q3,2026 Q3,yes,"Deere-fiscal-quarter aligned (_fq grid); nominal USD, not deseasonalised."
+px_steel_hrc,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_steel_hrc_sheet,input_costs,index,drv_steel_inputs.csv,55,2008 Q3,2022 Q1,no,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_steel_cold_rolled,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_steel_scrap,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_steel_scrap_carbon,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+ppi_steel_mill_products,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+ppi_ag_machinery,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+ppi_ag_machinery_industry,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_aluminium,input_costs,USD/mt,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_copper,input_costs,USD/mt,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_rubber,input_costs,UScents/lb,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_rubber_synthetic_ppi,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_diesel,input_costs,USD/gal,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_diesel_ppi,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+idx_freight,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+idx_freight_drybulk,input_costs,index,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+px_iron_ore,input_costs,USD/dmt,drv_steel_inputs.csv,73,2008 Q3,2026 Q3,yes,Deere-fiscal-quarter aligned; the _cq calendar mirrors were dropped.
+us_tractor_unit_sales_100hp_plus,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_4wd,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_large_total,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_2wd_total,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_40to100hp,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_under40hp,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_total,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_combine_unit_sales,equipment_demand,count,drv_equipment_demand.csv,37,2011 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_units,equipment_demand,count,drv_equipment_demand.csv,41,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_units_100hp_plus,equipment_demand,count,drv_equipment_demand.csv,41,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_units_combines,equipment_demand,count,drv_equipment_demand.csv,41,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_months,equipment_demand,ratio,drv_equipment_demand.csv,30,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_months_100hp_plus,equipment_demand,ratio,drv_equipment_demand.csv,30,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_dealer_new_inventory_months_combines,equipment_demand,ratio,drv_equipment_demand.csv,30,2012 Q1,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_ag_equipment_ppi,equipment_demand,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_ag_equipment_ppi_commodity,equipment_demand,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_ag_equipment_ppi_primary_products,equipment_demand,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_ag_constr_mining_machinery_ip,equipment_demand,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_tractor_auction_value_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,9,2024 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_tractor_asking_value_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,8,2024 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_tractor_inventory_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,9,2024 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_combine_auction_value_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,8,2024 Q4,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_combine_inventory_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,8,2024 Q3,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_used_compact_utility_tractor_auction_value_yoy_pct,equipment_demand,percent,drv_equipment_demand.csv,13,2023 Q2,2026 Q3,yes,monthly AEM/BLS/Fed/Sandhills aggregated onto Deere fiscal quarters.
+us_tractor_unit_sales_100hp_plus_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_4wd_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_large_total_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_2wd_total_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_40to100hp_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_under40hp_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_tractor_unit_sales_total_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_combine_unit_sales_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,36,2011 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_units_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,40,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_units_100hp_plus_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,40,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_units_combines_lag1,equipment_demand_lag1,count,drv_equipment_demand.csv,40,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_months_lag1,equipment_demand_lag1,ratio,drv_equipment_demand.csv,29,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_months_100hp_plus_lag1,equipment_demand_lag1,ratio,drv_equipment_demand.csv,29,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_dealer_new_inventory_months_combines_lag1,equipment_demand_lag1,ratio,drv_equipment_demand.csv,29,2012 Q2,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_ag_equipment_ppi_lag1,equipment_demand_lag1,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_ag_equipment_ppi_commodity_lag1,equipment_demand_lag1,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_ag_equipment_ppi_primary_products_lag1,equipment_demand_lag1,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_ag_constr_mining_machinery_ip_lag1,equipment_demand_lag1,index,drv_equipment_demand.csv,73,2008 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_tractor_auction_value_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,8,2024 Q4,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_tractor_asking_value_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,7,2024 Q4,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_tractor_inventory_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,8,2024 Q4,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_combine_auction_value_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,7,2025 Q1,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_combine_inventory_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,7,2024 Q4,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_used_compact_utility_tractor_auction_value_yoy_pct_lag1,equipment_demand_lag1,percent,drv_equipment_demand.csv,12,2023 Q3,2026 Q3,yes,AEM revises and publishes ~10 days after month end; the lag is unambiguously safe.
+us_net_farm_income,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_net_cash_farm_income,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_gross_cash_farm_income,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_crop_cash_receipts,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_total_cash_receipts,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_livestock_cash_receipts,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_corn_cash_receipts,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_soybean_cash_receipts,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_govt_farm_payments,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_govt_adhoc_emergency_payments,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_production_expenses,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_interest_expense,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_fertilizer_expense,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_capital_expenditures,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_capex_vehicles_machinery,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_debt_to_asset_ratio,farm_economy,percent,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_debt_total,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_assets_total,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_equity_total,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_working_capital,farm_economy,USD billions,drv_farm_economy.csv,70,2009 Q2,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farm_rate_of_return_assets,farm_economy,percent,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_farmland_values,farm_economy,USD/acre,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_cropland_values,farm_economy,USD/acre,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_planted_acres_corn,farm_economy,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_planted_acres_soybean,farm_economy,million acres,drv_farm_economy.csv,71,2008 Q3,2026 Q1,no,annual calendar-year value broadcast to every quarter of that calendar year.
+us_harvested_acres_corn,farm_economy,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_harvested_acres_soybean,farm_economy,million acres,drv_farm_economy.csv,71,2008 Q3,2026 Q1,no,annual calendar-year value broadcast to every quarter of that calendar year.
+us_corn_price_received,farm_economy,USD/bushel,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_soybean_price_received,farm_economy,USD/bushel,drv_farm_economy.csv,71,2008 Q3,2026 Q1,no,annual calendar-year value broadcast to every quarter of that calendar year.
+us_corn_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_soybean_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+br_soybean_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+br_soybean_area_harvested,farm_economy,million hectares,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+br_corn_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+ar_soybean_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+ar_corn_production,farm_economy,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+eu_ag_entrepreneurial_income,farm_economy,EUR millions,drv_farm_economy.csv,71,2008 Q3,2026 Q1,no,annual calendar-year value broadcast to every quarter of that calendar year.
+eu_ag_output,farm_economy,EUR millions,drv_farm_economy.csv,71,2008 Q3,2026 Q1,no,annual calendar-year value broadcast to every quarter of that calendar year.
+brl_usd_fx_rate,farm_economy,ratio,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,annual calendar-year value broadcast to every quarter of that calendar year.
+us_net_farm_income_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_net_cash_farm_income_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_gross_cash_farm_income_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_crop_cash_receipts_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_total_cash_receipts_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_livestock_cash_receipts_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_corn_cash_receipts_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_soybean_cash_receipts_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,70,2009 Q2,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_govt_farm_payments_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_govt_adhoc_emergency_payments_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_production_expenses_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_interest_expense_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_fertilizer_expense_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_capital_expenditures_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_capex_vehicles_machinery_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_debt_to_asset_ratio_lag1,farm_economy_lag1,percent,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_debt_total_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_assets_total_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_equity_total_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_working_capital_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,66,2010 Q2,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_rate_of_return_assets_lag1,farm_economy_lag1,percent,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farmland_values_lag1,farm_economy_lag1,USD/acre,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_cropland_values_lag1,farm_economy_lag1,USD/acre,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_planted_acres_corn_lag1,farm_economy_lag1,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_planted_acres_soybean_lag1,farm_economy_lag1,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_harvested_acres_corn_lag1,farm_economy_lag1,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_harvested_acres_soybean_lag1,farm_economy_lag1,million acres,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_corn_price_received_lag1,farm_economy_lag1,USD/bushel,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_soybean_price_received_lag1,farm_economy_lag1,USD/bushel,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_corn_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_soybean_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+br_soybean_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+br_soybean_area_harvested_lag1,farm_economy_lag1,million hectares,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+br_corn_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+ar_soybean_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+ar_corn_production_lag1,farm_economy_lag1,million tonnes,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+eu_ag_entrepreneurial_income_lag1,farm_economy_lag1,EUR millions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+eu_ag_output_lag1,farm_economy_lag1,EUR millions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+brl_usd_fx_rate_lag1,farm_economy_lag1,ratio,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"PRIOR calendar year: fully published, no forecast-vintage contamination."
+us_farm_proprietors_income_bea_q,farm_economy,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,"BEA quarterly farm proprietors' income, mapped by period_end containment."
+us_farm_proprietors_income_bea_q_lag1,farm_economy_lag1,USD billions,drv_farm_economy.csv,73,2008 Q3,2026 Q3,yes,BEA revises; the lag is the safe form.
+agco_revenue,peers,USDm,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+agco_eps_diluted,peers,USD/share,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+agco_operating_margin,peers,percent,drv_peers.csv,52,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+cat_revenue,peers,USDm,drv_peers.csv,72,2008 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+cat_eps_diluted,peers,USD/share,drv_peers.csv,72,2008 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+cat_operating_margin,peers,percent,drv_peers.csv,55,2008 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+cnh_revenue,peers,USDm,drv_peers.csv,54,2013 Q2,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+cnh_eps_diluted,peers,USD/share,drv_peers.csv,54,2013 Q2,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+kubota_revenue,peers,JPYm,drv_peers.csv,42,2016 Q2,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+kubota_operating_profit,peers,JPYm,drv_peers.csv,34,2018 Q2,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+kubota_operating_margin,peers,percent,drv_peers.csv,34,2018 Q2,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+lindsay_revenue,peers,USDm,drv_peers.csv,63,2010 Q4,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+lindsay_eps_diluted,peers,USD/share,drv_peers.csv,63,2010 Q4,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+lindsay_operating_margin,peers,percent,drv_peers.csv,48,2010 Q4,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+titn_revenue,peers,USDm,drv_peers.csv,63,2010 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+titn_eps_diluted,peers,USD/share,drv_peers.csv,63,2010 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+titn_operating_margin,peers,percent,drv_peers.csv,48,2010 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+toro_revenue,peers,USDm,drv_peers.csv,67,2009 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+toro_eps_diluted,peers,USD/share,drv_peers.csv,67,2009 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+toro_operating_margin,peers,percent,drv_peers.csv,51,2009 Q3,2026 Q2,no,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+tsco_revenue,peers,USDm,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+tsco_eps_diluted,peers,USD/share,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+tsco_operating_margin,peers,percent,drv_peers.csv,52,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+valmont_revenue,peers,USDm,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+valmont_eps_diluted,peers,USD/share,drv_peers.csv,68,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+valmont_operating_margin,peers,percent,drv_peers.csv,52,2009 Q3,2026 Q3,yes,peer print mapped to the Deere fiscal quarter whose window contains its period_end.
+agco_revenue_lag1,peers_lag1,USDm,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+agco_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+agco_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,51,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+cat_revenue_lag1,peers_lag1,USDm,drv_peers.csv,71,2008 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+cat_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,71,2008 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+cat_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,54,2008 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+cnh_revenue_lag1,peers_lag1,USDm,drv_peers.csv,53,2013 Q3,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+cnh_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,53,2013 Q3,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+kubota_revenue_lag1,peers_lag1,JPYm,drv_peers.csv,41,2016 Q3,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+kubota_operating_profit_lag1,peers_lag1,JPYm,drv_peers.csv,33,2018 Q3,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+kubota_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,33,2018 Q3,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+lindsay_revenue_lag1,peers_lag1,USDm,drv_peers.csv,63,2011 Q1,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+lindsay_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,63,2011 Q1,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+lindsay_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,48,2011 Q1,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+titn_revenue_lag1,peers_lag1,USDm,drv_peers.csv,63,2010 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+titn_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,63,2010 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+titn_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,48,2010 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+toro_revenue_lag1,peers_lag1,USDm,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+toro_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+toro_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,51,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+tsco_revenue_lag1,peers_lag1,USDm,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+tsco_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+tsco_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,51,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+valmont_revenue_lag1,peers_lag1,USDm,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+valmont_eps_diluted_lag1,peers_lag1,USD/share,drv_peers.csv,67,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+valmont_operating_margin_lag1,peers_lag1,percent,drv_peers.csv,51,2009 Q4,2026 Q3,yes,safe ex ante; the contemporaneous column is only safe for peers that report BEFORE Deere.
+de_guidance_fy_net_income_low,guidance,USDm,de_guidance.csv,57,2012 Q3,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_net_income_mid,guidance,USDm,de_guidance.csv,57,2012 Q3,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_net_income_high,guidance,USDm,de_guidance.csv,57,2012 Q3,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_net_income_range_width,guidance,USDm,de_guidance.csv,57,2012 Q3,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_financial_services_net_income,guidance,USDm,de_guidance.csv,45,2012 Q3,2024 Q4,no,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_net_sales_revenues_growth,guidance,percent,de_guidance.csv,12,2017 Q1,2019 Q4,no,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_sales_growth_ppa_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_sales_growth_sat_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_sales_growth_cf_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_operating_margin_ppa_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_operating_margin_sat_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_operating_margin_cf_mid,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_implied_ppa_operating_profit_mid,guidance,USDm,de_guidance.csv,21,2021 Q3,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_price_realization_ppa,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_price_realization_sat,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_price_realization_cf,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_currency_translation_ppa,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_currency_translation_cf,guidance,percent,de_guidance.csv,22,2021 Q2,2026 Q3,yes,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_sales_growth_ag_turf_mid,guidance,percent,de_guidance.csv,37,2012 Q4,2021 Q4,no,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_sales_growth_cf_legacy_at_mid,guidance,percent,de_guidance.csv,37,2012 Q3,2021 Q4,no,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_fy_segment_operating_margin_ag_turf_mid,guidance,percent,de_guidance.csv,27,2013 Q1,2019 Q4,no,POINT-IN-TIME: most recent vintage of the CURRENT fiscal year's guidance issued strictly before this quarter's period_end. No look-ahead.
+de_guidance_vintage_issued,guidance,date,de_guidance.csv,57,2012 Q3,2026 Q3,yes,issue date of the vintage used in this row's guidance columns
+de_guidance_vintage_seq,guidance,count,de_guidance.csv,57,2012 Q3,2026 Q3,yes,"0=initial (prior-FY Q4 release), 1=Q1, 2=Q2, 3=Q3 vintage"
+days_in_quarter,calendar,count,derived,73,2008 Q3,2026 Q3,yes,fiscal window length; FY2019 and FY2025 were 53-week years (one 98-day Q4).

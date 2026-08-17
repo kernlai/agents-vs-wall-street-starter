@@ -1,0 +1,35 @@
+11:37:30Z  === Agents vs Wall Street — final run 20260816T113730Z ===
+11:37:30Z  commit:  e3e8673907ba6c6119a4fd9d3bf0e2e16414e018
+11:37:30Z  branch:  main
+11:37:30Z  dirty:   yes
+11:37:30Z  python:  Python 3.12.4
+11:37:30Z  node:    v24.4.1
+11:37:30Z  
+11:37:30Z  --- stage 1/3: validate forecasts ---
+11:37:30Z  
+11:37:30Z    forecast validation
+11:37:30Z    ----------------------------------------------------------------------------------------------------
+11:37:30Z    [ERROR] ADI/Adjusted diluted EPS
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] ADI/Adjusted gross margin
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] ADI/Revenue
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HAS/Net fees
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HAS/Pre-exceptional basic EPS
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HAS/Pre-exceptional operating pr
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HD/Adjusted diluted EPS
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HD/Comparable sales, total comp
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    [ERROR] HD/Net sales
+11:37:30Z            MISSING — an empty cell scores 5.0, the same as the worst possible wrong answer. Always submit a number.
+11:37:30Z    ----------------------------------------------------------------------------------------------------
+11:37:30Z    3/12 forecasts present · 9 errors · 0 warnings
+11:37:30Z  
+11:37:30Z  
+11:37:30Z  ABORTED: validation errors. No workbooks written.
+11:37:30Z  Every blocked metric would otherwise score 5.0 — the same as submitting nothing.

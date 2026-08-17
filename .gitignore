@@ -1,10 +1,41 @@
+# === Dependencies ===
 node_modules/
+
+# === Python ===
 __pycache__/
 *.py[cod]
-research/
-.DS_Store
+.venv/
+venv/
+
+# === Build / generated output (rebuildable locally) ===
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# === Secrets / env ===
 .env
 .env.*
 !.env.example
+
+# === OS / editor cruft ===
+.DS_Store
+*.swp
+*.tmp
+
+# === Local-only research & agent caches ===
+research/
+research_runs/
+signal_maps/
+scripts/data/.cache_*/
+
+# === Generated submission artifacts ===
 entry.json
 submission/*.xlsx
+
+# Note: logs/run-*.log are intentionally committed (final-run proof — see logs/README.md)
+data/*.db
+signals/
+forecast_inputs/
+forecasts/

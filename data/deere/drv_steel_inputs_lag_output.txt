@@ -1,0 +1,179 @@
+==============================================================================
+DEERE GROSS MARGIN vs STEEL: LAG ESTIMATION
+==============================================================================
+target sample: 70 fiscal quarters, t=8036..8105 (FY2009 Q1 .. FY2026 Q2)
+gross margin mean 25.28%  sd 3.35 pp  min 17.52  max 33.27
+
+SEASONALITY of gross margin by Deere fiscal quarter (mean %%):
+   Q1=24.04 (n=18)  Q2=26.75 (n=18)  Q3=25.62 (n=17)  Q4=24.71 (n=17)
+   -> quarter means span 2.71 pp; a YoY difference is used to strip this out.
+
+WARNING CHECK -- correlation in LEVELS (reported only to show it is spurious):
+   r(levels, lag0) = +0.617 over n=70  [both series trend; do not use this number]
+
+------------------------------------------------------------------------------
+PRIMARY SPEC: YoY change in gross margin (pp) vs YoY log change in input price
+  positive lag k = input price leads margin by k quarters
+  expected sign NEGATIVE (input cost up -> margin down)
+------------------------------------------------------------------------------
+    px_steel_hrc                               L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.075  -0.080  -0.061  -0.004  +0.101  +0.253  +0.421
+      -> peak |r| at lag 6: r=+0.421  n=66  n_eff=16  p(eff)=0.101
+
+    ppi_steel_mill_products                    L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.204  -0.266  -0.221  -0.076  +0.149  +0.367  +0.533
+      -> peak |r| at lag 6: r=+0.533  n=66  n_eff=17  p(eff)=0.028
+
+    px_steel_cold_rolled                       L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.246  -0.335  -0.280  -0.125  +0.123  +0.331  +0.462
+      -> peak |r| at lag 6: r=+0.462  n=66  n_eff=18  p(eff)=0.057
+
+    px_steel_scrap                             L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.197  +0.056  -0.089  -0.160  -0.221  -0.145  +0.075
+      -> peak |r| at lag 4: r=-0.221  n=66  n_eff=18  p(eff)=0.380
+
+    px_iron_ore                                L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.475  +0.298  +0.092  -0.038  -0.070  +0.027  +0.215
+      -> peak |r| at lag 0: r=+0.475  n=66  n_eff=19  p(eff)=0.040
+
+    px_aluminium                               L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.116  -0.168  -0.141  -0.122  -0.134  -0.071  +0.088
+      -> peak |r| at lag 1: r=-0.168  n=66  n_eff=20  p(eff)=0.481
+
+    px_copper                                  L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.129  +0.044  -0.042  -0.091  -0.184  -0.190  -0.056
+      -> peak |r| at lag 5: r=-0.190  n=66  n_eff=19  p(eff)=0.436
+
+    px_rubber                                  L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.236  +0.160  +0.012  -0.143  -0.253  -0.240  -0.041
+      -> peak |r| at lag 4: r=-0.253  n=66  n_eff=18  p(eff)=0.309
+
+    px_diesel                                  L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.085  +0.149  +0.165  +0.168  +0.129  +0.108  +0.174
+      -> peak |r| at lag 6: r=+0.174  n=66  n_eff=18  p(eff)=0.488
+
+    idx_freight                                L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.134  -0.011  +0.129  +0.269  +0.341  +0.417  +0.478
+      -> peak |r| at lag 6: r=+0.478  n=66  n_eff=15  p(eff)=0.075
+
+    ppi_ag_machinery                           L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.138  +0.320  +0.468  +0.546  +0.536  +0.430  +0.289
+      -> peak |r| at lag 3: r=+0.546  n=66  n_eff=13  p(eff)=0.052
+
+------------------------------------------------------------------------------
+SAME TEST ON THE COST-OF-SALES RATIO (cost of sales / net sales, YoY pp change)
+  expected sign POSITIVE (steel up -> cost ratio up).  This is the mirror of the
+  margin test and is included because the brief asks about cost of sales directly.
+------------------------------------------------------------------------------
+    px_steel_hrc -> cost ratio                 L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.075  +0.080  +0.061  +0.004  -0.101  -0.253  -0.421
+      -> peak |r| at lag 6: r=-0.421  n=66  n_eff=16  p(eff)=0.101
+
+    ppi_steel_mill_products -> cost ratio      L0  L1  L2  L3  L4  L5  L6
+      corr                                     +0.204  +0.266  +0.221  +0.076  -0.149  -0.367  -0.533
+      -> peak |r| at lag 6: r=-0.533  n=66  n_eff=17  p(eff)=0.028
+
+    px_steel_scrap -> cost ratio               L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.197  -0.056  +0.089  +0.160  +0.221  +0.145  -0.075
+      -> peak |r| at lag 4: r=+0.221  n=66  n_eff=18  p(eff)=0.380
+
+------------------------------------------------------------------------------
+DISTRIBUTED LAG: 4-quarter moving average of YoY steel change vs margin
+  (an inventory-carrying manufacturer sees a smeared, not a point, shock)
+------------------------------------------------------------------------------
+    px_steel_hrc (4q MA)                       L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.062  -0.011  +0.086  +0.231  +0.379  +0.480  +0.483
+      -> peak |r| at lag 6: r=+0.483  n=66  n_eff=14  p(eff)=0.074
+
+    ppi_steel_mill_products (4q MA)            L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.227  -0.121  +0.067  +0.296  +0.489  +0.593  +0.568
+      -> peak |r| at lag 5: r=+0.593  n=66  n_eff=15  p(eff)=0.021
+
+------------------------------------------------------------------------------
+ROBUSTNESS A: quarter-on-quarter, seasonal means removed from both sides
+------------------------------------------------------------------------------
+    px_steel_hrc (QoQ)                         L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.095  +0.072  -0.034  +0.101  -0.178  -0.011  +0.203
+      -> peak |r| at lag 6: r=+0.203  n=69  n_eff=99  p(eff)=0.044
+
+    ppi_steel_mill_products (QoQ)              L0  L1  L2  L3  L4  L5  L6
+      corr                                     -0.093  -0.048  -0.139  +0.002  -0.028  +0.080  +0.229
+      -> peak |r| at lag 6: r=+0.229  n=69  n_eff=97  p(eff)=0.024
+
+------------------------------------------------------------------------------
+ROBUSTNESS B: disjoint subsamples (is the peak lag stable?)
+------------------------------------------------------------------------------
+    px_steel_hrc               FY2010 Q1 - FY2017 Q4  peak lag 4  r=-0.618  n=32
+    px_steel_hrc               FY2018 Q1 - FY2026 Q2  peak lag 6  r=+0.649  n=34
+
+    ppi_steel_mill_products    FY2010 Q1 - FY2017 Q4  peak lag 4  r=-0.605  n=32
+    ppi_steel_mill_products    FY2018 Q1 - FY2026 Q2  peak lag 6  r=+0.720  n=34
+
+------------------------------------------------------------------------------
+HEADLINE: single-lag OLS at each lag, primary spec, px_steel_hrc
+------------------------------------------------------------------------------
+    lag 0: beta =  -1.561 pp per 100% steel move   R2 = 0.006   n = 66
+    lag 1: beta =  -1.569 pp per 100% steel move   R2 = 0.006   n = 66
+    lag 2: beta =  -1.125 pp per 100% steel move   R2 = 0.004   n = 66
+    lag 3: beta =  -0.068 pp per 100% steel move   R2 = 0.000   n = 66
+    lag 4: beta =  +1.849 pp per 100% steel move   R2 = 0.010   n = 66
+    lag 5: beta =  +4.567 pp per 100% steel move   R2 = 0.064   n = 66
+    lag 6: beta =  +7.524 pp per 100% steel move   R2 = 0.177   n = 66
+
+==============================================================================
+CONTROLLED SPEC -- isolating the COST channel from the PRICING/DEMAND channel
+==============================================================================
+The bivariate result above is confounded: steel prices are procyclical with ag
+equipment demand, so a steel spike arrives together with a demand boom that lets
+Deere raise list prices. The dependent variable below is the log cost-of-sales
+ratio; the controls are Deere's own output-price proxy (PPI ag machinery) and a
+volume/absorption proxy (net sales). Steel's coefficient is then the cost channel.
+
+    px_steel_hrc  (n=66)
+      lag               L0      L1      L2      L3      L4      L5      L6   
+      partial r       +0.531  +0.556  +0.438  +0.212  -0.057  -0.317  -0.548 
+      beta            +0.174  +0.195  +0.145  +0.063  -0.015  -0.072  -0.117 
+      t (Newey-West)   +3.60   +3.65   +4.16   +1.34   -0.21   -1.36   -3.80 
+      -> COST-CHANNEL peak at lag 1: partial r=+0.556, beta=+0.1948 (log cost ratio per 1.0 log steel), t_HAC=+3.65
+         NOTE lags 5-6 turn negative: that is the pricing channel catching up,
+         not a cost effect, so the peak is taken over positive coefficients only.
+         first half    peak lag 3  partial r=+0.677  n=32   [-0.21 +0.23 +0.58 +0.68 +0.60 +0.17 -0.29]
+         second half   peak lag 0  partial r=+0.728  n=34   [+0.73 +0.69 +0.34 -0.18 -0.52 -0.66 -0.74]
+         ex FY21-FY22  peak lag 2  partial r=+0.490  n=58   [+0.36 +0.44 +0.49 +0.44 +0.27 -0.06 -0.42]
+
+    ppi_steel_mill_products  (n=66)
+      lag               L0      L1      L2      L3      L4      L5      L6   
+      partial r       +0.495  +0.641  +0.663  +0.410  -0.040  -0.367  -0.571 
+      beta            +0.092  +0.132  +0.157  +0.102  -0.009  -0.066  -0.092 
+      t (Newey-West)   +3.37   +7.46   +7.36   +3.27   -0.16   -1.71   -5.03 
+      -> COST-CHANNEL peak at lag 2: partial r=+0.663, beta=+0.1568 (log cost ratio per 1.0 log steel), t_HAC=+7.36
+         NOTE lags 5-6 turn negative: that is the pricing channel catching up,
+         not a cost effect, so the peak is taken over positive coefficients only.
+         first half    peak lag 3  partial r=+0.703  n=32   [-0.36 +0.13 +0.53 +0.70 +0.64 +0.20 -0.31]
+         second half   peak lag 1  partial r=+0.777  n=34   [+0.65 +0.78 +0.74 +0.27 -0.37 -0.63 -0.71]
+         ex FY21-FY22  peak lag 2  partial r=+0.527  n=58   [+0.30 +0.45 +0.53 +0.51 +0.31 -0.08 -0.43]
+
+    px_steel_cold_rolled  (n=66)
+      lag               L0      L1      L2      L3      L4      L5      L6   
+      partial r       +0.432  +0.568  +0.595  +0.432  +0.045  -0.251  -0.416 
+      beta            +0.053  +0.075  +0.091  +0.073  +0.007  -0.035  -0.053 
+      t (Newey-West)   +2.82   +5.91   +6.66   +3.85   +0.20   -1.10   -2.57 
+      -> COST-CHANNEL peak at lag 2: partial r=+0.595, beta=+0.0908 (log cost ratio per 1.0 log steel), t_HAC=+6.66
+         NOTE lags 5-6 turn negative: that is the pricing channel catching up,
+         not a cost effect, so the peak is taken over positive coefficients only.
+         first half    peak lag 4  partial r=+0.708  n=32   [-0.40 -0.07 +0.37 +0.65 +0.71 +0.44 -0.00]
+         second half   peak lag 1  partial r=+0.717  n=34   [+0.58 +0.72 +0.70 +0.37 -0.19 -0.50 -0.58]
+         ex FY21-FY22  peak lag 3  partial r=+0.435  n=58   [+0.16 +0.31 +0.38 +0.43 +0.35 +0.10 -0.18]
+
+    px_steel_scrap  (n=66)
+      lag               L0      L1      L2      L3      L4      L5      L6   
+      partial r       +0.037  +0.253  +0.476  +0.520  +0.490  +0.286  -0.061 
+      beta            +0.005  +0.036  +0.067  +0.069  +0.062  +0.034  -0.007 
+      t (Newey-West)   +0.17   +1.11   +2.61   +3.87   +6.97   +2.38   -0.35 
+      -> COST-CHANNEL peak at lag 3: partial r=+0.520, beta=+0.0693 (log cost ratio per 1.0 log steel), t_HAC=+3.87
+         NOTE lags 5-6 turn negative: that is the pricing channel catching up,
+         not a cost effect, so the peak is taken over positive coefficients only.
+         first half    peak lag 4  partial r=+0.700  n=32   [-0.54 -0.42 +0.22 +0.52 +0.70 +0.59 +0.07]
+         second half   peak lag 2  partial r=+0.712  n=34   [+0.36 +0.60 +0.71 +0.61 +0.35 -0.02 -0.33]
+         ex FY21-FY22  peak lag 4  partial r=+0.587  n=58   [-0.26 -0.02 +0.32 +0.48 +0.59 +0.51 +0.15]
+

@@ -3,72 +3,423 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Agent architecture — team name</title>
+  <title>Centurion — Architecture</title>
   <style>
-    :root { color-scheme: light; --ink:#101828; --muted:#667085; --line:#d0d5dd; --blue:#155eef; --paper:#fff; --wash:#f8fafc; }
-    * { box-sizing: border-box; }
-    body { margin: 0; color: var(--ink); background: var(--wash); font: 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    main { width: min(920px, calc(100% - 32px)); margin: 40px auto; padding: clamp(24px, 6vw, 64px); background: var(--paper); border: 1px solid var(--line); border-radius: 20px; }
-    h1 { margin: 0 0 8px; font-size: clamp(40px, 8vw, 72px); line-height: .98; letter-spacing: -.05em; }
-    h2 { margin: 48px 0 12px; font-size: 24px; letter-spacing: -.02em; }
-    p, li { max-width: 72ch; }
-    .eyebrow { color: var(--blue); font-size: 13px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
-    .lede { color: var(--muted); font-size: 20px; }
-    .card { margin-top: 24px; padding: 20px; background: var(--wash); border: 1px solid var(--line); border-radius: 12px; }
-    code { padding: 2px 6px; border-radius: 5px; background: #eef4ff; }
+    :root{
+      --paper:#faf8f3; --card:#fffdf9; --ink:#2a251f; --ink-soft:#4b443b;
+      --muted:#847a6b; --line:#e8e1d5; --line-2:#ded5c6;
+      --coral:#c2694a; --coral-2:#d98a6b; --coral-wash:#f4e7df;
+      --anchor:#c2694a; --driver:#4f7a8a; --modifier:#9a7bb0; --constraint:#6b7280; --scenario:#c99a3a;
+      --up:#5f8a5c; --sand:#f0eadd;
+      --radius:16px;
+      --serif:'Fraunces',ui-serif,Georgia,serif;
+      --sans:'Geist',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+      --mono:'SF Mono',ui-monospace,'JetBrains Mono',Menlo,monospace;
+    }
+    *{box-sizing:border-box;}
+    html{scroll-behavior:smooth;}
+    body{
+      margin:0; background:var(--paper); color:var(--ink);
+      font-family:var(--sans); font-size:16px; line-height:1.6;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+      background-image:radial-gradient(1100px 520px at 78% -8%, #f7ede4 0%, transparent 60%);
+    }
+    a{color:inherit;}
+    ::selection{background:color-mix(in oklab,var(--coral) 24%,transparent);}
+    h1,h2,h3{font-family:var(--serif); font-weight:500; letter-spacing:-.015em; margin:0;}
+    .wrap{width:min(1080px,calc(100% - 40px)); margin-inline:auto;}
+    .mono{font-family:var(--mono);}
+
+    /* nav */
+    nav{position:sticky; top:0; z-index:50; backdrop-filter:blur(14px);
+      background:color-mix(in oklab,var(--paper) 72%,transparent); border-bottom:1px solid var(--line);}
+    nav .wrap{display:flex; align-items:center; justify-content:space-between; height:60px;}
+    .brand{display:flex; align-items:center; gap:10px; text-decoration:none;}
+    .brand .dot{width:9px;height:9px;border-radius:50%;background:var(--coral);}
+    .brand b{font-family:var(--serif); font-weight:500; font-size:19px;}
+    .brand span{color:var(--muted); font-size:13px;}
+    .nav-links{display:flex; gap:26px; font-size:14px;}
+    .nav-links a{color:var(--muted); text-decoration:none; transition:color .2s;}
+    .nav-links a:hover{color:var(--ink);}
+    @media(max-width:680px){.nav-links{display:none;}}
+
+    /* hero */
+    header{padding:88px 0 40px; text-align:center;}
+    .eyebrow{font-size:12.5px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--coral);}
+    header h1{font-size:clamp(42px,7vw,76px); line-height:1.02; margin:20px auto 0; max-width:16ch;}
+    header h1 em{font-style:italic; color:var(--coral);}
+    .lede{color:var(--ink-soft); font-size:clamp(17px,2.4vw,21px); line-height:1.55; max-width:60ch; margin:24px auto 0;}
+    .guardrail{margin:34px auto 0; max-width:760px; padding:20px 24px; text-align:left;
+      background:var(--card); border:1px solid var(--line); border-left:3px solid var(--coral);
+      border-radius:12px; box-shadow:0 8px 30px -18px rgba(60,40,20,.35);}
+    .guardrail b{font-family:var(--serif); font-weight:600;}
+    .guardrail p{margin:0; color:var(--ink-soft); font-size:15px;}
+    .companies{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:34px;}
+    .chip{display:flex; align-items:center; gap:9px; padding:8px 14px 8px 8px; background:var(--card);
+      border:1px solid var(--line); border-radius:999px; font-size:14px; font-weight:500;}
+    .chip img{width:26px;height:26px;object-fit:contain; background:#fff; border-radius:7px; padding:3px; border:1px solid var(--line);}
+    .chip .tk{color:var(--muted); font-family:var(--mono); font-size:12px;}
+
+    section{padding:64px 0; border-top:1px solid var(--line);}
+    .sec-head{text-align:center; max-width:640px; margin:0 auto 44px;}
+    .sec-head .eyebrow{color:var(--muted);}
+    .sec-head h2{font-size:clamp(28px,4vw,40px); margin-top:12px;}
+    .sec-head p{color:var(--muted); margin-top:12px; font-size:16px;}
+
+    /* orchestration diagram */
+    .diagram{width:100%; height:auto; display:block;}
+    .node-box{width:100%;height:100%; display:flex; flex-direction:column; justify-content:center;
+      background:var(--card); border:1px solid var(--line-2); border-radius:14px; padding:10px 14px;
+      box-shadow:0 10px 26px -20px rgba(60,40,20,.5);}
+    .node-orch{align-items:center; text-align:center; border-color:var(--coral); background:linear-gradient(180deg,#fff,#fdf6f1);}
+    .node-orch .t{font-family:var(--serif); font-weight:600; font-size:18px;}
+    .node-orch .s{color:var(--muted); font-size:12px;}
+    .worker{align-items:flex-start;}
+    .worker .top{display:flex; align-items:center; gap:9px; width:100%;}
+    .worker img{width:28px;height:28px;object-fit:contain;background:#fff;border-radius:7px;padding:3px;border:1px solid var(--line);}
+    .worker .nm{font-family:var(--serif); font-weight:500; font-size:15.5px; line-height:1.1;}
+    .worker .tk{color:var(--muted); font-family:var(--mono); font-size:11px;}
+    .fpill{display:inline-flex;align-items:center;gap:6px; background:var(--coral-wash); color:#9c4d31;
+      border-radius:999px; padding:3px 10px; font-size:11.5px; font-weight:600; width:100%; justify-content:center;}
+    .node-val{align-items:center;text-align:center; border-color:var(--line-2); background:linear-gradient(180deg,#fff,#faf6ef);}
+    .node-val .t{font-family:var(--serif);font-weight:600;font-size:16px;}
+    .node-val .s{color:var(--muted);font-size:12px;}
+    .connector{fill:none; stroke:var(--line-2); stroke-width:1.6;}
+    .flow{fill:var(--coral);}
+    .pulse{animation:pulse 1.8s ease-in-out infinite;}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+    /* pipeline */
+    .pipe{position:relative; margin-top:10px;}
+    .pipe-track{position:absolute; left:5%; right:5%; top:34px; height:2px; background:var(--line-2); overflow:hidden; border-radius:2px;}
+    .pipe-track::after{content:""; position:absolute; inset:0; width:34%;
+      background:linear-gradient(90deg,transparent,var(--coral),transparent); animation:sweep 5.4s linear infinite;}
+    @keyframes sweep{0%{transform:translateX(-120%)}100%{transform:translateX(400%)}}
+    .stages{display:grid; grid-template-columns:repeat(6,1fr); gap:14px; position:relative;}
+    .stage{text-align:center;}
+    .stage .num{width:52px;height:52px;margin:0 auto; border-radius:50%; display:grid; place-items:center;
+      background:var(--card); border:1.5px solid var(--line-2); font-family:var(--serif); font-size:20px; font-weight:600;
+      color:var(--coral); position:relative; transition:transform .3s;}
+    .stage .num::before{content:""; position:absolute; inset:-4px; border-radius:50%; border:1.5px solid var(--coral);
+      opacity:0; transform:scale(.8); animation:ring 5.4s ease-in-out infinite;}
+    .stage:nth-child(1) .num::before{animation-delay:0s}
+    .stage:nth-child(2) .num::before{animation-delay:.9s}
+    .stage:nth-child(3) .num::before{animation-delay:1.8s}
+    .stage:nth-child(4) .num::before{animation-delay:2.7s}
+    .stage:nth-child(5) .num::before{animation-delay:3.6s}
+    .stage:nth-child(6) .num::before{animation-delay:4.5s}
+    @keyframes ring{0%,12%{opacity:.9;transform:scale(1.15)}22%,100%{opacity:0;transform:scale(1.32)}}
+    .stage h3{font-size:16px; margin-top:14px;}
+    .stage .team{font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; margin-top:4px;}
+    .team.red{color:#b4553a}.team.blue{color:#4f7a8a}.team.ind{color:var(--muted)}
+    .stage p{font-size:13px; color:var(--muted); margin:8px 4px 0; line-height:1.5;}
+    @media(max-width:820px){.stages{grid-template-columns:repeat(2,1fr); gap:26px 14px;} .pipe-track{display:none;}}
+
+    /* role cards */
+    .roles{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px;}
+    .role{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:20px; border-top:3px solid var(--rc,var(--coral));}
+    .role .tag{display:inline-block; font-family:var(--mono); font-size:11px; font-weight:600; letter-spacing:.02em;
+      color:var(--rc); background:color-mix(in oklab,var(--rc) 12%,transparent); padding:3px 8px; border-radius:6px;}
+    .role h3{font-size:18px; margin-top:12px;}
+    .role p{font-size:13.5px; color:var(--muted); margin:8px 0 0; line-height:1.55;}
+    .role .ex{margin-top:12px; font-size:12.5px; color:var(--ink-soft); border-top:1px dashed var(--line-2); padding-top:10px;}
+    .role .ex b{font-family:var(--serif);}
+
+    /* provenance chain */
+    .chain{max-width:560px; margin:0 auto; display:flex; flex-direction:column; gap:0;}
+    .link{display:flex; align-items:center; gap:16px; padding:14px 18px; background:var(--card);
+      border:1px solid var(--line); border-radius:12px; position:relative; opacity:0; transform:translateY(10px);
+      transition:opacity .5s ease, transform .5s ease;}
+    .link.in{opacity:1; transform:none;}
+    .link .ic{width:34px;height:34px;flex:none; border-radius:9px; background:var(--coral-wash); color:#9c4d31;
+      display:grid; place-items:center; font-family:var(--mono); font-size:13px; font-weight:600;}
+    .link .tx b{font-family:var(--serif); font-weight:600; font-size:15px;}
+    .link .tx span{display:block; color:var(--muted); font-size:13px;}
+    .link:not(:last-child)::after{content:""; position:absolute; left:34px; bottom:-13px; width:2px; height:14px;
+      background:var(--line-2); z-index:1;}
+    .chain-gap{height:12px;}
+
+    /* scope */
+    .scope{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+    @media(max-width:720px){.scope{grid-template-columns:1fr;}}
+    .scope-col{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:24px;}
+    .scope-col h3{font-size:19px; display:flex; align-items:center; gap:10px;}
+    .scope-col ul{list-style:none; padding:0; margin:16px 0 0; display:flex; flex-direction:column; gap:11px;}
+    .scope-col li{display:flex; gap:11px; font-size:14.5px; color:var(--ink-soft); line-height:1.45;}
+    .mark{flex:none; width:20px;height:20px; border-radius:6px; display:grid; place-items:center; font-size:12px; font-weight:700; margin-top:1px;}
+    .mark.y{background:#e6f0e3; color:var(--up);}
+    .mark.n{background:#f2e6e2; color:#b4553a;}
+
+    /* reveal */
+    .reveal{opacity:0; transform:translateY(18px); transition:opacity .7s cubic-bezier(.2,.7,.2,1), transform .7s cubic-bezier(.2,.7,.2,1);}
+    .reveal.in{opacity:1; transform:none;}
+
+    footer{padding:56px 0 72px; border-top:1px solid var(--line); text-align:center; color:var(--muted); font-size:14px;}
+    footer .big{font-family:var(--serif); font-size:22px; color:var(--ink); margin-bottom:10px;}
+    footer a{color:var(--coral); text-decoration:none; font-weight:500;}
+
+    @media(prefers-reduced-motion:reduce){
+      *{animation:none !important; transition:none !important;}
+      .reveal,.link{opacity:1; transform:none;}
+    }
   </style>
 </head>
 <body>
-  <main>
-    <p class="eyebrow">Agents vs Wall Street</p>
-    <h1>Team name</h1>
-    <p class="lede">In one sentence, explain what your agent does and what makes the approach worth understanding.</p>
-
-    <div class="card">
-      <p>Agent name: <strong>add agent name</strong></p>
-      <p>Team: <strong>add everyone's name</strong></p>
-      <p>Build style and harness: <strong>add headless agent, coding harness or hybrid setup</strong></p>
-      <p>Models: <strong>add the primary models</strong></p>
-    </div>
-
-    <section>
-      <h2>How it works</h2>
-      <p>Explain the path from a company ticker to the three forecasts. Name the main stages, models, tools and data sources. A simple diagram is welcome.</p>
-    </section>
-
-    <section>
-      <h2>Research and financial reasoning</h2>
-      <p>Explain how the agent finds information, interprets the requested metrics and units, deals with conflicting evidence and turns the research into a forecast.</p>
-    </section>
-
-    <section>
-      <h2>Important design choices</h2>
-      <p>Describe the decisions that most affected autonomy, quality, runtime or cost. Include the alternatives you rejected and why.</p>
-    </section>
-
-    <section>
-      <h2>Checks and tests</h2>
-      <p>Show how the system catches missing information, bad units, implausible values, malformed workbooks and failed model calls. Explain what you tested and what happened.</p>
-    </section>
-
-    <section>
-      <h2>Reproducing the run</h2>
-      <p>State what someone needs to install or configure, the command they run and any remaining human input. Explain how the system accepts the company and metric specification.</p>
-    </section>
-
-    <section>
-      <h2>Known weaknesses</h2>
-      <p>Be specific about where the agent still needs human help, where it may fail and what you would improve next.</p>
-    </section>
-
-    <section>
-      <h2>How to reproduce the final run</h2>
-      <div class="card">
-        <p>Final commit: <code>add commit hash</code></p>
-        <p>Final command: <code>add command</code></p>
-        <p>Expected output: four completed workbooks in <code>submission/</code>.</p>
+  <nav>
+    <div class="wrap">
+      <a class="brand" href="/"><span class="dot"></span><b>Centurion</b><span>architecture</span></a>
+      <div class="nav-links">
+        <a href="#orchestration">Orchestration</a>
+        <a href="#worker">The worker</a>
+        <a href="#signals">Signals</a>
+        <a href="#provenance">Provenance</a>
+        <a href="#scope">Scope</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </nav>
+
+  <header class="wrap">
+    <p class="eyebrow">Agents vs Wall Street</p>
+    <h1>An evidence-to-forecast <em>compiler</em></h1>
+    <p class="lede">One reusable forecasting worker, run four times in parallel — one per company. Bounded Tavily
+      research freezes admissible web evidence alongside the supplied corpus; deterministic gates then decide what
+      may enter the source-backed profile, signal map and auditable forecast.</p>
+    <div class="guardrail">
+      <p><b>The rule that keeps it honest.</b> The model may propose structured observations. It may <b>not</b> invent
+      sources, choose arbitrary weights, perform forecast arithmetic, or write submission values. A signal moves a
+      number only when its evidence and declared transformation pass deterministic validation.</p>
+    </div>
+    <div class="companies">
+      <div class="chip">Home Depot <span class="tk">HD</span></div>
+      <div class="chip">Analog Devices <span class="tk">ADI</span></div>
+      <div class="chip">Hays plc <span class="tk">HAS</span></div>
+      <div class="chip">Deere &amp; Co. <span class="tk">DE</span></div>
+    </div>
+  </header>
+
+  <!-- ORCHESTRATION -->
+  <section id="orchestration">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">How the work fans out</p>
+        <h2>One worker, four companies, in parallel</h2>
+        <p>An orchestrator spins up an isolated worker per company. Tavily search and extraction run concurrently,
+          while provenance, cutoff and look-ahead gates fail closed before exactly three forecasts can be returned.</p>
+      </div>
+
+      <svg class="diagram reveal" viewBox="0 0 960 560" role="img" aria-label="Orchestration diagram">
+        <defs>
+          <path id="c1" class="connector" d="M480,74 C480,150 140,120 140,196"/>
+          <path id="c2" class="connector" d="M480,74 C480,150 380,120 380,196"/>
+          <path id="c3" class="connector" d="M480,74 C480,150 620,120 620,196"/>
+          <path id="c4" class="connector" d="M480,74 C480,150 860,120 860,196"/>
+          <path id="v1" class="connector" d="M140,348 C140,430 480,404 480,466"/>
+          <path id="v2" class="connector" d="M380,348 C380,430 480,410 480,466"/>
+          <path id="v3" class="connector" d="M620,348 C620,430 480,410 480,466"/>
+          <path id="v4" class="connector" d="M860,348 C860,430 480,404 480,466"/>
+        </defs>
+
+        <!-- connectors (visible) -->
+        <use href="#c1"/><use href="#c2"/><use href="#c3"/><use href="#c4"/>
+        <use href="#v1"/><use href="#v2"/><use href="#v3"/><use href="#v4"/>
+
+        <!-- flowing tokens -->
+        <circle class="flow" r="3.4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0s"><mpath href="#c1"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0.5s"><mpath href="#c2"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.0s"><mpath href="#c3"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.5s"><mpath href="#c4"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.1s"><mpath href="#v1"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.6s"><mpath href="#v2"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="2.1s"><mpath href="#v3"/></animateMotion></circle>
+        <circle class="flow" r="3.4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="2.6s"><mpath href="#v4"/></animateMotion></circle>
+
+        <!-- orchestrator -->
+        <foreignObject x="360" y="14" width="240" height="60">
+          <div xmlns="http://www.w3.org/1999/xhtml" class="node-box node-orch">
+            <div class="t">Orchestrator</div>
+            <div class="s">four isolated company lanes · bounded concurrency</div>
+          </div>
+        </foreignObject>
+
+        <!-- workers -->
+        <foreignObject x="52" y="196" width="176" height="100"><div xmlns="http://www.w3.org/1999/xhtml" class="node-box worker">
+          <div class="top"><div><div class="nm">Home Depot</div><div class="tk">HD · comparable sales</div></div></div>
+        </div></foreignObject>
+        <foreignObject x="292" y="196" width="176" height="100"><div xmlns="http://www.w3.org/1999/xhtml" class="node-box worker">
+          <div class="top"><div><div class="nm">Analog Devices</div><div class="tk">ADI · revenue</div></div></div>
+        </div></foreignObject>
+        <foreignObject x="532" y="196" width="176" height="100"><div xmlns="http://www.w3.org/1999/xhtml" class="node-box worker">
+          <div class="top"><div><div class="nm">Hays plc</div><div class="tk">HAS · net fees</div></div></div>
+        </div></foreignObject>
+        <foreignObject x="772" y="196" width="176" height="100"><div xmlns="http://www.w3.org/1999/xhtml" class="node-box worker">
+          <div class="top"><div><div class="nm">Deere &amp; Co.</div><div class="tk">DE · op. profit</div></div></div>
+        </div></foreignObject>
+
+        <!-- 3 forecasts pills -->
+        <foreignObject x="52" y="310" width="176" height="30"><div xmlns="http://www.w3.org/1999/xhtml" class="fpill">3 validated forecasts</div></foreignObject>
+        <foreignObject x="292" y="310" width="176" height="30"><div xmlns="http://www.w3.org/1999/xhtml" class="fpill">3 validated forecasts</div></foreignObject>
+        <foreignObject x="532" y="310" width="176" height="30"><div xmlns="http://www.w3.org/1999/xhtml" class="fpill">3 validated forecasts</div></foreignObject>
+        <foreignObject x="772" y="310" width="176" height="30"><div xmlns="http://www.w3.org/1999/xhtml" class="fpill">3 validated forecasts</div></foreignObject>
+
+        <!-- convergence -->
+        <foreignObject x="340" y="466" width="280" height="64"><div xmlns="http://www.w3.org/1999/xhtml" class="node-box node-val">
+          <div class="t">Validate &amp; write workbooks</div><div class="s">deterministic checks → Excel submissions</div>
+        </div></foreignObject>
+      </svg>
+    </div>
+  </section>
+
+  <!-- WORKER PIPELINE -->
+  <section id="worker">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">The worker</p>
+        <h2>Every worker follows six stages</h2>
+        <p>Profile the company, decide which signals matter, resolve them into cited evidence, combine them into an
+          auditable number, stress the scenarios, then challenge and validate before returning.</p>
+      </div>
+
+      <div class="pipe reveal">
+        <div class="pipe-track"></div>
+        <div class="stages">
+          <div class="stage"><div class="num">1</div><h3>Profile</h3><div class="team red">Red + Blue</div>
+            <p>Source-backed profile: business model, fiscal calendar, segments, metric definitions, guidance style.</p></div>
+          <div class="stage"><div class="num">2</div><h3>Signal map</h3><div class="team red">Team Red</div>
+            <p>Name the 3–7 material signals that could move each metric, each with a declared role and direction.</p></div>
+          <div class="stage"><div class="num">3</div><h3>Resolve</h3><div class="team blue">Team Blue</div>
+            <p>Tavily leads are extracted, frozen and hashed; only approved signals return typed, cited observations.</p></div>
+          <div class="stage"><div class="num">4</div><h3>Combine</h3><div class="team red">Team Red</div>
+            <p>Anchor + approved driver adjustments = base forecast, computed in <span class="mono">Decimal</span>.</p></div>
+          <div class="stage"><div class="num">5</div><h3>Scenarios</h3><div class="team red">Team Red</div>
+            <p>Low / base / high. Scenario triggers stay out of the base unless their condition actually occurs.</p></div>
+          <div class="stage"><div class="num">6</div><h3>Challenge &amp; validate</h3><div class="team ind">Independent</div>
+            <p>A no-web reviewer hunts look-ahead; deterministic code checks provenance, numbers, units and format.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNALS -->
+  <section id="signals">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Signals &amp; roles</p>
+        <h2>Not every signal gets a number</h2>
+        <p>Instead of inventing arbitrary weights, each signal is assigned a role. A weight appears only when a backtest
+          or historical analysis defensibly justifies it.</p>
+      </div>
+      <div class="roles reveal">
+        <div class="role" style="--rc:var(--constraint)"><span class="tag">constraint</span><h3>Enforced</h3>
+          <p>Accounting identities the forecast must satisfy — never weighted.</p>
+          <p class="ex"><b>e.g.</b> EPS must reconcile with profit, tax and diluted shares.</p></div>
+        <div class="role" style="--rc:var(--anchor)"><span class="tag">anchor</span><h3>Starting range</h3>
+          <p>A direct, defensible estimate that forms the forecast's starting point.</p>
+          <p class="ex"><b>e.g.</b> Management's stated Q3 revenue guidance range.</p></div>
+        <div class="role" style="--rc:var(--driver)"><span class="tag">driver</span><h3>Moves the number</h3>
+          <p>A quantified effect applied through an explicit formula.</p>
+          <p class="ex"><b>e.g.</b> revenue × volume change × price/mix change.</p></div>
+        <div class="role" style="--rc:var(--modifier)"><span class="tag">modifier</span><h3>Guides judgement</h3>
+          <p>Qualitative evidence that selects the upper or lower half — never given false precision.</p>
+          <p class="ex"><b>e.g.</b> "automotive demand stronger than expected."</p></div>
+        <div class="role" style="--rc:var(--scenario)"><span class="tag">scenario&nbsp;trigger</span><h3>Conditional risk</h3>
+          <p>A risk that only matters if an event occurs — lives in a scenario, not the base.</p>
+          <p class="ex"><b>e.g.</b> a proposed tariff taking effect before period close.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROVENANCE -->
+  <section id="provenance">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Traceability</p>
+        <h2>Every number keeps its receipt</h2>
+        <p>No value reaches a forecast without an unbroken chain from a hashed source to an explicit formula.
+          Accepted inputs replay to the same output.</p>
+      </div>
+      <div class="chain" id="chain">
+        <div class="link"><div class="ic">01</div><div class="tx"><b>Source</b><span>URL + frozen file + SHA-256 hash</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">02</div><div class="tx"><b>Exact quotation</b><span>verbatim text + locator, verified against the frozen source</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">03</div><div class="tx"><b>Typed observation</b><span>value, units, period, factType, confidence</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">04</div><div class="tx"><b>Approved signal</b><span>role, direction, combination method, correlation group</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">05</div><div class="tx"><b>Validation decision</b><span>accepted or rejected, with a reason</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">06</div><div class="tx"><b>Explicit Decimal formula</b><span>the arithmetic the code actually ran</span></div></div>
+        <div class="chain-gap"></div>
+        <div class="link"><div class="ic">07</div><div class="tx"><b>Forecast component &amp; final value</b><span>written only to the required workbook cells</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCOPE -->
+  <section id="scope">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Disciplined scope</p>
+        <h2>What's in, and what's deliberately out</h2>
+        <p>The architecture stays generic even though only the signals needed for today's four companies are built.</p>
+      </div>
+      <div class="scope reveal">
+        <div class="scope-col">
+          <h3><span class="mark y">✓</span> Implemented now</h3>
+          <ul>
+            <li><span class="mark y">✓</span> Strict JSON company profiles and signal maps</li>
+            <li><span class="mark y">✓</span> Bounded Tavily search/extract across four concurrent company lanes</li>
+            <li><span class="mark y">✓</span> Immutable source snapshots, audit manifests and cutoff enforcement</li>
+            <li><span class="mark y">✓</span> Independent no-web look-ahead review and fail-closed v2 handoff</li>
+            <li><span class="mark y">✓</span> Source hashes, URLs, exact quotations and cutoff checks</li>
+            <li><span class="mark y">✓</span> Reusable management-guidance and explicit-driver resolvers</li>
+            <li><span class="mark y">✓</span> Deterministic anchor-plus-driver combination in <span class="mono">Decimal</span></li>
+            <li><span class="mark y">✓</span> Qualitative modifiers and conditional scenarios, no arbitrary weights</li>
+            <li><span class="mark y">✓</span> Challenge checks for unsupported evidence, mismatches, double-counting</li>
+            <li><span class="mark y">✓</span> Replayable JSON run receipts + an end-to-end ADI example</li>
+          </ul>
+        </div>
+        <div class="scope-col">
+          <h3><span class="mark n">✕</span> Kept off the critical path</h3>
+          <ul>
+            <li><span class="mark n">✕</span> Generic news sentiment</li>
+            <li><span class="mark n">✕</span> Automatic supplier-network inference</li>
+            <li><span class="mark n">✕</span> Arbitrary model-generated weights</li>
+            <li><span class="mark n">✕</span> Unrestricted LLM arithmetic</li>
+            <li><span class="mark n">✕</span> A universal financial ontology</li>
+            <li><span class="mark n">✕</span> An unrestricted or self-modifying agent swarm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <div class="big">Centurion</div>
+    <p>A source-to-formula receipt for every forecast.<br>
+      <a href="/">Open the live dashboard</a> &nbsp;·&nbsp;
+      <a href="https://github.com/KiishiAD/agents-vs-wall-street-starter">Repository</a></p>
+  </footer>
+
+  <script>
+    // Scroll reveal for sections + provenance chain links.
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      }
+    }, { threshold: 0.16 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+
+    // Stagger the provenance chain.
+    const chain = document.getElementById('chain');
+    const cio = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue;
+        chain.querySelectorAll('.link').forEach((l, i) => setTimeout(() => l.classList.add('in'), i * 140));
+        cio.disconnect();
+      }
+    }, { threshold: 0.2 });
+    if (chain) cio.observe(chain);
+  </script>
 </body>
 </html>

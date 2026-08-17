@@ -1,0 +1,38 @@
+ANNUAL: US HS exports (calendar year) vs Deere net sales and revenues
+        OUTSIDE U.S. and Canada (fiscal year, 10-K GEOGRAPHIC AREAS note)
+------------------------------------------------------------------------
+hs8432+8433 (ag ex-tractors)     n= 9 (2013-2021)  r=+0.253
+hs8701 (tractors)                n= 9 (2013-2021)  r=+0.433
+hs8429 (construction)            n= 9 (2013-2021)  r=+0.117
+hs8432+8433+8701 (all ag)        n= 9 (2013-2021)  r=+0.389
+all four codes                   n= 9 (2013-2021)  r=+0.281
+
+CANADA: US HS exports to Canada vs Deere revenue booked in Canada
+------------------------------------------------------------------------
+hs8432+8433 (ag ex-tractors)             n= 7 (2019-2025)  r=+0.987
+hs8701 (tractors, incl. road tractors)   n= 7 (2019-2025)  r=+0.784
+hs8429 (construction)                    n= 7 (2019-2025)  r=+0.936
+all four codes                           n= 7 (2019-2025)  r=+0.922
+  NOTE: n is tiny. With n<8 an r above +0.9 is not evidence of a
+  reliable relationship -- it is one or two points doing all the work.
+
+QUARTERLY: US HS machinery exports vs Deere revenue
+====================================================================
+Each Deere 13-week fiscal quarter is mapped to the 3 calendar months it
+actually covers: quarters ending in the first half of a month (2026-05-03
+-> Feb/Mar/Apr) step back one month first. Residual mismatch ~1 week each end.
+r(level) and r(qoq) are inflated by seasonality shared between the two
+series; r(YoY) removes it and is the only one worth acting on.
+
+hs8432+8433 (ag machinery ex-tractors)     vs Deere NON-US revenue    n=22  r(level)=+0.895  r(qoq)=+0.882  r(YoY)=+0.722 [n=19]
+hs8432+8433 (ag machinery ex-tractors)     vs Deere US revenue        n=22  r(level)=+0.923  r(qoq)=+0.908  r(YoY)=+0.880 [n=19]
+
+hs8701 (tractors)                          vs Deere NON-US revenue    n=22  r(level)=+0.689  r(qoq)=+0.692  r(YoY)=+0.654 [n=19]
+hs8701 (tractors)                          vs Deere US revenue        n=22  r(level)=+0.847  r(qoq)=+0.770  r(YoY)=+0.843 [n=19]
+
+hs8429 (construction)                      vs Deere NON-US revenue    n=22  r(level)=+0.767  r(qoq)=+0.747  r(YoY)=+0.629 [n=19]
+hs8429 (construction)                      vs Deere US revenue        n=22  r(level)=+0.881  r(qoq)=+0.786  r(YoY)=+0.805 [n=19]
+
+hs8432+8433+8701 (all ag)                  vs Deere NON-US revenue    n=22  r(level)=+0.842  r(qoq)=+0.873  r(YoY)=+0.720 [n=19]
+hs8432+8433+8701 (all ag)                  vs Deere US revenue        n=22  r(level)=+0.943  r(qoq)=+0.925  r(YoY)=+0.910 [n=19]
+

@@ -1,0 +1,689 @@
+series_id,period_end,fiscal_year,fiscal_quarter,segment,component,value,units,source,notes
+de_op_bridge,2020-02-02,2020,1,CF,opening_operating_profit,229,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,"prior-year same quarter, per 8-K segment table: 2020-02-21__de-us-20200221-q1-8k__469227.md"
+de_op_bridge,2020-02-02,2020,1,CF,volume_mix,-118,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,price,15,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,currency,5,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,warranty,-11,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,production_costs,-1,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,sag_rd,-5,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,other,3,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,voluntary_separation,-24,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-02-02,2020,1,CF,closing_operating_profit,93,USDm,slides/2020-02-21__de-us-20200221-slide__469359.md,"reported quarter, per 8-K segment table: 2020-02-21__de-us-20200221-q1-8k__469227.md"
+de_op_bridge,2020-05-03,2020,2,CF,opening_operating_profit,347,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,"prior-year same quarter, per 8-K segment table: 2020-05-21__de-us-20200521-q2-8k__469475.md"
+de_op_bridge,2020-05-03,2020,2,CF,volume_mix,-192,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,price,32,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,currency,-29,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,warranty,-4,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,production_costs,53,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,sag_rd,6,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,other,-35,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,impairment,-82,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,parse=prose_aligned; pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-05-03,2020,2,CF,closing_operating_profit,96,USDm,slides/2020-05-21__de-us-20200521-slide__469383.md,"reported quarter, per 8-K segment table: 2020-05-21__de-us-20200521-q2-8k__469475.md"
+de_op_bridge,2020-08-02,2020,3,CF,opening_operating_profit,378,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,"prior-year same quarter, per 8-K segment table: 2020-08-20__de-us-20200820-q3-8k__105830.md"
+de_op_bridge,2020-08-02,2020,3,CF,volume_mix,-306,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,price,84,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,currency,-14,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,warranty,14,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,production_costs,2,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,sag_rd,35,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,other,12,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-08-02,2020,3,CF,closing_operating_profit,205,USDm,slides/2020-08-20__de-us-20200820-slide__46433.md,"reported quarter, per 8-K segment table: 2020-08-20__de-us-20200820-q3-8k__105830.md"
+de_op_bridge,2020-11-01,2020,4,CF,opening_operating_profit,261,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,"prior-year same quarter, per 8-K segment table: 2020-11-25__de-us-20201125-q4-8k__105817.md"
+de_op_bridge,2020-11-01,2020,4,CF,volume_mix,-154,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,price,94,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,currency,-1,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,warranty,19,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,production_costs,19,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,sag_rd,20,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,special_items,-76,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,other,14,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,parse=json_arrays; kept the most explicit read (json_arrays); pre-FY2021 segment basis (as reported at the time)
+de_op_bridge,2020-11-01,2020,4,CF,closing_operating_profit,196,USDm,slides/2020-11-25__de-us-20201125-slide__46418.md,"reported quarter, per 8-K segment table: 2020-11-25__de-us-20201125-q4-8k__105817.md"
+de_op_bridge,2021-01-31,2021,1,CF,opening_operating_profit,93,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"prior-year same quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-01-31,2021,1,CF,volume_mix,135,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,price,67,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,currency,-13,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,warranty,-2,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,production_costs,-19,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,sag_rd,-21,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,special_items,-13,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,other,41,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-01-31,2021,1,CF,closing_operating_profit,268,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"reported quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-05-02,2021,2,CF,opening_operating_profit,96,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"prior-year same quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-05-02,2021,2,CF,volume_mix,178,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,price,104,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,currency,14,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,warranty,-5,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,production_costs,-29,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,sag_rd,3,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,special_items,85,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,other,43,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,CF,closing_operating_profit,489,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"reported quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-08-01,2021,3,CF,opening_operating_profit,205,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"prior-year same quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-08-01,2021,3,CF,volume_mix,212,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,price,123,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,currency,-11,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,warranty,-2,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,production_costs,-51,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,sag_rd,-32,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,special_items,0,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,other,19,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_keyed
+de_op_bridge,2021-08-01,2021,3,CF,closing_operating_profit,463,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"reported quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-10-31,2021,4,CF,opening_operating_profit,196,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"prior-year same quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2021-10-31,2021,4,CF,volume_mix,67,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,price,151,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,currency,-1,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,warranty,-20,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,production_costs,-118,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,sag_rd,-18,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,special_items,76,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,other,-63,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,CF,closing_operating_profit,270,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"reported quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2022-01-30,2022,1,CF,opening_operating_profit,268,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"prior-year same quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-01-30,2022,1,CF,volume_mix,-62,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,price,177,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,currency,-4,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,warranty,12,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,production_costs,-132,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,sag_rd,26,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,special_items,9,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,other,-22,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2022-01-30,2022,1,CF,closing_operating_profit,272,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"reported quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-05-01,2022,2,CF,opening_operating_profit,489,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"prior-year same quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-05-01,2022,2,CF,volume_mix,-6,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,price,303,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,currency,9,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,warranty,19,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,production_costs,-237,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,sag_rd,-15,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,special_items,279,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,other,-27,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_keyed
+de_op_bridge,2022-05-01,2022,2,CF,closing_operating_profit,814,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"reported quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-07-31,2022,3,CF,opening_operating_profit,463,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"prior-year same quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-07-31,2022,3,CF,volume_mix,-5,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,price,302,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,currency,19,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,warranty,-2,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,production_costs,-262,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,sag_rd,-10,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,special_items,-1,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,other,10,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,CF,closing_operating_profit,514,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"reported quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-10-30,2022,4,CF,opening_operating_profit,270,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"prior-year same quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2022-10-30,2022,4,CF,volume_mix,75,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,price,357,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,currency,25,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,warranty,7,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,production_costs,-260,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,sag_rd,-40,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,special_items,-50,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,other,30,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,CF,closing_operating_profit,414,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"reported quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2023-01-29,2023,1,CF,opening_operating_profit,272,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"prior-year same quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-01-29,2023,1,CF,volume_mix,148,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,price,343,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,currency,27,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,warranty,-2,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,production_costs,-187,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,sag_rd,-24,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,special_items,28,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,other,20,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,CF,closing_operating_profit,625,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"reported quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-04-30,2023,2,CF,opening_operating_profit,814,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,"prior-year same quarter, per 8-K segment table: 2023-05-19__de-us-20230519-q2-8k__105839.md"
+de_op_bridge,2023-04-30,2023,2,CF,volume_mix,159,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,price,426,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,currency,-5,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,warranty,-18,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,production_costs,-187,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,sag_rd,-41,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,special_items,-279,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,other,-31,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_aligned/parens+
+de_op_bridge,2023-04-30,2023,2,CF,closing_operating_profit,838,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,"reported quarter, per 8-K segment table: 2023-05-19__de-us-20230519-q2-8k__105839.md"
+de_op_bridge,2023-07-30,2023,3,CF,opening_operating_profit,514,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"prior-year same quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-07-30,2023,3,CF,volume_mix,26,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,price,327,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,currency,-17,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,warranty,-8,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,production_costs,-32,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,sag_rd,-34,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,special_items,1,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,other,-61,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,CF,closing_operating_profit,716,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"reported quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-10-29,2023,4,CF,opening_operating_profit,414,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"prior-year same quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2023-10-29,2023,4,CF,volume_mix,-8,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,price,214,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,currency,-28,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,warranty,1,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,production_costs,-84,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,sag_rd,0,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,special_items,32,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,other,-25,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2023-10-29,2023,4,CF,closing_operating_profit,516,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"reported quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2024-01-28,2024,1,CF,opening_operating_profit,625,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"prior-year same quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-01-28,2024,1,CF,volume_mix,-7,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,price,88,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,currency,-27,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,warranty,-5,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,production_costs,-49,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,sag_rd,-13,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,special_items,0,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,other,-46,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,CF,closing_operating_profit,566,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"reported quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-04-28,2024,2,CF,opening_operating_profit,838,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"prior-year same quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-04-28,2024,2,CF,volume_mix,-114,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,price,17,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,currency,-15,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,warranty,9,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,production_costs,4,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,sag_rd,-46,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,special_items,0,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,other,-25,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=positional_missing_first; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,CF,closing_operating_profit,668,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"reported quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-07-28,2024,3,CF,opening_operating_profit,716,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"prior-year same quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-07-28,2024,3,CF,volume_mix,-223,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,price,-37,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,currency,25,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,warranty,29,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,production_costs,-33,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,sag_rd,2,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,special_items,-20,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,other,-11,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,CF,closing_operating_profit,448,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"reported quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-10-27,2024,4,CF,opening_operating_profit,516,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"prior-year same quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2024-10-27,2024,4,CF,volume_mix,-312,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,price,6,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,currency,12,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,warranty,-10,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,production_costs,67,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,sag_rd,4,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,special_items,56,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,other,-11,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,CF,closing_operating_profit,328,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"reported quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2025-01-26,2025,1,CF,opening_operating_profit,566,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"prior-year same quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-01-26,2025,1,CF,volume_mix,-407,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,price,-33,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,currency,-8,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,warranty,-8,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,production_costs,-8,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,sag_rd,-32,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,special_items,0,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,other,-5,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2025-01-26,2025,1,CF,closing_operating_profit,65,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"reported quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-04-27,2025,2,CF,opening_operating_profit,668,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"prior-year same quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-04-27,2025,2,CF,volume_mix,-244,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,price,-53,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,currency,-14,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,warranty,-12,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,production_costs,-2,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,sag_rd,9,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,special_items,0,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,other,27,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,CF,closing_operating_profit,379,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"reported quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-07-27,2025,3,CF,opening_operating_profit,448,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"prior-year same quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-07-27,2025,3,CF,volume_mix,59,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,price,-160,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,currency,-1,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,warranty,-15,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,production_costs,-74,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,sag_rd,-34,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,special_items,4,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,other,10,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,CF,closing_operating_profit,237,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"reported quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-11-02,2025,4,CF,opening_operating_profit,328,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"prior-year same quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2025-11-02,2025,4,CF,volume_mix,235,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,price,-32,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,currency,4,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,warranty,-10,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,production_costs,-125,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,sag_rd,-58,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,special_items,-62,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,other,68,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,CF,closing_operating_profit,348,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"reported quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2026-02-01,2026,1,CF,opening_operating_profit,65,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"prior-year same quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-02-01,2026,1,CF,volume_mix,162,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,price,-7,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,currency,-8,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,warranty,-3,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,production_costs,-77,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,sag_rd,-13,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,special_items,0,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,other,18,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,CF,closing_operating_profit,137,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"reported quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-05-03,2026,2,CF,opening_operating_profit,379,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"prior-year same quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"
+de_op_bridge,2026-05-03,2026,2,CF,volume_mix,191,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,price,80,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,currency,-9,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,warranty,-82,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,production_costs,-34,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,sag_rd,0,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,special_items,0,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,other,36,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_greedy+shared; other recovered as arithmetic residual
+de_op_bridge,2026-05-03,2026,2,CF,closing_operating_profit,561,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"reported quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"
+de_op_bridge,2021-01-31,2021,1,PPA,opening_operating_profit,218,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"prior-year same quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-01-31,2021,1,PPA,volume_mix,185,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,price,196,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,currency,-55,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,warranty,6,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,production_costs,-38,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,sag_rd,26,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,special_items,90,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,other,15,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,PPA,closing_operating_profit,643,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"reported quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-05-02,2021,2,PPA,opening_operating_profit,568,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"prior-year same quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-05-02,2021,2,PPA,volume_mix,235,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,price,297,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,currency,-8,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,warranty,8,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,production_costs,-139,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,sag_rd,5,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,special_items,4,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,other,37,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-05-02,2021,2,PPA,closing_operating_profit,1007,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"reported quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-08-01,2021,3,PPA,opening_operating_profit,605,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"prior-year same quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-08-01,2021,3,PPA,volume_mix,325,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,price,257,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,currency,85,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,warranty,-31,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,production_costs,-248,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,sag_rd,-44,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,special_items,0,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,other,-43,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,PPA,closing_operating_profit,906,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"reported quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-10-31,2021,4,PPA,opening_operating_profit,578,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"prior-year same quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2021-10-31,2021,4,PPA,volume_mix,201,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,price,280,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,currency,57,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,warranty,5,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,production_costs,-391,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,sag_rd,-18,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,special_items,87,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,other,-22,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-10-31,2021,4,PPA,closing_operating_profit,777,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"reported quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2022-01-30,2022,1,PPA,opening_operating_profit,643,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"prior-year same quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-01-30,2022,1,PPA,volume_mix,-105,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,price,244,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,currency,55,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,warranty,39,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,production_costs,-407,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,sag_rd,-49,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,special_items,-101,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,other,-23,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_objects
+de_op_bridge,2022-01-30,2022,1,PPA,closing_operating_profit,296,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"reported quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-05-01,2022,2,PPA,opening_operating_profit,1007,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"prior-year same quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-05-01,2022,2,PPA,volume_mix,212,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,price,502,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,currency,62,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,warranty,24,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,production_costs,-627,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,sag_rd,-58,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,special_items,-46,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,other,-19,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-05-01,2022,2,PPA,closing_operating_profit,1057,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"reported quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-07-31,2022,3,PPA,opening_operating_profit,906,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"prior-year same quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-07-31,2022,3,PPA,volume_mix,492,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,price,646,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,currency,-47,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,warranty,-2,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,production_costs,-535,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,sag_rd,-140,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,special_items,1,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,other,-28,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_keyed
+de_op_bridge,2022-07-31,2022,3,PPA,closing_operating_profit,1293,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"reported quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-10-30,2022,4,PPA,opening_operating_profit,777,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"prior-year same quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2022-10-30,2022,4,PPA,volume_mix,894,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,price,873,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,currency,-6,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,warranty,27,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,production_costs,-586,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,sag_rd,-141,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,special_items,-70,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,other,-28,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,PPA,closing_operating_profit,1740,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"reported quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2023-01-29,2023,1,PPA,opening_operating_profit,296,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"prior-year same quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-01-29,2023,1,PPA,volume_mix,613,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,price,741,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,currency,-46,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,warranty,-15,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,production_costs,-256,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,sag_rd,-127,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,special_items,53,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,other,-51,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned/parens+
+de_op_bridge,2023-01-29,2023,1,PPA,closing_operating_profit,1208,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"reported quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-07-30,2023,3,PPA,opening_operating_profit,1293,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"prior-year same quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-07-30,2023,3,PPA,volume_mix,27,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,price,723,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,currency,-41,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,warranty,4,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,production_costs,-77,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,sag_rd,-74,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,special_items,-1,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,other,-72,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_greedy
+de_op_bridge,2023-07-30,2023,3,PPA,closing_operating_profit,1782,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"reported quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-10-29,2023,4,PPA,opening_operating_profit,1740,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"prior-year same quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2023-10-29,2023,4,PPA,volume_mix,-622,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,price,729,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,currency,-14,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,warranty,18,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,production_costs,40,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,sag_rd,-58,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,special_items,70,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,other,-67,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,PPA,closing_operating_profit,1836,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"reported quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2024-01-28,2024,1,PPA,opening_operating_profit,1208,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"prior-year same quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-01-28,2024,1,PPA,volume_mix,-273,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,price,202,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,currency,-1,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,warranty,-20,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,production_costs,15,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,sag_rd,-89,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,special_items,0,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,other,3,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-01-28,2024,1,PPA,closing_operating_profit,1045,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"reported quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-04-28,2024,2,PPA,opening_operating_profit,2170,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"prior-year same quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-04-28,2024,2,PPA,volume_mix,-627,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,price,137,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,currency,-12,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,warranty,27,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,production_costs,-41,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,sag_rd,-21,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,special_items,0,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,other,17,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,PPA,closing_operating_profit,1650,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"reported quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-07-28,2024,3,PPA,opening_operating_profit,1782,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"prior-year same quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-07-28,2024,3,PPA,volume_mix,-847,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,price,177,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,currency,24,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,warranty,48,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,production_costs,-5,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,sag_rd,10,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,special_items,-62,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,other,35,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-07-28,2024,3,PPA,closing_operating_profit,1162,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"reported quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-10-27,2024,4,PPA,opening_operating_profit,1836,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"prior-year same quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2024-10-27,2024,4,PPA,volume_mix,-1204,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,price,2,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,currency,-60,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,warranty,-70,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,production_costs,105,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,sag_rd,7,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,special_items,2,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,other,39,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_aligned
+de_op_bridge,2024-10-27,2024,4,PPA,closing_operating_profit,657,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"reported quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2025-01-26,2025,1,PPA,opening_operating_profit,1045,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"prior-year same quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-01-26,2025,1,PPA,volume_mix,-896,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,price,52,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,currency,13,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,warranty,-32,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,production_costs,62,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,sag_rd,81,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,special_items,0,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,other,13,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_greedy
+de_op_bridge,2025-01-26,2025,1,PPA,closing_operating_profit,338,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"reported quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-04-27,2025,2,PPA,opening_operating_profit,1650,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"prior-year same quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-04-27,2025,2,PPA,volume_mix,-610,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,price,46,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,currency,-92,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,warranty,32,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,production_costs,73,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,sag_rd,-8,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,special_items,0,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,other,57,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,PPA,closing_operating_profit,1148,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"reported quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-07-27,2025,3,PPA,opening_operating_profit,1162,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"prior-year same quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-07-27,2025,3,PPA,volume_mix,-494,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,price,-40,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,currency,-52,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,warranty,-45,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,production_costs,69,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,sag_rd,-17,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,special_items,34,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,other,-37,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_greedy
+de_op_bridge,2025-07-27,2025,3,PPA,closing_operating_profit,580,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"reported quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-11-02,2025,4,PPA,opening_operating_profit,657,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"prior-year same quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2025-11-02,2025,4,PPA,volume_mix,69,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,price,122,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,currency,-12,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,warranty,23,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,production_costs,-147,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,sag_rd,-43,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,special_items,-49,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,other,-16,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,PPA,closing_operating_profit,604,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"reported quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2026-02-01,2026,1,PPA,opening_operating_profit,338,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"prior-year same quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-02-01,2026,1,PPA,volume_mix,-61,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,price,-4,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,currency,-39,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,warranty,-48,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,production_costs,-74,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,sag_rd,6,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,special_items,0,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,other,21,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-02-01,2026,1,PPA,closing_operating_profit,139,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"reported quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-05-03,2026,2,PPA,opening_operating_profit,1148,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"prior-year same quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"
+de_op_bridge,2026-05-03,2026,2,PPA,volume_mix,-402,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,price,49,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,currency,75,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,warranty,-51,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,production_costs,-77,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,sag_rd,-4,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,special_items,0,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,other,-32,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2026-05-03,2026,2,PPA,closing_operating_profit,706,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"reported quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"
+de_op_bridge,2021-01-31,2021,1,SAT,opening_operating_profit,155,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"prior-year same quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-01-31,2021,1,SAT,volume_mix,138,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,price,112,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,currency,5,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,warranty,8,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,production_costs,-17,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,sag_rd,14,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,special_items,33,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,other,21,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,parse=json_arrays; kept the most explicit read (json_arrays)
+de_op_bridge,2021-01-31,2021,1,SAT,closing_operating_profit,469,USDm,slides/2021-02-19__de-us-20210219-slide__46421.md,"reported quarter, per 8-K segment table: 2021-02-19__de-us-20210219-q1-8k__105842.md"
+de_op_bridge,2021-05-02,2021,2,SAT,opening_operating_profit,226,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"prior-year same quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-05-02,2021,2,SAT,volume_mix,286,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,price,148,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,currency,40,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,warranty,14,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,production_costs,-35,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,sag_rd,1,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,special_items,1,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,other,-33,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,parse=prose_aligned
+de_op_bridge,2021-05-02,2021,2,SAT,closing_operating_profit,648,USDm,slides/2021-05-21__de-us-20210521-slide__46479.md,"reported quarter, per 8-K segment table: 2021-05-21__de-us-20210521-q2-8k__105846.md"
+de_op_bridge,2021-08-01,2021,3,SAT,opening_operating_profit,337,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"prior-year same quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-08-01,2021,3,SAT,volume_mix,298,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,price,77,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,currency,39,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,warranty,-28,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,production_costs,-119,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,sag_rd,-25,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,special_items,64,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,other,-60,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2021-08-01,2021,3,SAT,closing_operating_profit,583,USDm,slides/2021-08-20__de-us-20210820-slide__46481.md,"reported quarter, per 8-K segment table: 2021-08-20__de-us-20210820-q3-8k__105827.md"
+de_op_bridge,2021-10-31,2021,4,SAT,opening_operating_profit,282,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"prior-year same quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2021-10-31,2021,4,SAT,volume_mix,119,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,price,99,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,currency,11,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,warranty,8,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,production_costs,-203,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,sag_rd,-34,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,special_items,77,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,other,-13,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,parse=json_objects
+de_op_bridge,2021-10-31,2021,4,SAT,closing_operating_profit,346,USDm,slides/2021-11-24__de-us-20211124-slide__46437.md,"reported quarter, per 8-K segment table: 2021-11-24__de-us-20211124-q4-8k__105843.md"
+de_op_bridge,2022-01-30,2022,1,SAT,opening_operating_profit,469,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"prior-year same quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-01-30,2022,1,SAT,volume_mix,-14,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,price,161,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,currency,16,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,warranty,29,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,production_costs,-239,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,sag_rd,-18,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,special_items,-6,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,other,-27,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-01-30,2022,1,SAT,closing_operating_profit,371,USDm,slides/2022-02-18__de-us-20220218-slide__46449.md,"reported quarter, per 8-K segment table: 2022-02-18__de-us-20220218-q1-8k__105812.md"
+de_op_bridge,2022-05-01,2022,2,SAT,opening_operating_profit,648,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"prior-year same quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-05-01,2022,2,SAT,volume_mix,-42,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,price,277,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,currency,-5,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,warranty,8,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,production_costs,-330,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,sag_rd,-35,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,special_items,-1,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,parse=json_objects
+de_op_bridge,2022-05-01,2022,2,SAT,closing_operating_profit,520,USDm,slides/2022-05-20__de-us-20220520-slide__46463.md,"reported quarter, per 8-K segment table: 2022-05-20__de-us-20220520-q2-8k__105815.md"
+de_op_bridge,2022-07-31,2022,3,SAT,opening_operating_profit,583,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"prior-year same quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-07-31,2022,3,SAT,volume_mix,69,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,price,314,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,currency,-38,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,warranty,5,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,production_costs,-304,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,sag_rd,-42,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,special_items,-27,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,other,-8,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-07-31,2022,3,SAT,closing_operating_profit,552,USDm,slides/2022-08-19__de-us-20220819-slide__46460.md,"reported quarter, per 8-K segment table: 2022-08-19__de-us-20220819-q3-8k__105811.md"
+de_op_bridge,2022-10-30,2022,4,SAT,opening_operating_profit,346,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"prior-year same quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2022-10-30,2022,4,SAT,volume_mix,191,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,price,350,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,currency,-30,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,warranty,7,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,production_costs,-269,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,sag_rd,-56,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,special_items,-8,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,other,-25,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,parse=json_arrays; tie-break: 8-K narrative driver signs
+de_op_bridge,2022-10-30,2022,4,SAT,closing_operating_profit,506,USDm,slides/2022-11-23__de-us-20221123-slide__46423.md,"reported quarter, per 8-K segment table: 2022-11-23__de-us-20221123-q4-8k__105825.md"
+de_op_bridge,2023-01-29,2023,1,SAT,opening_operating_profit,371,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"prior-year same quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-01-29,2023,1,SAT,volume_mix,64,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,price,300,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,currency,-18,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,warranty,-1,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,production_costs,-185,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,sag_rd,-49,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,special_items,9,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,other,-44,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,parse=prose_aligned
+de_op_bridge,2023-01-29,2023,1,SAT,closing_operating_profit,447,USDm,slides/2023-02-17__de-us-20230217-slide__46447.md,"reported quarter, per 8-K segment table: 2023-02-17__de-us-20230217-q1-8k__105833.md"
+de_op_bridge,2023-04-30,2023,2,SAT,opening_operating_profit,520,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,"prior-year same quarter, per 8-K segment table: 2023-05-19__de-us-20230519-q2-8k__105839.md"
+de_op_bridge,2023-04-30,2023,2,SAT,volume_mix,89,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,price,442,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,currency,-21,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,warranty,-7,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,production_costs,-92,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,sag_rd,-63,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,special_items,1,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,other,-20,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,parse=prose_greedy
+de_op_bridge,2023-04-30,2023,2,SAT,closing_operating_profit,849,USDm,slides/2023-05-19__de-us-20230519-slide__46428.md,"reported quarter, per 8-K segment table: 2023-05-19__de-us-20230519-q2-8k__105839.md"
+de_op_bridge,2023-07-30,2023,3,SAT,opening_operating_profit,552,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"prior-year same quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-07-30,2023,3,SAT,volume_mix,-59,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,price,337,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,currency,-6,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,warranty,25,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,production_costs,-71,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,sag_rd,-38,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,special_items,0,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,other,-8,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,parse=prose_aligned
+de_op_bridge,2023-07-30,2023,3,SAT,closing_operating_profit,732,USDm,slides/2023-08-18__de-us-20230818-slide__46427.md,"reported quarter, per 8-K segment table: 2023-08-18__de-us-20230818-q3-8k__105829.md"
+de_op_bridge,2023-10-29,2023,4,SAT,opening_operating_profit,506,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"prior-year same quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2023-10-29,2023,4,SAT,volume_mix,-189,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,price,168,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,currency,1,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,warranty,-31,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,production_costs,35,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,sag_rd,-49,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,special_items,8,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,other,-5,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,parse=prose_aligned
+de_op_bridge,2023-10-29,2023,4,SAT,closing_operating_profit,444,USDm,slides/2023-11-22__de-us-20231122-slide__46466.md,"reported quarter, per 8-K segment table: 2023-11-22__de-us-20231122-q4-8k__105823.md"
+de_op_bridge,2024-01-28,2024,1,SAT,opening_operating_profit,447,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"prior-year same quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-01-28,2024,1,SAT,volume_mix,-215,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,price,97,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,currency,-5,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,warranty,-16,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,production_costs,33,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,sag_rd,-21,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,special_items,0,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,other,6,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,parse=prose_aligned
+de_op_bridge,2024-01-28,2024,1,SAT,closing_operating_profit,326,USDm,slides/2024-02-15__de-us-20240215-slide__46430.md,"reported quarter, per 8-K segment table: 2024-02-15__de-us-20240215-q1-8k__105824.md"
+de_op_bridge,2024-04-28,2024,2,SAT,opening_operating_profit,849,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"prior-year same quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-04-28,2024,2,SAT,volume_mix,-307,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,price,62,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,currency,-12,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,warranty,-10,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,production_costs,6,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,sag_rd,-14,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,special_items,0,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,other,-3,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,parse=prose_aligned; other recovered as arithmetic residual; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-04-28,2024,2,SAT,closing_operating_profit,571,USDm,slides/2024-05-16__de-us-20240516-slide__46443.md,"reported quarter, per 8-K segment table: 2024-05-16__de-us-20240516-q2-8k__105819.md"
+de_op_bridge,2024-07-28,2024,3,SAT,opening_operating_profit,732,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"prior-year same quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-07-28,2024,3,SAT,volume_mix,-280,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,price,63,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,currency,8,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,warranty,-54,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,production_costs,38,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,sag_rd,-2,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,special_items,-29,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,other,20,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,parse=prose_aligned
+de_op_bridge,2024-07-28,2024,3,SAT,closing_operating_profit,496,USDm,slides/2024-08-15__de-us-20240815-slide__46457.md,"reported quarter, per 8-K segment table: 2024-08-15__de-us-20240815-q3-8k__105836.md"
+de_op_bridge,2024-10-27,2024,4,SAT,opening_operating_profit,444,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"prior-year same quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2024-10-27,2024,4,SAT,volume_mix,-344,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,price,79,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,currency,10,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,warranty,42,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,production_costs,17,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,sag_rd,22,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,special_items,-42,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,other,6,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,parse=prose_stray_shift; tie-break: 8-K narrative driver signs
+de_op_bridge,2024-10-27,2024,4,SAT,closing_operating_profit,234,USDm,slides/2024-11-21__de-us-20241121-slide__46477.md,"reported quarter, per 8-K segment table: 2024-11-21__de-us-20241121-q4-8k__105840.md"
+de_op_bridge,2025-01-26,2025,1,SAT,opening_operating_profit,326,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"prior-year same quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-01-26,2025,1,SAT,volume_mix,-252,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,price,19,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,currency,13,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,warranty,-25,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,production_costs,32,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,sag_rd,4,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,special_items,0,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,other,7,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,parse=prose_aligned
+de_op_bridge,2025-01-26,2025,1,SAT,closing_operating_profit,124,USDm,slides/2025-02-13__de-us-20250213-slide__46456.md,"reported quarter, per 8-K segment table: 2025-02-13__de-us-20250213-q1-8k__105841.md"
+de_op_bridge,2025-04-27,2025,2,SAT,opening_operating_profit,571,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"prior-year same quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-04-27,2025,2,SAT,volume_mix,-97,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,price,23,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,currency,7,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,warranty,28,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,production_costs,29,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,sag_rd,17,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,special_items,0,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,other,-4,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,parse=prose_aligned
+de_op_bridge,2025-04-27,2025,2,SAT,closing_operating_profit,574,USDm,slides/2025-05-15__de-us-20250515-slide__46462.md,"reported quarter, per 8-K segment table: 2025-05-15__de-us-20250515-q2-8k__105808.md"
+de_op_bridge,2025-07-27,2025,3,SAT,opening_operating_profit,496,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"prior-year same quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-07-27,2025,3,SAT,volume_mix,-11,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,price,15,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,currency,9,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,warranty,29,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,production_costs,15,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,sag_rd,-16,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,special_items,12,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,other,-64,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,parse=prose_aligned; kept the most explicit read (prose_aligned)
+de_op_bridge,2025-07-27,2025,3,SAT,closing_operating_profit,485,USDm,slides/2025-08-15__de-us-20250815-slide__143404.md,"reported quarter, per 8-K segment table: 2025-08-15__de-us-20250815-q3-8k__143410.md"
+de_op_bridge,2025-11-02,2025,4,SAT,opening_operating_profit,234,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"prior-year same quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2025-11-02,2025,4,SAT,volume_mix,1,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,price,23,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,currency,2,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,warranty,-65,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,production_costs,-85,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,sag_rd,-40,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,special_items,18,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,other,-63,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,parse=prose_aligned
+de_op_bridge,2025-11-02,2025,4,SAT,closing_operating_profit,25,USDm,slides/2025-11-26__de-us-20251126-slide__361243.md,"reported quarter, per 8-K segment table: 2025-11-26__de-us-20251126-q4-8k__361233.md"
+de_op_bridge,2026-02-01,2026,1,SAT,opening_operating_profit,124,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"prior-year same quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-02-01,2026,1,SAT,volume_mix,148,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,price,35,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,currency,-14,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,warranty,10,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,production_costs,-99,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,sag_rd,-23,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,special_items,0,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,other,15,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,parse=prose_aligned
+de_op_bridge,2026-02-01,2026,1,SAT,closing_operating_profit,196,USDm,slides/2026-02-19__de-us-20260219-slide__603088.md,"reported quarter, per 8-K segment table: 2026-02-19__de-us-20260219-q1-8k__603009.md"
+de_op_bridge,2026-05-03,2026,2,SAT,opening_operating_profit,574,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"prior-year same quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"
+de_op_bridge,2026-05-03,2026,2,SAT,volume_mix,101,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,price,40,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,currency,27,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,warranty,-22,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,production_costs,2,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,sag_rd,-11,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,special_items,0,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,other,8,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,parse=prose_aligned
+de_op_bridge,2026-05-03,2026,2,SAT,closing_operating_profit,719,USDm,slides/2026-05-21__de-us-20260521-slide__1042212.md,"reported quarter, per 8-K segment table: 2026-05-21__de-us-20260521-q2-8k-2__1042168.md"

@@ -1,0 +1,700 @@
+[
+ {
+  "file": "2015-02-20__de-us-20150220-q1-10q__469211.md",
+  "published": "2015-02-20",
+  "period_labels": [
+   "January 31 2015",
+   "January 31 2015",
+   "January 31 2015",
+   "January 31 2015",
+   "January 31 2015",
+   "January 31 2015"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1234,
+    1164
+   ],
+   "warranty_fx": [
+    -24,
+    -6
+   ],
+   "warranty_ending_balance": [
+    1217,
+    1172
+   ]
+  }
+ },
+ {
+  "file": "2015-05-22__de-us-20150522-q2-10q__468391.md",
+  "published": "2015-05-22",
+  "period_labels": [
+   "April 30 2015",
+   "April 30 2015",
+   "April 30 2015",
+   "April 30 2015",
+   "April 30 2015",
+   "April 30 2015"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1217,
+    1172,
+    1234,
+    1164
+   ],
+   "warranty_fx": [
+    -5,
+    2,
+    -29,
+    -4
+   ],
+   "warranty_ending_balance": [
+    1242,
+    1196,
+    1242,
+    1196
+   ]
+  }
+ },
+ {
+  "file": "2015-08-21__de-us-20150821-q3-10q__469127.md",
+  "published": "2015-08-21",
+  "period_labels": [
+   "July 31 2015",
+   "July 31 2015",
+   "July 31 2015",
+   "July 31 2015",
+   "July 31 2015",
+   "July 31 2015"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1242,
+    1196,
+    1234,
+    1164
+   ],
+   "warranty_fx": [
+    -9,
+    -1,
+    -38,
+    -6
+   ],
+   "warranty_ending_balance": [
+    1246,
+    1183,
+    1246,
+    1183
+   ]
+  }
+ },
+ {
+  "file": "2016-02-19__de-us-20160219-q1-10q__469699.md",
+  "published": "2016-02-19",
+  "period_labels": [
+   "January 31 2016",
+   "January 31 2016",
+   "January 31 2016",
+   "January 31 2016",
+   "January 31 2016",
+   "January 31 2016"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1261,
+    1234
+   ],
+   "warranty_fx": [
+    -5,
+    -24
+   ],
+   "warranty_ending_balance": [
+    1239,
+    1217
+   ]
+  }
+ },
+ {
+  "file": "2016-05-20__de-us-20160520-q2-10q__469677.md",
+  "published": "2016-05-20",
+  "period_labels": [
+   "April 30 2016",
+   "April 30 2016",
+   "April 30 2016",
+   "April 30 2016",
+   "April 30 2016",
+   "April 30 2016"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1239,
+    1217,
+    1261,
+    1234
+   ],
+   "warranty_fx": [
+    15,
+    -5,
+    10,
+    -29
+   ],
+   "warranty_ending_balance": [
+    1235,
+    1242,
+    1235,
+    1242
+   ]
+  }
+ },
+ {
+  "file": "2016-08-19__de-us-20160819-q3-10q__469698.md",
+  "published": "2016-08-19",
+  "period_labels": [
+   "July 31 2016",
+   "July 31 2016",
+   "July 31 2016",
+   "July 31 2016",
+   "July 31 2016",
+   "July 31 2016"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1235,
+    1242,
+    1261,
+    1234
+   ],
+   "warranty_fx": [
+    -1,
+    -9,
+    9,
+    -38
+   ],
+   "warranty_ending_balance": [
+    1188,
+    1246,
+    1188,
+    1246
+   ]
+  }
+ },
+ {
+  "file": "2017-02-17__de-us-20170217-q1-10q__469116.md",
+  "published": "2017-02-17",
+  "period_labels": [
+   "January 29 2017",
+   "January 31 2016",
+   "January 29 2017",
+   "January 29 2017",
+   "January 29 2017",
+   "January 29 2017"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1226,
+    1261
+   ],
+   "warranty_fx": [
+    -5,
+    -5
+   ],
+   "warranty_ending_balance": [
+    1285,
+    1239
+   ]
+  }
+ },
+ {
+  "file": "2017-05-19__de-us-20170519-q2-10q__469480.md",
+  "published": "2017-05-19",
+  "period_labels": [
+   "April 30 2017",
+   "May 1 2016",
+   "April 30 2017",
+   "May 1 2016",
+   "April 30 2017",
+   "April 30 2017"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1285,
+    1239,
+    1226,
+    1261
+   ],
+   "warranty_fx": [
+    8,
+    15,
+    3,
+    10
+   ],
+   "warranty_ending_balance": [
+    1365,
+    1235,
+    1365,
+    1235
+   ]
+  }
+ },
+ {
+  "file": "2017-08-18__de-us-20170818-q3-10q__469477.md",
+  "published": "2017-08-18",
+  "period_labels": [
+   "July 30 2017",
+   "July 31 2016",
+   "July 30 2017",
+   "July 31 2016",
+   "July 30 2017",
+   "July 30 2017"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1365,
+    1235,
+    1226,
+    1261
+   ],
+   "warranty_fx": [
+    17,
+    -1,
+    20,
+    9
+   ],
+   "warranty_ending_balance": [
+    1438,
+    1188,
+    1438,
+    1188
+   ]
+  }
+ },
+ {
+  "file": "2018-02-16__de-us-20180216-q1-10q__469205.md",
+  "published": "2018-02-16",
+  "period_labels": [
+   "January 28 2018",
+   "January 29 2017",
+   "January 28 2018",
+   "January 28 2018",
+   "January 28 2018",
+   "January 28 2018"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1468,
+    1226
+   ],
+   "warranty_fx": [
+    20,
+    -5
+   ],
+   "warranty_ending_balance": [
+    1550,
+    1285
+   ]
+  }
+ },
+ {
+  "file": "2018-08-17__de-us-20180817-q3-10q__469474.md",
+  "published": "2018-08-17",
+  "period_labels": [
+   "July 29 2018",
+   "July 30 2017",
+   "July 29 2018",
+   "July 30 2017",
+   "July 29 2018",
+   "October 29 2017"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1591,
+    1365,
+    1468,
+    1226
+   ],
+   "warranty_fx": [
+    -21,
+    17,
+    -14,
+    20
+   ],
+   "warranty_ending_balance": [
+    1624,
+    1438,
+    1624,
+    1438
+   ]
+  }
+ },
+ {
+  "file": "2018-11-21__de-us-20181121-q4-10k__469201.md",
+  "published": "2018-11-21",
+  "period_labels": [
+   "October 28 2018",
+   "October 29 2017",
+   "October 28 2018",
+   "October 28 2018",
+   "October 28 2018",
+   "October 28 2018"
+  ],
+  "values": {
+   "warranty_fx": [
+    -20,
+    9
+   ]
+  }
+ },
+ {
+  "file": "2019-02-15__de-us-20190215-q1-10q__469204.md",
+  "published": "2019-02-15",
+  "period_labels": [
+   "January 27 2019",
+   "January 28 2018",
+   "January 27 2019",
+   "January 27 2019",
+   "January 27 2019",
+   "January 27 2019"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1652,
+    1468
+   ],
+   "warranty_fx": [
+    -1,
+    20
+   ],
+   "warranty_ending_balance": [
+    1687,
+    1550
+   ]
+  }
+ },
+ {
+  "file": "2019-05-17__de-us-20190517-q2-10q__469675.md",
+  "published": "2019-05-17",
+  "period_labels": [
+   "April 28 2019",
+   "April 29 2018",
+   "April 28 2019",
+   "April 29 2018",
+   "April 28 2019",
+   "April 28 2019"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1687,
+    1550,
+    1652,
+    1468
+   ],
+   "warranty_fx": [
+    -8,
+    -14,
+    -9,
+    7
+   ],
+   "warranty_ending_balance": [
+    1714,
+    1591,
+    1714,
+    1591
+   ]
+  }
+ },
+ {
+  "file": "2021-08-20__de-us-20210820-q3-10q__105837.md",
+  "published": "2021-08-20",
+  "period_labels": [
+   "August 1 2021",
+   "August 2 2020",
+   "August 1 2021",
+   "August 2 2020",
+   "August 1 2021",
+   "August 1 2021"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1876,
+    1767,
+    1743,
+    1800
+   ],
+   "warranty_fx": [
+    -2,
+    27,
+    18,
+    -9
+   ],
+   "warranty_ending_balance": [
+    1994,
+    1731,
+    1994,
+    1731
+   ]
+  }
+ },
+ {
+  "file": "2021-11-24__de-us-20211124-q4-10k__131650.md",
+  "published": "2021-11-24",
+  "period_labels": [
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021"
+  ],
+  "values": {
+   "warranty_fx": [
+    5,
+    -20
+   ]
+  }
+ },
+ {
+  "file": "2021-12-16__de-us-20211216-fy-10k__645298.md",
+  "published": "2021-12-16",
+  "period_labels": [
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021",
+   "October 31 2021"
+  ],
+  "values": {
+   "warranty_fx": [
+    5,
+    -20
+   ]
+  }
+ },
+ {
+  "file": "2025-02-13__de-us-20250213-q1-10q__105832.md",
+  "published": "2025-02-13",
+  "period_labels": [
+   "January 26 2025",
+   "January 28 2024",
+   "January 26 2025",
+   "January 26 2025",
+   "January 26 2025",
+   "January 26 2025"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1426,
+    1610
+   ],
+   "warranty_claims_paid": [
+    -310,
+    -309
+   ],
+   "warranty_new_accruals": [
+    256,
+    281
+   ],
+   "warranty_fx": [
+    -12,
+    7
+   ],
+   "warranty_ending_balance": [
+    1360,
+    1589
+   ]
+  }
+ },
+ {
+  "file": "2025-08-14__de-us-20250814-q3-10q__155834.md",
+  "published": "2025-08-14",
+  "period_labels": [
+   "July 27 2025",
+   "July 28 2024",
+   "July 27 2025",
+   "July 28 2024",
+   "July 27 2025",
+   "July 27 2025"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1297,
+    1566,
+    1426,
+    1610
+   ],
+   "warranty_claims_paid": [
+    -336,
+    -325,
+    -954,
+    -959
+   ],
+   "warranty_new_accruals": [
+    303,
+    280,
+    786,
+    871
+   ],
+   "warranty_fx": [
+    9,
+    -8,
+    15,
+    -9
+   ],
+   "warranty_ending_balance": [
+    1273,
+    1513,
+    1273,
+    1513
+   ]
+  }
+ },
+ {
+  "file": "2025-12-18__de-us-20251218-fy-10k__393777.md",
+  "published": "2025-12-18",
+  "period_labels": [
+   "November 2 2025",
+   "November 2 2025",
+   "November 2 2025",
+   "November 2 2025",
+   "November 2 2025",
+   "November 2 2025"
+  ],
+  "values": {
+   "warranty_claims_paid": [
+    -1330,
+    -1327
+   ],
+   "warranty_new_accruals": [
+    1148,
+    1157
+   ],
+   "warranty_fx": [
+    15,
+    -14
+   ]
+  }
+ },
+ {
+  "file": "2026-02-26__de-us-20260226-q1-10q__636995.md",
+  "published": "2026-02-26",
+  "period_labels": [
+   "February 1 2026",
+   "February 1 2026",
+   "February 1 2026",
+   "February 1 2026",
+   "February 1 2026",
+   "February 1 2026"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1259,
+    1426
+   ],
+   "warranty_claims_paid": [
+    -299,
+    -310
+   ],
+   "warranty_new_accruals": [
+    342,
+    256
+   ],
+   "warranty_fx": [
+    9,
+    -12
+   ],
+   "warranty_ending_balance": [
+    1311,
+    1360
+   ]
+  }
+ },
+ {
+  "file": "2026-05-21__de-us-20260521-q2-10q__1055929.md",
+  "published": "2026-05-21",
+  "period_labels": [
+   "May 3 2026",
+   "April 27 2025",
+   "May 3 2026",
+   "April 27 2025",
+   "May 3 2026",
+   "May 3 2026"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1311,
+    1360,
+    1259,
+    1426
+   ],
+   "warranty_claims_paid": [
+    -294,
+    -308,
+    -593,
+    -618
+   ],
+   "warranty_new_accruals": [
+    318,
+    227,
+    660,
+    483
+   ],
+   "warranty_fx": [
+    1,
+    18,
+    10,
+    6
+   ],
+   "warranty_ending_balance": [
+    1336,
+    1297,
+    1336,
+    1297
+   ]
+  }
+ },
+ {
+  "file": "2026-05-28__de-us-20260528-q2-10q__1055932.md",
+  "published": "2026-05-28",
+  "period_labels": [
+   "May 3 2026",
+   "May 3 2026",
+   "May 3 2026",
+   "May 3 2026",
+   "May 3 2026",
+   "May 3 2026"
+  ],
+  "values": {
+   "warranty_beginning_balance": [
+    1311,
+    1360,
+    1259,
+    1426
+   ],
+   "warranty_claims_paid": [
+    -294,
+    -308,
+    -593,
+    -618
+   ],
+   "warranty_new_accruals": [
+    318,
+    227,
+    660,
+    483
+   ],
+   "warranty_fx": [
+    1,
+    18,
+    10,
+    6
+   ],
+   "warranty_ending_balance": [
+    1336,
+    1297,
+    1336,
+    1297
+   ]
+  }
+ }
+]

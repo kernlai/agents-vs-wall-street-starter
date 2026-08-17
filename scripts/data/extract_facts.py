@@ -1,0 +1,53 @@
+import re,os,json,sys,csv
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from rfile_parse import parse_rfile,num
+SC="/private/tmp/claude-501/-Users-cor/c1ddf24f-b1cc-482f-9e47-45cae42bbce1/scratchpad"
+man=json.load(open(os.path.join(SC,'manifest2.json')))
+MON={'Jan':1,'Feb':2,'Mar':3,'Apr':4,'May':5,'Jun':6,'Jul':7,'Aug':8,'Sep':9,'Oct':10,'Nov':11,'Dec':12}
+def parse_date(s):
+    m=re.search(r'([A-Z][a-z]{2})\.?\s+(\d{1,2}),\s+(\d{4})',s)
+    if not m: return None
+    return "%04d-%02d-%02d"%(int(m.group(3)),MON[m.group(1)],int(m.group(2)))
+WANT=re.compile(r'(Wholesale Receivables|Retail Notes.*Credit Quality|Customer Receivables Age|Retail Customer Receivables Age|Past Due Age Analysis|Financing Receivables Past Due|Allowance for Credit Losses|Write-offs by Year|^(?:FINANCING )?RECEIVABLES \(Details)',re.I)
+out=[]
+for pe,info in man.items():
+    for name,fn in info['reports']:
+        if '(Tables)' in name: continue
+        if not WANT.search(name): continue
+        path=os.path.join(SC,'rfiles',f"{pe}_{fn}")
+        if not os.path.exists(path): continue
+        _,_,rows=parse_rfile(path)
+        if not rows: continue
+        # build column dates from first 1-2 header rows
+        hdr=rows[0]; dates=[parse_date(c) for c in hdr[1:]]
+        durations=[c for c in hdr[1:]]
+        if any(d is None for d in dates) and len(rows)>1:
+            h2=rows[1]
+            d2=[parse_date(c) for c in h2]
+            # header spans: row0 has duration labels, row1 has dates
+            if sum(1 for d in d2 if d)>sum(1 for d in dates if d):
+                dates=d2; durations=[hdr[1:][min(i,len(hdr)-2)] if len(hdr)>1 else '' for i in range(len(d2))]
+                body=rows[2:]
+            else: body=rows[1:]
+        else: body=rows[1:]
+        ctx=''; sub=''
+        ABST=re.compile(r'^(Credit Quality|Age Analysis|Age Credit|Allowance:?$|Allowance for|Financing receivables:|Financing Receivable|Write-offs for|Troubled|Impaired)',re.I)
+        for r in body:
+            if not r: continue
+            lab=r[0]
+            vals=r[1:]
+            nz=[v for v in vals if v.strip()!='']
+            if not nz:
+                if ABST.match(lab): sub=lab
+                else: ctx=lab
+                continue
+            for i,v in enumerate(vals):
+                x=num(v)
+                if x is None: continue
+                d=dates[i] if i<len(dates) else None
+                dur=durations[i] if i<len(durations) else ''
+                out.append(dict(filing_period=pe,form=info['form'],report=name,rfile=fn,
+                                context=ctx,sub=sub,row=lab,col_index=i,col_date=d,col_dur=dur,value=x))
+with open(os.path.join(SC,'facts.csv'),'w',newline='') as f:
+    w=csv.DictWriter(f,fieldnames=list(out[0].keys())); w.writeheader(); w.writerows(out)
+print(len(out))

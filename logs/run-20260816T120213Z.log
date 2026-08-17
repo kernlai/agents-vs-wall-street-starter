@@ -1,0 +1,82 @@
+12:02:13Z  === Agents vs Wall Street — final run 20260816T120213Z ===
+12:02:13Z  commit:  cb4725997e8764d1fa577e830de2c80654fde239
+12:02:13Z  branch:  main
+12:02:13Z  dirty:   yes
+12:02:13Z  python:  Python 3.12.4
+12:02:13Z  node:    v24.4.1
+12:02:13Z  
+12:02:13Z  --- stage 1/3: validate forecasts ---
+12:02:13Z  
+12:02:13Z    forecast validation
+12:02:13Z    ----------------------------------------------------------------------------------------------------
+12:02:13Z    [warn ] ADI/Adjusted diluted EPS
+12:02:13Z            Adjusted diluted EPS: 3.4 is +66% vs prior-year 2.05. Large but possible — make sure this is intended.
+12:02:13Z    [warn ] ADI/Revenue
+12:02:13Z            Revenue: 3,970 is +38% vs prior-year 2,880. Large but possible — make sure this is intended.
+12:02:13Z    [warn ] HD/Comparable sales, total comp
+12:02:13Z            Comparable sales, total company: 0.5 is -50% vs prior-year 1. Large but possible — make sure this is intended.
+12:02:13Z    ----------------------------------------------------------------------------------------------------
+12:02:13Z    12/12 forecasts present · 0 errors · 3 warnings
+12:02:13Z  
+12:02:13Z  (warnings only — continuing)
+12:02:13Z  
+12:02:13Z  --- stage 2/3: write workbooks ---
+12:02:13Z  
+12:02:13Z    writing submission workbooks
+12:02:13Z    ------------------------------------------------------------------------------
+12:02:13Z  
+12:02:13Z    Home Depot  (HD · FY2026Q2)   OK
+12:02:13Z        header row 6
+12:02:13Z        C7 = 4.755e+04   (Net sales)
+12:02:13Z        C8 = 4.71   (Adjusted diluted EPS)
+12:02:13Z        C9 = 0.5   (Comparable sales, total company)
+12:02:13Z        wrote submission/HD-FY2026Q2.xlsx
+12:02:13Z  
+12:02:13Z    Analog Devices  (ADI · FY2026Q3)   OK
+12:02:13Z        header row 6
+12:02:13Z        C7 = 3,970   (Revenue)
+12:02:13Z        C8 = 3.4   (Adjusted diluted EPS)
+12:02:13Z        C9 = 72.7   (Adjusted gross margin)
+12:02:13Z        wrote submission/ADI-FY2026Q3.xlsx
+12:02:13Z  
+12:02:13Z    Hays plc  (HAS · FY2026)   OK
+12:02:13Z        header row 6
+12:02:13Z        C7 = 903.5   (Net fees)
+12:02:13Z        C8 = 1.14   (Pre-exceptional basic EPS)
+12:02:13Z        C9 = 46.2   (Pre-exceptional operating profit)
+12:02:13Z        wrote submission/HAS-FY2026.xlsx
+12:02:13Z  
+12:02:13Z    Deere & Company  (DE · FY2026Q3)   OK
+12:02:13Z        header row 6
+12:02:13Z        C7 = 1.24e+04   (Worldwide net sales and revenues)
+12:02:13Z        C8 = 4.55   (Diluted EPS (GAAP))
+12:02:13Z        C9 = 450   (Production & Precision Ag operating profit)
+12:02:13Z        wrote submission/DE-FY2026Q3.xlsx
+12:02:13Z  
+12:02:13Z    ------------------------------------------------------------------------------
+12:02:13Z    all four workbooks ready
+12:02:13Z  
+12:02:13Z  
+12:02:13Z  --- stage 3/3: organisers' checks ---
+12:02:13Z  FAIL entry.json: agentName is required
+12:02:13Z  FAIL entry.json: oneLineDescription is required
+12:02:13Z  FAIL entry.json: teamMembers[0].name is required
+12:02:13Z  FAIL entry.json: technicalSetup.humanInputDuringFinalRun is required
+12:02:13Z  FAIL entry.json: submission.repositoryUrl is required
+12:02:13Z  FAIL entry.json: submission.finalCommit is required
+12:02:13Z  FAIL entry.json: submission.finalCommand is required
+12:02:13Z  FAIL entry.json: emailUseConfirmed must be true after every team member agrees
+12:02:13Z  
+12:02:13Z  Complete the entry details before final submission.
+12:02:13Z  
+12:02:13Z  === summary ===
+12:02:13Z  validate: warnings
+12:02:13Z  write:    all four
+12:02:13Z  check:    FAIL
+12:02:13Z  -rw-r--r--  1 cor  staff  6048 Aug 16 13:02 submission/ADI-FY2026Q3.xlsx
+12:02:13Z  -rw-r--r--  1 cor  staff  6077 Aug 16 13:02 submission/DE-FY2026Q3.xlsx
+12:02:13Z  -rw-r--r--  1 cor  staff  5999 Aug 16 13:02 submission/HAS-FY2026.xlsx
+12:02:13Z  -rw-r--r--  1 cor  staff  6051 Aug 16 13:02 submission/HD-FY2026Q2.xlsx
+12:02:13Z  
+12:02:13Z  log written to logs/run-20260816T120213Z.log
+12:02:13Z  NOT READY

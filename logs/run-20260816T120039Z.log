@@ -1,0 +1,25 @@
+12:00:39Z  === Agents vs Wall Street — final run 20260816T120039Z ===
+12:00:39Z  commit:  cb4725997e8764d1fa577e830de2c80654fde239
+12:00:39Z  branch:  main
+12:00:39Z  dirty:   yes
+12:00:39Z  python:  Python 3.12.4
+12:00:39Z  node:    v24.4.1
+12:00:39Z  
+12:00:39Z  --- stage 1/3: validate forecasts ---
+12:00:39Z  
+12:00:39Z    forecast validation
+12:00:39Z    ----------------------------------------------------------------------------------------------------
+12:00:39Z    [ERROR] ADI/Adjusted diluted EPS
+12:00:39Z            Adjusted diluted EPS: 3.4 is +66% vs prior-year 2.05. Check for a scale error (thousands/millions, or a 10x slip).
+12:00:39Z    [ERROR] HD/Comparable sales, total comp
+12:00:39Z            Comparable sales, total company: 0.5 looks like a FRACTION. Percentages go in as points — 4.5 means 4.5%, not 0.045.
+12:00:39Z    [warn ] ADI/Revenue
+12:00:39Z            Revenue: 3,970 is +38% vs prior-year 2,880. Large but possible — make sure this is intended.
+12:00:39Z    [warn ] HD/Comparable sales, total comp
+12:00:39Z            Comparable sales, total company: 0.5 is -50% vs prior-year 1. Large but possible — make sure this is intended.
+12:00:39Z    ----------------------------------------------------------------------------------------------------
+12:00:39Z    12/12 forecasts present · 2 errors · 2 warnings
+12:00:39Z  
+12:00:39Z  
+12:00:39Z  ABORTED: validation errors. No workbooks written.
+12:00:39Z  Every blocked metric would otherwise score 5.0 — the same as submitting nothing.

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0",
+  "company": {
+    "id": "ADI",
+    "name": "Analog Devices, Inc.",
+    "ticker": "ADI",
+    "currency": "USD",
+    "fiscalCalendar": "Fiscal quarters use ADI's 52/53-week reporting calendar; FY2026Q2 ended 2026-05-02."
+  },
+  "informationCutoff": "2026-08-16T17:15:00+01:00",
+  "sources": [
+    {
+      "id": "adi-fy2026q2-earnings-release",
+      "publisher": "Analog Devices, Inc.",
+      "title": "Fiscal Second Quarter Financial Results and Third Quarter Outlook",
+      "documentType": "SEC_filed_earnings_release",
+      "publishedAt": "2026-05-20",
+      "url": "https://www.sec.gov/Archives/edgar/data/6281/000000628126000050/adi2q26exhibit991earnings.htm",
+      "localPath": "challenge/offline-data/analog-devices/filings/2026-05-20__adi-us-20260520-q2-8k__1040581.md",
+      "sha256": "9211a6356359da9588277f283b25b55b2a15e5ba6dde6f69e91934f701db5db8"
+    }
+  ],
+  "profile": {
+    "businessModel": [
+      {
+        "claim": "ADI is a global semiconductor company combining analog, digital, AI and software technologies for intelligent-edge applications.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "productsAndCustomers": [
+      {
+        "claim": "ADI sells sensing, signal-chain, power, connectivity and related semiconductor solutions into industrial, automotive, communications and consumer markets.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "segmentsAndGeographies": [
+      {
+        "claim": "The release identifies Industrial, Automotive and Communications as B2B end markets and describes ADI as a global semiconductor leader.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "fiscalCalendar": [
+      {
+        "claim": "Fiscal second quarter 2026 ended on 2026-05-02; the requested forecast period is the following fiscal quarter.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "revenueAndCostDrivers": [
+      {
+        "claim": "Management links the Q3 revenue outlook to growing demand and record bookings across Industrial, Automotive and Communications.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "accountingDefinitions": [
+      {
+        "claim": "The release separates reported and adjusted measures and defines adjusted gross margin and adjusted diluted EPS as non-GAAP measures.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "guidanceStyle": [
+      {
+        "claim": "ADI gives Q3 revenue as a point estimate with a plus-or-minus range and gives EPS and margin outlooks on stated reported or adjusted bases.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "cyclicalityAndSeasonality": [
+      {
+        "claim": "ADI identifies semiconductor demand, market conditions and business cycles as factors that can change actual results.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ],
+    "externalExposures": [
+      {
+        "claim": "The filing identifies tariffs, trade restrictions, geopolitics, demand conditions and supply-chain disruptions as external risks.",
+        "sourceIds": ["adi-fy2026q2-earnings-release"]
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "id": "ADI_REVENUE_FY2026Q3",
+      "name": "Revenue",
+      "units": "USDm",
+      "targetPeriod": "FY2026Q3",
+      "accountingBasis": "reported"
+    }
+  ],
+  "signalMap": [
+    {
+      "id": "adi_revenue_guidance",
+      "signal": "Management revenue guidance",
+      "targetMetric": "ADI_REVENUE_FY2026Q3",
+      "role": "anchor",
+      "hypothesis": "The latest filed Q3 revenue outlook is the strongest direct starting range.",
+      "expectedDirection": "range",
+      "targetPeriod": "FY2026Q3",
+      "units": "USDm",
+      "importance": "primary",
+      "resolver": "extract_management_guidance",
+      "evidenceRequired": ["latest filed earnings release"],
+      "combinationMethod": "forecast_starting_range",
+      "freshnessRequirement": "latest available guidance before cutoff",
+      "correlationGroup": "management_guidance",
+      "status": "pending"
+    },
+    {
+      "id": "adi_b2b_bookings",
+      "signal": "B2B bookings commentary",
+      "targetMetric": "ADI_REVENUE_FY2026Q3",
+      "role": "modifier",
+      "hypothesis": "Current bookings commentary helps judge where results may fall inside guidance but has no calibrated standalone weight.",
+      "expectedDirection": "up",
+      "targetPeriod": "FY2026Q3",
+      "units": "qualitative",
+      "importance": "secondary",
+      "resolver": "resolve_qualitative_modifier",
+      "evidenceRequired": ["current bookings commentary"],
+      "combinationMethod": "range_selection_context",
+      "freshnessRequirement": "latest available commentary before cutoff",
+      "correlationGroup": "b2b_demand",
+      "status": "pending"
+    },
+    {
+      "id": "adi_q3_demand_outlook",
+      "signal": "Q3 demand outlook commentary",
+      "targetMetric": "ADI_REVENUE_FY2026Q3",
+      "role": "modifier",
+      "hypothesis": "Management's target-period demand view contextualizes the revenue range without creating false precision.",
+      "expectedDirection": "up",
+      "targetPeriod": "FY2026Q3",
+      "units": "qualitative",
+      "importance": "secondary",
+      "resolver": "resolve_qualitative_modifier",
+      "evidenceRequired": ["current target-period demand outlook"],
+      "combinationMethod": "range_selection_context",
+      "freshnessRequirement": "latest available commentary before cutoff",
+      "correlationGroup": "b2b_demand",
+      "status": "pending"
+    },
+    {
+      "id": "adi_tariff_exposure",
+      "signal": "Target-period tariff exposure",
+      "targetMetric": "ADI_REVENUE_FY2026Q3",
+      "role": "scenario_trigger",
+      "hypothesis": "A tariff should create a numeric scenario only when enactment timing and revenue exposure are both quantified.",
+      "expectedDirection": "down",
+      "targetPeriod": "FY2026Q3",
+      "units": "USDm",
+      "importance": "secondary",
+      "resolver": "resolve_scenario_trigger",
+      "evidenceRequired": ["effective tariff terms", "target-period revenue exposure"],
+      "combinationMethod": "conditional_additive_scenario",
+      "freshnessRequirement": "effective during FY2026Q3",
+      "correlationGroup": "tariff_exposure",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "BACKTEST · Deere FY2025 Q3 — our seasonality method, run point-in-time from Q2 FY2025",
+  "_method": "Q3 revenue = 0.942 (12y median Q3/Q2 ratio) x Q2 FY2025 actual 12,763. No Q3 FY2025 information used.",
+  "_benchmark_note": "Historical sell-side consensus for Q3 FY2025 NOT YET SOURCED. Misses are real; scores are not computable until a benchmark is supplied.",
+  "metrics": [
+    { "label": "Worldwide net sales and revenues", "units": "USDm", "forecast": 12023, "reported": 12018, "benchmark": null },
+    { "label": "Diluted EPS (GAAP)", "units": "USD / share", "forecast": null, "reported": 4.75, "benchmark": null },
+    { "label": "Production & Precision Ag operating profit", "units": "USDm", "forecast": null, "reported": 580, "benchmark": null }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_comment": "Prior-year actuals for the SAME fiscal quarter, used as the range-check baseline. A metric with no prior FAILS validation rather than passing unchecked. Populated tickers have been verified against filings; empty ones are an open gap.",
+  "DE": {
+    "_source": "Q3 FY2025 8-K, 15 Aug 2025 (quarter ended 27 Jul 2025)",
+    "Worldwide net sales and revenues": 12018,
+    "Diluted EPS (GAAP)": 4.75,
+    "Production & Precision Ag operating profit": 580,
+    "_ppa_net_sales_estimate": 3900
+  },
+  "HD": {
+    "_source": "Q2 FY2025 8-K",
+    "Net sales": 45277,
+    "Adjusted diluted EPS": 4.68,
+    "Comparable sales, total company": 1.0
+  },
+  "ADI": {
+    "_source": "Q3 FY2025 results",
+    "Revenue": 2880,
+    "Adjusted diluted EPS": 2.05,
+    "Adjusted gross margin": 69.2
+  },
+  "HAS": {
+    "_source": "FY2025 annual results",
+    "Net fees": 972.4,
+    "Pre-exceptional basic EPS": 1.31,
+    "Pre-exceptional operating profit": 45.6
+  }
+}

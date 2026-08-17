@@ -1,0 +1,3582 @@
+{
+ "rows": [
+  {
+   "fy": 2014,
+   "q": 1,
+   "key": "FS_op",
+   "value": 182,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 1,
+   "key": "NI",
+   "value": 681,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 7654,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 2,
+   "key": "FS_op",
+   "value": 229,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 2,
+   "key": "NI",
+   "value": 981,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 9948,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 3,
+   "key": "FS_op",
+   "value": 249,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 3,
+   "key": "NI",
+   "value": 851,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 9500,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 4,
+   "key": "FS_op",
+   "value": 261,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 4,
+   "key": "NI",
+   "value": 649,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2014,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 8965,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 1,
+   "key": "FS_op",
+   "value": 233,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 current",
+    "2016-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 1,
+   "key": "NI",
+   "value": 387,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 current",
+    "2016-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 6383,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-02-20 current",
+    "2016-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 2,
+   "key": "FS_op",
+   "value": 265,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 current",
+    "2016-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 2,
+   "key": "NI",
+   "value": 690,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 current",
+    "2016-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 8171,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-05-22 current",
+    "2016-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 3,
+   "key": "FS_op",
+   "value": 239,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 current",
+    "2016-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 3,
+   "key": "NI",
+   "value": 512,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 current",
+    "2016-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 7594,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-08-21 current",
+    "2016-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 4,
+   "key": "FS_op",
+   "value": 226,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 current",
+    "2016-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 4,
+   "key": "NI",
+   "value": 351,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 current",
+    "2016-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2015,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 6715,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2015-11-25 current",
+    "2016-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 1,
+   "key": "FS_op",
+   "value": 194,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-02-19 current",
+    "2017-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 1,
+   "key": "NI",
+   "value": 254,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-02-19 current",
+    "2017-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 5525,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-02-19 current",
+    "2017-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 2,
+   "key": "FS_op",
+   "value": 160,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-05-20 current",
+    "2017-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 2,
+   "key": "NI",
+   "value": 495,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-05-20 current",
+    "2017-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 7875,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-05-20 current",
+    "2017-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 3,
+   "key": "FS_op",
+   "value": 191,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-08-19 current",
+    "2017-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 3,
+   "key": "NI",
+   "value": 489,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-08-19 current",
+    "2017-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 6724,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2016-08-19 current",
+    "2017-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 4,
+   "key": "FS_op",
+   "value": 164,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2016-11-23 current"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 4,
+   "key": "NI",
+   "value": 285,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2016-11-23 current"
+   ]
+  },
+  {
+   "fy": 2016,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 6520,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2016-11-23 current"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 1,
+   "key": "FS_op",
+   "value": 167,
+   "n_sources": 2,
+   "conflict": true,
+   "sources": [
+    "2017-02-17 current",
+    "2018-02-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 1,
+   "key": "NI",
+   "value": 194,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2017-02-17 current"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 5625,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2017-02-17 current",
+    "2018-02-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 2,
+   "key": "FS_op",
+   "value": 158,
+   "n_sources": 2,
+   "conflict": true,
+   "sources": [
+    "2017-05-19 current",
+    "2018-05-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 2,
+   "key": "NI",
+   "value": 802,
+   "n_sources": 2,
+   "conflict": true,
+   "sources": [
+    "2017-05-19 current",
+    "2018-05-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 8287,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2017-05-19 current",
+    "2018-05-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 3,
+   "key": "FS_op",
+   "value": 198,
+   "n_sources": 2,
+   "conflict": true,
+   "sources": [
+    "2017-08-18 current",
+    "2018-08-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 3,
+   "key": "NI",
+   "value": 642,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2017-08-18 current",
+    "2018-08-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 7808,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2017-08-18 current",
+    "2018-08-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 1,
+   "key": "FS_op",
+   "value": 217,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-02-16 current",
+    "2019-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 6913,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-02-16 current",
+    "2019-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 2,
+   "key": "FS_op",
+   "value": 179,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-05-18 current",
+    "2019-05-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 2,
+   "key": "NI",
+   "value": 1208,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-05-18 current",
+    "2019-05-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 10720,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-05-18 current",
+    "2019-05-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 3,
+   "key": "FS_op",
+   "value": 196,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-08-17 current",
+    "2019-08-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 3,
+   "key": "NI",
+   "value": 910,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-08-17 current",
+    "2019-08-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 10308,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2018-08-17 current",
+    "2019-08-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 4,
+   "key": "FS_op",
+   "value": 201,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 4,
+   "key": "NI",
+   "value": 785,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 prior-year"
+   ]
+  },
+  {
+   "fy": 2018,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 9416,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 1,
+   "key": "FS_op",
+   "value": 192,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-02-15 current",
+    "2020-02-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 1,
+   "key": "NI",
+   "value": 498,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2020-02-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 7984,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-02-15 current",
+    "2020-02-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 2,
+   "key": "FS_op",
+   "value": 170,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-05-17 current",
+    "2020-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 2,
+   "key": "NI",
+   "value": 1135,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-05-17 current",
+    "2020-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 11342,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-05-17 current",
+    "2020-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 3,
+   "key": "FS_op",
+   "value": 204,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-08-16 current",
+    "2020-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 3,
+   "key": "NI",
+   "value": 899,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-08-16 current",
+    "2020-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 10036,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-08-16 current",
+    "2020-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 4,
+   "key": "FS_op",
+   "value": 128,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 current",
+    "2020-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 4,
+   "key": "NI",
+   "value": 722,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 current",
+    "2020-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2019,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 9896,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2019-11-27 current",
+    "2020-11-25 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "CF_op",
+   "value": 93,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "FS_op",
+   "value": 179,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-02-21 current",
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "NI",
+   "value": 517,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-02-21 current",
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 218,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 155,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 7631,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-02-21 current",
+    "2021-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "CF_op",
+   "value": 96,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 2256,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "FS_op",
+   "value": 75,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-05-21 current",
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "NI",
+   "value": 666,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-05-21 current",
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 568,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 3365,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 226,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 2603,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 9253,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-05-21 current",
+    "2021-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "CF_op",
+   "value": 205,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 2187,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "FS_op",
+   "value": 243,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-08-20 current",
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "NI",
+   "value": 811,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-08-20 current",
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 605,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 3289,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 337,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 2383,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 8925,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-08-20 current",
+    "2021-08-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "CF_op",
+   "value": 196,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 2461,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "FS_op",
+   "value": 249,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-11-25 current",
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "NI",
+   "value": 757,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-11-25 current",
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 578,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 3801,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 282,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 2397,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2020,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 9731,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2020-11-25 current",
+    "2021-11-24 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "CF_op",
+   "value": 268,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 2467,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "FS_op",
+   "value": 258,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "NI",
+   "value": 1224,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 643,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 3069,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 469,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 2515,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 9112,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-02-19 current",
+    "2022-02-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "CF_op",
+   "value": 489,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 3079,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "FS_op",
+   "value": 295,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "NI",
+   "value": 1790,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 1007,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 4529,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 648,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 3390,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 12058,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-05-21 current",
+    "2022-05-20 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "CF_op",
+   "value": 463,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 3016,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "FS_op",
+   "value": 291,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "NI",
+   "value": 1667,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 906,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 4250,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 583,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 3147,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 11527,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-08-20 current",
+    "2022-08-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "CF_op",
+   "value": 270,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 2806,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "FS_op",
+   "value": 299,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "NI",
+   "value": 1283,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 777,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 4661,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 346,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 2809,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2021,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 11327,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2021-11-24 current",
+    "2022-11-23 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "CF_op",
+   "value": 272,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 2544,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "FS_op",
+   "value": 296,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "NI",
+   "value": 903,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 296,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 3356,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 371,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 2631,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 9569,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-02-18 current",
+    "2023-02-17 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "CF_op",
+   "value": 814,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current",
+    "2023-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 3347,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "FS_op",
+   "value": 279,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current",
+    "2023-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "NI",
+   "value": 2098,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current",
+    "2023-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 1057,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current",
+    "2023-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 5117,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 520,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current",
+    "2023-05-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 3570,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 13370,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-05-20 current"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "CF_op",
+   "value": 514,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 3269,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "FS_op",
+   "value": 287,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "NI",
+   "value": 1884,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 1293,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 6096,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 552,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 3635,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 14102,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-08-19 current",
+    "2023-08-18 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "CF_op",
+   "value": 414,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 3373,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "FS_op",
+   "value": 297,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "NI",
+   "value": 2246,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 1740,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 7434,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 506,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 3544,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2022,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 15536,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2022-11-23 current",
+    "2023-11-22 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "CF_op",
+   "value": 625,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 3203,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "FS_op",
+   "value": 238,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "NI",
+   "value": 1959,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 1208,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 5198,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 447,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 3001,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 12652,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-02-17 current",
+    "2024-02-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "CF_op",
+   "value": 838,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-05-19 current",
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 4112,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "FS_op",
+   "value": 41,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-05-19 current",
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "NI",
+   "value": 2860,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-05-19 current",
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 2170,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-05-19 current",
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 7822,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 849,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-05-19 current",
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 4145,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 17387,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "CF_op",
+   "value": 716,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 3739,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "FS_op",
+   "value": 286,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "NI",
+   "value": 2978,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 1782,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 6806,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 732,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 3739,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 15801,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-08-18 current",
+    "2024-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "CF_op",
+   "value": 516,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 3742,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "FS_op",
+   "value": 229,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "NI",
+   "value": 2369,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 1836,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 6965,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 444,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 3094,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2023,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 15412,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2023-11-22 current",
+    "2024-11-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "CF_op",
+   "value": 566,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 3212,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "FS_op",
+   "value": 257,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "NI",
+   "value": 1751,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 1045,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 4849,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 326,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 2425,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 12185,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-02-15 current",
+    "2025-02-13 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "CF_op",
+   "value": 668,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 3844,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "FS_op",
+   "value": 209,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "NI",
+   "value": 2370,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 1650,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 6581,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 571,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 3185,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 15235,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-05-16 current",
+    "2025-05-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "CF_op",
+   "value": 448,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 3235,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "FS_op",
+   "value": 191,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "NI",
+   "value": 1734,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 1162,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 5099,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 496,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 3053,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 13152,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-08-15 current",
+    "2025-08-15 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "CF_op",
+   "value": 328,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 2664,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "FS_op",
+   "value": 231,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "NI",
+   "value": 1245,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 657,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 4305,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 234,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 2306,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2024,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 11143,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2024-11-21 current",
+    "2025-11-26 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "CF_op",
+   "value": 65,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 1994,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "FS_op",
+   "value": 266,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "NI",
+   "value": 869,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 338,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 3067,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 124,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 1748,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 8508,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2025-02-13 current",
+    "2026-02-19 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "CF_op",
+   "value": 379,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 2947,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "FS_op",
+   "value": 207,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "NI",
+   "value": 1804,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 1148,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 5230,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 574,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 2994,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 12763,
+   "n_sources": 3,
+   "conflict": false,
+   "sources": [
+    "2025-05-15 current",
+    "2026-05-21 prior-year",
+    "2026-05-21 prior-year"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "CF_op",
+   "value": 237,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "CF_sales",
+   "value": 3059,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "FS_op",
+   "value": 266,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "NI",
+   "value": 1289,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "PPA_op",
+   "value": 580,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "PPA_sales",
+   "value": 4273,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "SAT_op",
+   "value": 485,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "SAT_sales",
+   "value": 3025,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 3,
+   "key": "TOTAL_rev",
+   "value": 12018,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-08-15 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "CF_op",
+   "value": 348,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "CF_sales",
+   "value": 3382,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "FS_op",
+   "value": 374,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "NI",
+   "value": 1065,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "PPA_op",
+   "value": 604,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "PPA_sales",
+   "value": 4740,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "SAT_op",
+   "value": 25,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "SAT_sales",
+   "value": 2457,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2025,
+   "q": 4,
+   "key": "TOTAL_rev",
+   "value": 12394,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2025-11-26 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "CF_op",
+   "value": 137,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "CF_sales",
+   "value": 2670,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "FS_op",
+   "value": 301,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "NI",
+   "value": 656,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "PPA_op",
+   "value": 139,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "PPA_sales",
+   "value": 3163,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "SAT_op",
+   "value": 196,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "SAT_sales",
+   "value": 2168,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 1,
+   "key": "TOTAL_rev",
+   "value": 9611,
+   "n_sources": 1,
+   "conflict": false,
+   "sources": [
+    "2026-02-19 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "CF_op",
+   "value": 561,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "CF_sales",
+   "value": 3790,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "FS_op",
+   "value": 251,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "NI",
+   "value": 1773,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "PPA_op",
+   "value": 706,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "PPA_sales",
+   "value": 4503,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "SAT_op",
+   "value": 719,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "SAT_sales",
+   "value": 3485,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  },
+  {
+   "fy": 2026,
+   "q": 2,
+   "key": "TOTAL_rev",
+   "value": 13369,
+   "n_sources": 2,
+   "conflict": false,
+   "sources": [
+    "2026-05-21 current",
+    "2026-05-21 current"
+   ]
+  }
+ ],
+ "conflicts": [
+  {
+   "fy": 2017,
+   "q": 1,
+   "key": "FS_op",
+   "values": [
+    [
+     169,
+     "2017-02-17 current"
+    ],
+    [
+     167,
+     "2018-02-16 prior-year"
+    ]
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 2,
+   "key": "FS_op",
+   "values": [
+    [
+     160,
+     "2017-05-19 current"
+    ],
+    [
+     158,
+     "2018-05-18 prior-year"
+    ]
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 2,
+   "key": "NI",
+   "values": [
+    [
+     802,
+     "2017-05-19 current"
+    ],
+    [
+     808,
+     "2018-05-18 prior-year"
+    ]
+   ]
+  },
+  {
+   "fy": 2017,
+   "q": 3,
+   "key": "FS_op",
+   "values": [
+    [
+     200,
+     "2017-08-18 current"
+    ],
+    [
+     198,
+     "2018-08-17 prior-year"
+    ]
+   ]
+  }
+ ]
+}

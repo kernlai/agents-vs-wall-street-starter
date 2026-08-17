@@ -1,0 +1,24 @@
+{
+  "name": "centurion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Centurion — file-based forecasting-agent workspace demo",
+  "scripts": {
+    "setup": "npm install && npm --prefix web install && npm run seed",
+    "seed": "node server/seed.js",
+    "reset": "node server/seed.js --force",
+    "server": "node --watch server/index.js",
+    "sim": "node server/simulator.js",
+    "web": "npm --prefix web run dev",
+    "dev": "concurrently -k -n server,sim,web -c green,yellow,cyan \"npm run server\" \"npm run sim\" \"npm run web\""
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

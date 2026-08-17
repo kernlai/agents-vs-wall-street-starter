@@ -8,6 +8,13 @@ The repository includes a frozen historical corpus of 1,139 filings, call-transc
 
 Your agent should be able to do the research, make the financial judgements and produce completed OpenStocks workbooks with as little manual help as possible.
 
+Install both dependency sets after cloning:
+
+```bash
+npm install
+python3 -m pip install -r requirements.txt
+```
+
 ## What the day is for
 
 1. **Build something real.** Create a repeatable agent that researches companies, makes financial judgements and produces completed forecast workbooks.
@@ -67,6 +74,80 @@ less research/HD.md
 ```
 
 Use `HD`, `ADI`, `HAS` or `DE` for the four challenge companies. The output contains search leads rather than verified financial history, so check each figure in its cited document. Read [starter/README.md](starter/README.md) for narrower searches and testing instructions.
+
+## Evidence-to-forecast example
+
+The first compiler slice turns a source-backed company profile and metric-specific signal map into a deterministic forecast receipt. It verifies the frozen document hash and exact quotation before any observation can affect a number, keeps qualitative modifiers out of arithmetic and rejects correlated quantitative drivers.
+
+```bash
+python3 example.py
+```
+
+The example uses ADI's 20 May 2026 SEC-filed earnings release and writes `build/example-adi-revenue-receipt.json`. The receipt preserves the SEC URL, local corpus path, SHA-256, exact quotation, signal decision and Decimal formula. Read [ARCHITECTURE.md](ARCHITECTURE.md) for the Red/Blue worker workflow and limits.
+
+Run the compiler tests with:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+## Tavily company and signal research
+
+Copy `.env.example` to the ignored `.env` file and set both `TAVILY_API_KEY` and
+`OPENAI_API_KEY`. Secrets are read from the process or `.env`; they are never
+written to requests, artifacts or logs.
+
+Run the complete four-company workflow, with a 45-minute live-research budget:
+
+```bash
+python3 -m pipeline.run --max-minutes 45
+```
+
+The four research lanes run concurrently. Each lane combines current official web
+research with the supplied offline corpus, generates a source-bound proposal for
+exactly the three challenge metrics, performs deterministic quote/hash/cutoff
+checks, and sends it to an independent no-web review before forecasting. A failed
+company or review stops the final submission rather than silently using a guess.
+
+Research all four company profiles concurrently:
+
+```bash
+npm run research:profiles
+```
+
+This writes timestamped candidate bundles under ignored `research/`. Each selected page is frozen locally with its canonical URL, publication time, Tavily request IDs and SHA-256. Post-cutoff or undated evidence cannot drive a forecast.
+
+After creating validated `signal_maps/<company>.json` files with three to seven approved signals and one anchor per metric, run:
+
+```bash
+npm run research:signals
+```
+
+The second planner searches only evidence declared by approved signals. `signal_agent.research_validation` validates profile coverage, exact quotations, signal formulas, units, accounting basis, decimal-string observations, audit metadata and the independent review before emitting `forecast_input.v2`. The repository skill at `.agents/skills/researching-company-signals/` documents the operator workflow.
+
+## Forecast handoff and final stages
+
+For manual debugging, an operator can still build a self-contained compiler handoff:
+
+```bash
+python3 -m signal_agent.handoff_cli \
+  --proposal research/ADI-proposal.json \
+  --candidates research/ADI/signal-candidates.json \
+  --audit research/ADI-audit.json \
+  --review research/ADI-review.json \
+  --source-root research/ADI \
+  --output forecast_inputs/ADI.json
+```
+
+To rerun only the deterministic stages from existing validated handoffs:
+
+```bash
+python3 -m pipeline.run --skip-research
+```
+
+This compiles exactly three metrics per company, retains receipts and rejected-signal
+reasons, aggregates `evaluation/forecasts.json`, validates all twelve figures and
+writes the four supplied workbook templates.
 
 ## Repository map
 

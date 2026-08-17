@@ -1,0 +1,73 @@
+panel: 20 calendar series loaded
+
+
+====================================================================================================
+CROSS-VALIDATION: panel vs independent source (calendar quarters, full periods only)
+====================================================================================================
+
+fx_eur_usd             
+  source : ECB reference rate USD/EUR (data-api.ecb.europa.eu)
+  n=82   mean|diff|=0.0599%    max|diff|=0.2541%    -> AGREE
+      worst 2010Q2: panel=1.273980 ref=1.270751 (0.2541%)
+      worst 2010Q3: panel=1.293822 ref=1.291039 (0.2155%)
+      worst 2008Q1: panel=1.500652 ref=1.497603 (0.2036%)
+
+fx_usd_inr             
+  source : ECB cross: (INR/EUR)/(USD/EUR), independent of Fed H.10
+  n=82   mean|diff|=0.0714%    max|diff|=0.3444%    -> AGREE
+      worst 2012Q2: panel=53.993281 ref=54.179864 (0.3444%)
+      worst 2006Q2: panel=45.317969 ref=45.435757 (0.2592%)
+      worst 2013Q3: panel=62.024063 ref=62.183155 (0.2558%)
+
+fx_usd_cad             
+  source : Bank of Canada Valet FXUSDCAD daily average
+  n=38   mean|diff|=0.0230%    max|diff|=0.0759%    -> AGREE
+      worst 2023Q4: panel=1.361333 ref=1.362367 (0.0759%)
+      worst 2018Q1: panel=1.265648 ref=1.264689 (0.0759%)
+      worst 2020Q1: panel=1.345866 ref=1.344911 (0.0710%)
+
+fx_usd_brl             
+  source : Banco Central do Brasil SGS series 1 (PTAX sell)
+  n=82   mean|diff|=0.0840%    max|diff|=0.2832%    -> AGREE
+      worst 2008Q4: panel=2.283039 ref=2.276592 (0.2832%)
+      worst 2006Q1: panel=2.191313 ref=2.197378 (0.2760%)
+      worst 2016Q1: panel=3.893523 ref=3.902202 (0.2224%)
+
+us_cpi                 
+  source : BLS bulk file cu.data.0.Current, series CUSR0000SA0 (CPI-U SA)
+  n=82   mean|diff|=0.0017%    max|diff|=0.0091%    -> AGREE
+      worst 2013Q1: panel=232.278078 ref=232.299333 (0.0091%)
+      worst 2026Q1: panel=328.135456 ref=328.113667 (0.0066%)
+      worst 2012Q3: panel=229.828239 ref=229.841000 (0.0056%)
+
+us_fed_funds_rate      
+  source : FRED FEDFUNDS monthly average, re-aggregated to quarters
+  n=82   mean|diff|=0.0016pp   max|diff|=0.0071pp   -> AGREE
+      worst 2022Q3: panel=2.182935 ref=2.190000 (0.0071pp)
+      worst 2020Q1: panel=1.254945 ref=1.260000 (0.0051pp)
+      worst 2008Q1: panel=3.181429 ref=3.176667 (0.0048pp)
+
+us_10y_treasury        
+  source : FRED GS10 monthly average, re-aggregated to quarters
+  n=82   mean|diff|=0.0039pp   max|diff|=0.0192pp   -> AGREE
+      worst 2021Q1: panel=1.335902 ref=1.316667 (0.0192pp)
+      worst 2008Q4: panel=3.234677 ref=3.253333 (0.0187pp)
+      worst 2010Q4: panel=2.878387 ref=2.863333 (0.0151pp)
+
+us_gdp_growth          
+  source : rebuilt from FRED GDPC1 real GDP level: ((L_t/L_t-1)^4-1)*100
+  n=81   mean|diff|=0.0251pp   max|diff|=0.0521pp   -> AGREE
+      worst 2010Q1: panel=1.900000 ref=1.952134 (0.0521pp)
+      worst 2015Q1: panel=3.600000 ref=3.650885 (0.0509pp)
+      worst 2013Q3: panel=3.500000 ref=3.449314 (0.0507pp)
+
+deere_fiscal_calendar  
+  source : offline filing corpus (311 docs, literal date match)
+  n=6    mean|diff|=n/a        max|diff|=n/a        -> AGREE
+      May 3, 2026 matched in 4 files
+      February 1, 2026 matched in 5 files
+      November 2, 2025 matched in 8 files
+      July 27, 2025 matched in 2 files
+      April 27, 2025 matched in 9 files
+      January 26, 2025 matched in 8 files
+

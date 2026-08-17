@@ -1,0 +1,780 @@
+series_id,period_end,fiscal_year,fiscal_quarter,geography,country,segment,value,units,source_type,source,notes
+de_rev_ce_cis_at,2019-01-27,2019,Q1,Central Europe and CIS,,"AT (PPA+SAT, pre-2020 basis)",148,USDm,10-Q,challenge/offline-data/deere/filings/2019-02-15__de-us-20190215-q1-10q__469204.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2019-01-27,2019,Q1,Central Europe and CIS,,CF,171,USDm,10-Q,challenge/offline-data/deere/filings/2019-02-15__de-us-20190215-q1-10q__469204.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2019-01-27,2019,Q1,Central Europe and CIS,,FS,9,USDm,10-Q,challenge/offline-data/deere/filings/2019-02-15__de-us-20190215-q1-10q__469204.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2019-01-27,2019,Q1,Central Europe and CIS,,TOTAL,328,USDm,10-Q,challenge/offline-data/deere/filings/2019-02-15__de-us-20190215-q1-10q__469204.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_at,2019-04-28,2019,Q2,Central Europe and CIS,,"AT (PPA+SAT, pre-2020 basis)",393,USDm,10-Q,challenge/offline-data/deere/filings/2019-05-17__de-us-20190517-q2-10q__469675.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2019-04-28,2019,Q2,Central Europe and CIS,,CF,155,USDm,10-Q,challenge/offline-data/deere/filings/2019-05-17__de-us-20190517-q2-10q__469675.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2019-04-28,2019,Q2,Central Europe and CIS,,FS,9,USDm,10-Q,challenge/offline-data/deere/filings/2019-05-17__de-us-20190517-q2-10q__469675.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2019-04-28,2019,Q2,Central Europe and CIS,,TOTAL,557,USDm,10-Q,challenge/offline-data/deere/filings/2019-05-17__de-us-20190517-q2-10q__469675.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_at,2019-07-28,2019,Q3,Central Europe and CIS,,"AT (PPA+SAT, pre-2020 basis)",324,USDm,10-Q,challenge/offline-data/deere/filings/2019-08-16__de-us-20190816-q3-10q__469206.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2019-07-28,2019,Q3,Central Europe and CIS,,CF,229,USDm,10-Q,challenge/offline-data/deere/filings/2019-08-16__de-us-20190816-q3-10q__469206.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2019-07-28,2019,Q3,Central Europe and CIS,,FS,10,USDm,10-Q,challenge/offline-data/deere/filings/2019-08-16__de-us-20190816-q3-10q__469206.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2019-07-28,2019,Q3,Central Europe and CIS,,TOTAL,563,USDm,10-Q,challenge/offline-data/deere/filings/2019-08-16__de-us-20190816-q3-10q__469206.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_at,2019-11-03,2019,Q4,Central Europe and CIS,,"AT (PPA+SAT, pre-2020 basis)",558,USDm,10-Q/10-K derived,derived: FY2019 10-K (2019-11-27) less 9M FY2019 (2019-08-16 10-Q),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2019-11-03,2019,Q4,Central Europe and CIS,,CF,194,USDm,10-Q/10-K derived,derived: FY2019 10-K (2019-11-27) less 9M FY2019 (2019-08-16 10-Q),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2019-11-03,2019,Q4,Central Europe and CIS,,FS,9,USDm,10-Q/10-K derived,derived: FY2019 10-K (2019-11-27) less 9M FY2019 (2019-08-16 10-Q),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2019-11-03,2019,Q4,Central Europe and CIS,,TOTAL,761,USDm,10-Q/10-K derived,derived: FY2019 10-K (2019-11-27) less 9M FY2019 (2019-08-16 10-Q),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2020-02-02,2020,Q1,Central Europe and CIS,,PPA,131,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2020-02-02,2020,Q1,Central Europe and CIS,,SAT,89,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2020-02-02,2020,Q1,Central Europe and CIS,,CF,159,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2020-02-02,2020,Q1,Central Europe and CIS,,FS,10,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2020-02-02,2020,Q1,Central Europe and CIS,,TOTAL,389,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2020-05-03,2020,Q2,Central Europe and CIS,,PPA,258,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2020-05-03,2020,Q2,Central Europe and CIS,,SAT,80,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2020-05-03,2020,Q2,Central Europe and CIS,,CF,140,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2020-05-03,2020,Q2,Central Europe and CIS,,FS,8,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2020-05-03,2020,Q2,Central Europe and CIS,,TOTAL,486,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2020-08-02,2020,Q3,Central Europe and CIS,,PPA,219,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2020-08-02,2020,Q3,Central Europe and CIS,,SAT,100,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2020-08-02,2020,Q3,Central Europe and CIS,,CF,178,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2020-08-02,2020,Q3,Central Europe and CIS,,FS,9,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2020-08-02,2020,Q3,Central Europe and CIS,,TOTAL,506,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md (prior-year column),ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2020-11-01,2020,Q4,Central Europe and CIS,,PPA,290,USDm,10-Q/10-K derived,derived: FY2020 10-K restated (2021-11-24) less 9M FY2020,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2020-11-01,2020,Q4,Central Europe and CIS,,SAT,224,USDm,10-Q/10-K derived,derived: FY2020 10-K restated (2021-11-24) less 9M FY2020,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2020-11-01,2020,Q4,Central Europe and CIS,,CF,169,USDm,10-Q/10-K derived,derived: FY2020 10-K restated (2021-11-24) less 9M FY2020,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2020-11-01,2020,Q4,Central Europe and CIS,,FS,8,USDm,10-Q/10-K derived,derived: FY2020 10-K restated (2021-11-24) less 9M FY2020,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2020-11-01,2020,Q4,Central Europe and CIS,,TOTAL,691,USDm,10-Q/10-K derived,derived: FY2020 10-K restated (2021-11-24) less 9M FY2020,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2021-01-31,2021,Q1,Central Europe and CIS,,PPA,161,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2021-01-31,2021,Q1,Central Europe and CIS,,SAT,84,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2021-01-31,2021,Q1,Central Europe and CIS,,CF,178,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2021-01-31,2021,Q1,Central Europe and CIS,,FS,9,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2021-01-31,2021,Q1,Central Europe and CIS,,TOTAL,432,USDm,10-Q,challenge/offline-data/deere/filings/2021-02-19__de-us-20210219-q1-10q__105814.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2021-05-02,2021,Q2,Central Europe and CIS,,PPA,531,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2021-05-02,2021,Q2,Central Europe and CIS,,SAT,160,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2021-05-02,2021,Q2,Central Europe and CIS,,CF,209,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2021-05-02,2021,Q2,Central Europe and CIS,,FS,9,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2021-05-02,2021,Q2,Central Europe and CIS,,TOTAL,909,USDm,10-Q,challenge/offline-data/deere/filings/2021-05-21__de-us-20210521-q2-10q__105821.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2021-08-01,2021,Q3,Central Europe and CIS,,PPA,398,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2021-08-01,2021,Q3,Central Europe and CIS,,SAT,117,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2021-08-01,2021,Q3,Central Europe and CIS,,CF,241,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2021-08-01,2021,Q3,Central Europe and CIS,,FS,10,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2021-08-01,2021,Q3,Central Europe and CIS,,TOTAL,766,USDm,10-Q,challenge/offline-data/deere/filings/2021-08-20__de-us-20210820-q3-10q__105837.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2021-10-31,2021,Q4,Central Europe and CIS,,PPA,232,USDm,10-Q/10-K derived,derived: FY2021 10-K (2021-11-24) less 9M FY2021,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2021-10-31,2021,Q4,Central Europe and CIS,,SAT,114,USDm,10-Q/10-K derived,derived: FY2021 10-K (2021-11-24) less 9M FY2021,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2021-10-31,2021,Q4,Central Europe and CIS,,CF,200,USDm,10-Q/10-K derived,derived: FY2021 10-K (2021-11-24) less 9M FY2021,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2021-10-31,2021,Q4,Central Europe and CIS,,FS,11,USDm,10-Q/10-K derived,derived: FY2021 10-K (2021-11-24) less 9M FY2021,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2021-10-31,2021,Q4,Central Europe and CIS,,TOTAL,557,USDm,10-Q/10-K derived,derived: FY2021 10-K (2021-11-24) less 9M FY2021,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2022-01-30,2022,Q1,Central Europe and CIS,,PPA,202,USDm,10-Q,challenge/offline-data/deere/filings/2022-02-18__de-us-20220218-q1-10q__105834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2022-01-30,2022,Q1,Central Europe and CIS,,SAT,126,USDm,10-Q,challenge/offline-data/deere/filings/2022-02-18__de-us-20220218-q1-10q__105834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2022-01-30,2022,Q1,Central Europe and CIS,,CF,195,USDm,10-Q,challenge/offline-data/deere/filings/2022-02-18__de-us-20220218-q1-10q__105834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2022-01-30,2022,Q1,Central Europe and CIS,,FS,11,USDm,10-Q,challenge/offline-data/deere/filings/2022-02-18__de-us-20220218-q1-10q__105834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2022-01-30,2022,Q1,Central Europe and CIS,,TOTAL,534,USDm,10-Q,challenge/offline-data/deere/filings/2022-02-18__de-us-20220218-q1-10q__105834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2022-05-01,2022,Q2,Central Europe and CIS,,PPA,404,USDm,10-Q,challenge/offline-data/deere/filings/2022-05-20__de-us-20220520-q2-10q__105838.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2022-05-01,2022,Q2,Central Europe and CIS,,SAT,151,USDm,10-Q,challenge/offline-data/deere/filings/2022-05-20__de-us-20220520-q2-10q__105838.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2022-05-01,2022,Q2,Central Europe and CIS,,CF,146,USDm,10-Q,challenge/offline-data/deere/filings/2022-05-20__de-us-20220520-q2-10q__105838.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2022-05-01,2022,Q2,Central Europe and CIS,,FS,11,USDm,10-Q,challenge/offline-data/deere/filings/2022-05-20__de-us-20220520-q2-10q__105838.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2022-05-01,2022,Q2,Central Europe and CIS,,TOTAL,712,USDm,10-Q,challenge/offline-data/deere/filings/2022-05-20__de-us-20220520-q2-10q__105838.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2022-07-31,2022,Q3,Central Europe and CIS,,PPA,348,USDm,10-Q,challenge/offline-data/deere/filings/2022-08-19__de-us-20220819-q3-10q__105818.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2022-07-31,2022,Q3,Central Europe and CIS,,SAT,109,USDm,10-Q,challenge/offline-data/deere/filings/2022-08-19__de-us-20220819-q3-10q__105818.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2022-07-31,2022,Q3,Central Europe and CIS,,CF,111,USDm,10-Q,challenge/offline-data/deere/filings/2022-08-19__de-us-20220819-q3-10q__105818.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2022-07-31,2022,Q3,Central Europe and CIS,,FS,14,USDm,10-Q,challenge/offline-data/deere/filings/2022-08-19__de-us-20220819-q3-10q__105818.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2022-07-31,2022,Q3,Central Europe and CIS,,TOTAL,582,USDm,10-Q,challenge/offline-data/deere/filings/2022-08-19__de-us-20220819-q3-10q__105818.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2022-10-30,2022,Q4,Central Europe and CIS,,PPA,253,USDm,10-Q/10-K derived,derived: FY2022 10-K (2022-11-23) less 9M FY2022,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2022-10-30,2022,Q4,Central Europe and CIS,,SAT,102,USDm,10-Q/10-K derived,derived: FY2022 10-K (2022-11-23) less 9M FY2022,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2022-10-30,2022,Q4,Central Europe and CIS,,CF,93,USDm,10-Q/10-K derived,derived: FY2022 10-K (2022-11-23) less 9M FY2022,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2022-10-30,2022,Q4,Central Europe and CIS,,FS,13,USDm,10-Q/10-K derived,derived: FY2022 10-K (2022-11-23) less 9M FY2022,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2022-10-30,2022,Q4,Central Europe and CIS,,TOTAL,461,USDm,10-Q/10-K derived,derived: FY2022 10-K (2022-11-23) less 9M FY2022,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2023-01-29,2023,Q1,Central Europe and CIS,,PPA,202,USDm,10-Q,challenge/offline-data/deere/filings/2023-02-17__de-us-20230217-q1-10q__105813.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2023-01-29,2023,Q1,Central Europe and CIS,,SAT,123,USDm,10-Q,challenge/offline-data/deere/filings/2023-02-17__de-us-20230217-q1-10q__105813.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2023-01-29,2023,Q1,Central Europe and CIS,,CF,75,USDm,10-Q,challenge/offline-data/deere/filings/2023-02-17__de-us-20230217-q1-10q__105813.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2023-01-29,2023,Q1,Central Europe and CIS,,FS,12,USDm,10-Q,challenge/offline-data/deere/filings/2023-02-17__de-us-20230217-q1-10q__105813.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2023-01-29,2023,Q1,Central Europe and CIS,,TOTAL,412,USDm,10-Q,challenge/offline-data/deere/filings/2023-02-17__de-us-20230217-q1-10q__105813.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2023-04-30,2023,Q2,Central Europe and CIS,,PPA,393,USDm,10-Q,challenge/offline-data/deere/filings/2023-05-19__de-us-20230519-q2-10q__105852.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2023-04-30,2023,Q2,Central Europe and CIS,,SAT,212,USDm,10-Q,challenge/offline-data/deere/filings/2023-05-19__de-us-20230519-q2-10q__105852.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2023-04-30,2023,Q2,Central Europe and CIS,,CF,90,USDm,10-Q,challenge/offline-data/deere/filings/2023-05-19__de-us-20230519-q2-10q__105852.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2023-04-30,2023,Q2,Central Europe and CIS,,FS,8,USDm,10-Q,challenge/offline-data/deere/filings/2023-05-19__de-us-20230519-q2-10q__105852.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2023-04-30,2023,Q2,Central Europe and CIS,,TOTAL,703,USDm,10-Q,challenge/offline-data/deere/filings/2023-05-19__de-us-20230519-q2-10q__105852.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2023-07-30,2023,Q3,Central Europe and CIS,,PPA,302,USDm,10-Q,challenge/offline-data/deere/filings/2023-08-18__de-us-20230818-q3-10q__105835.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2023-07-30,2023,Q3,Central Europe and CIS,,SAT,85,USDm,10-Q,challenge/offline-data/deere/filings/2023-08-18__de-us-20230818-q3-10q__105835.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2023-07-30,2023,Q3,Central Europe and CIS,,CF,98,USDm,10-Q,challenge/offline-data/deere/filings/2023-08-18__de-us-20230818-q3-10q__105835.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2023-07-30,2023,Q3,Central Europe and CIS,,FS,6,USDm,10-Q,challenge/offline-data/deere/filings/2023-08-18__de-us-20230818-q3-10q__105835.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2023-07-30,2023,Q3,Central Europe and CIS,,TOTAL,491,USDm,10-Q,challenge/offline-data/deere/filings/2023-08-18__de-us-20230818-q3-10q__105835.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2023-10-29,2023,Q4,Central Europe and CIS,,PPA,321,USDm,10-Q/10-K derived,derived: FY2023 10-K (2023-11-22) less 9M FY2023,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2023-10-29,2023,Q4,Central Europe and CIS,,SAT,110,USDm,10-Q/10-K derived,derived: FY2023 10-K (2023-11-22) less 9M FY2023,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2023-10-29,2023,Q4,Central Europe and CIS,,CF,90,USDm,10-Q/10-K derived,derived: FY2023 10-K (2023-11-22) less 9M FY2023,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2023-10-29,2023,Q4,Central Europe and CIS,,FS,10,USDm,10-Q/10-K derived,derived: FY2023 10-K (2023-11-22) less 9M FY2023,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2023-10-29,2023,Q4,Central Europe and CIS,,TOTAL,531,USDm,10-Q/10-K derived,derived: FY2023 10-K (2023-11-22) less 9M FY2023,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2024-01-28,2024,Q1,Central Europe and CIS,,PPA,179,USDm,10-Q,challenge/offline-data/deere/filings/2024-02-15__de-us-20240215-q1-10q__105826.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2024-01-28,2024,Q1,Central Europe and CIS,,SAT,73,USDm,10-Q,challenge/offline-data/deere/filings/2024-02-15__de-us-20240215-q1-10q__105826.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2024-01-28,2024,Q1,Central Europe and CIS,,CF,94,USDm,10-Q,challenge/offline-data/deere/filings/2024-02-15__de-us-20240215-q1-10q__105826.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2024-01-28,2024,Q1,Central Europe and CIS,,FS,8,USDm,10-Q,challenge/offline-data/deere/filings/2024-02-15__de-us-20240215-q1-10q__105826.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2024-01-28,2024,Q1,Central Europe and CIS,,TOTAL,354,USDm,10-Q,challenge/offline-data/deere/filings/2024-02-15__de-us-20240215-q1-10q__105826.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2024-04-28,2024,Q2,Central Europe and CIS,,PPA,275,USDm,10-Q,challenge/offline-data/deere/filings/2024-05-16__de-us-20240516-q2-10q__105820.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2024-04-28,2024,Q2,Central Europe and CIS,,SAT,80,USDm,10-Q,challenge/offline-data/deere/filings/2024-05-16__de-us-20240516-q2-10q__105820.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2024-04-28,2024,Q2,Central Europe and CIS,,CF,91,USDm,10-Q,challenge/offline-data/deere/filings/2024-05-16__de-us-20240516-q2-10q__105820.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2024-04-28,2024,Q2,Central Europe and CIS,,FS,8,USDm,10-Q,challenge/offline-data/deere/filings/2024-05-16__de-us-20240516-q2-10q__105820.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2024-04-28,2024,Q2,Central Europe and CIS,,TOTAL,454,USDm,10-Q,challenge/offline-data/deere/filings/2024-05-16__de-us-20240516-q2-10q__105820.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2024-07-28,2024,Q3,Central Europe and CIS,,PPA,201,USDm,10-Q,challenge/offline-data/deere/filings/2024-08-15__de-us-20240815-q3-10q__105828.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2024-07-28,2024,Q3,Central Europe and CIS,,SAT,70,USDm,10-Q,challenge/offline-data/deere/filings/2024-08-15__de-us-20240815-q3-10q__105828.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2024-07-28,2024,Q3,Central Europe and CIS,,CF,106,USDm,10-Q,challenge/offline-data/deere/filings/2024-08-15__de-us-20240815-q3-10q__105828.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2024-07-28,2024,Q3,Central Europe and CIS,,FS,12,USDm,10-Q,challenge/offline-data/deere/filings/2024-08-15__de-us-20240815-q3-10q__105828.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2024-07-28,2024,Q3,Central Europe and CIS,,TOTAL,389,USDm,10-Q,challenge/offline-data/deere/filings/2024-08-15__de-us-20240815-q3-10q__105828.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2024-10-27,2024,Q4,Central Europe and CIS,,PPA,132,USDm,10-Q/10-K derived,derived: FY2024 10-K (2024-11-21) less 9M FY2024,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2024-10-27,2024,Q4,Central Europe and CIS,,SAT,61,USDm,10-Q/10-K derived,derived: FY2024 10-K (2024-11-21) less 9M FY2024,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2024-10-27,2024,Q4,Central Europe and CIS,,CF,90,USDm,10-Q/10-K derived,derived: FY2024 10-K (2024-11-21) less 9M FY2024,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2024-10-27,2024,Q4,Central Europe and CIS,,FS,8,USDm,10-Q/10-K derived,derived: FY2024 10-K (2024-11-21) less 9M FY2024,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2024-10-27,2024,Q4,Central Europe and CIS,,TOTAL,291,USDm,10-Q/10-K derived,derived: FY2024 10-K (2024-11-21) less 9M FY2024,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2025-01-26,2025,Q1,Central Europe and CIS,,PPA,67,USDm,10-Q,challenge/offline-data/deere/filings/2025-02-13__de-us-20250213-q1-10q__105832.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2025-01-26,2025,Q1,Central Europe and CIS,,SAT,39,USDm,10-Q,challenge/offline-data/deere/filings/2025-02-13__de-us-20250213-q1-10q__105832.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2025-01-26,2025,Q1,Central Europe and CIS,,CF,71,USDm,10-Q,challenge/offline-data/deere/filings/2025-02-13__de-us-20250213-q1-10q__105832.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2025-01-26,2025,Q1,Central Europe and CIS,,FS,4,USDm,10-Q,challenge/offline-data/deere/filings/2025-02-13__de-us-20250213-q1-10q__105832.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2025-01-26,2025,Q1,Central Europe and CIS,,TOTAL,181,USDm,10-Q,challenge/offline-data/deere/filings/2025-02-13__de-us-20250213-q1-10q__105832.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2025-04-27,2025,Q2,Central Europe and CIS,,PPA,239,USDm,10-Q,challenge/offline-data/deere/filings/2025-05-15__de-us-20250515-q2-10q__105831.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2025-04-27,2025,Q2,Central Europe and CIS,,SAT,99,USDm,10-Q,challenge/offline-data/deere/filings/2025-05-15__de-us-20250515-q2-10q__105831.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2025-04-27,2025,Q2,Central Europe and CIS,,CF,87,USDm,10-Q,challenge/offline-data/deere/filings/2025-05-15__de-us-20250515-q2-10q__105831.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2025-04-27,2025,Q2,Central Europe and CIS,,FS,3,USDm,10-Q,challenge/offline-data/deere/filings/2025-05-15__de-us-20250515-q2-10q__105831.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2025-04-27,2025,Q2,Central Europe and CIS,,TOTAL,428,USDm,10-Q,challenge/offline-data/deere/filings/2025-05-15__de-us-20250515-q2-10q__105831.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2025-07-27,2025,Q3,Central Europe and CIS,,PPA,301,USDm,10-Q,challenge/offline-data/deere/filings/2025-08-14__de-us-20250814-q3-10q__155834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2025-07-27,2025,Q3,Central Europe and CIS,,SAT,130,USDm,10-Q,challenge/offline-data/deere/filings/2025-08-14__de-us-20250814-q3-10q__155834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2025-07-27,2025,Q3,Central Europe and CIS,,CF,103,USDm,10-Q,challenge/offline-data/deere/filings/2025-08-14__de-us-20250814-q3-10q__155834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2025-07-27,2025,Q3,Central Europe and CIS,,FS,2,USDm,10-Q,challenge/offline-data/deere/filings/2025-08-14__de-us-20250814-q3-10q__155834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2025-07-27,2025,Q3,Central Europe and CIS,,TOTAL,536,USDm,10-Q,challenge/offline-data/deere/filings/2025-08-14__de-us-20250814-q3-10q__155834.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2025-11-02,2025,Q4,Central Europe and CIS,,PPA,225,USDm,10-Q/10-K derived,derived: FY2025 10-K (2025-12-18) less 9M FY2025,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_sat,2025-11-02,2025,Q4,Central Europe and CIS,,SAT,91,USDm,10-Q/10-K derived,derived: FY2025 10-K (2025-12-18) less 9M FY2025,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_cf,2025-11-02,2025,Q4,Central Europe and CIS,,CF,112,USDm,10-Q/10-K derived,derived: FY2025 10-K (2025-12-18) less 9M FY2025,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_fs,2025-11-02,2025,Q4,Central Europe and CIS,,FS,2,USDm,10-Q/10-K derived,derived: FY2025 10-K (2025-12-18) less 9M FY2025,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_total,2025-11-02,2025,Q4,Central Europe and CIS,,TOTAL,430,USDm,10-Q/10-K derived,derived: FY2025 10-K (2025-12-18) less 9M FY2025,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales; Q4 derived = FY less 9M
+de_rev_ce_cis_ppa,2026-02-01,2026,Q1,Central Europe and CIS,,PPA,172,USDm,10-Q,challenge/offline-data/deere/filings/2026-02-26__de-us-20260226-q1-10q__636995.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2026-02-01,2026,Q1,Central Europe and CIS,,SAT,60,USDm,10-Q,challenge/offline-data/deere/filings/2026-02-26__de-us-20260226-q1-10q__636995.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2026-02-01,2026,Q1,Central Europe and CIS,,CF,76,USDm,10-Q,challenge/offline-data/deere/filings/2026-02-26__de-us-20260226-q1-10q__636995.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2026-02-01,2026,Q1,Central Europe and CIS,,FS,2,USDm,10-Q,challenge/offline-data/deere/filings/2026-02-26__de-us-20260226-q1-10q__636995.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2026-02-01,2026,Q1,Central Europe and CIS,,TOTAL,310,USDm,10-Q,challenge/offline-data/deere/filings/2026-02-26__de-us-20260226-q1-10q__636995.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_ppa,2026-05-03,2026,Q2,Central Europe and CIS,,PPA,297,USDm,10-Q,challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-10q__1055929.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_sat,2026-05-03,2026,Q2,Central Europe and CIS,,SAT,121,USDm,10-Q,challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-10q__1055929.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_cf,2026-05-03,2026,Q2,Central Europe and CIS,,CF,105,USDm,10-Q,challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-10q__1055929.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_fs,2026-05-03,2026,Q2,Central Europe and CIS,,FS,2,USDm,10-Q,challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-10q__1055929.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_total,2026-05-03,2026,Q2,Central Europe and CIS,,TOTAL,525,USDm,10-Q,challenge/offline-data/deere/filings/2026-05-21__de-us-20260521-q2-10q__1055929.md,ASC 606 revenue-recognition basis; does NOT tie to 8-K segment net sales
+de_rev_ce_cis_yoy_cf,2020-02-02,2020,Q1,Central Europe and CIS,,CF,-7.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2020-02-02,2020,Q1,Central Europe and CIS,,TOTAL,18.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2020-05-03,2020,Q2,Central Europe and CIS,,CF,-9.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2020-05-03,2020,Q2,Central Europe and CIS,,TOTAL,-12.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2020-08-02,2020,Q3,Central Europe and CIS,,CF,-22.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2020-08-02,2020,Q3,Central Europe and CIS,,TOTAL,-10.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2020-11-01,2020,Q4,Central Europe and CIS,,CF,-12.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2020-11-01,2020,Q4,Central Europe and CIS,,TOTAL,-9.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2021-01-31,2021,Q1,Central Europe and CIS,,PPA,22.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2021-01-31,2021,Q1,Central Europe and CIS,,SAT,-5.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2021-01-31,2021,Q1,Central Europe and CIS,,CF,11.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2021-01-31,2021,Q1,Central Europe and CIS,,TOTAL,11.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2021-05-02,2021,Q2,Central Europe and CIS,,PPA,105.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2021-05-02,2021,Q2,Central Europe and CIS,,SAT,100.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2021-05-02,2021,Q2,Central Europe and CIS,,CF,49.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2021-05-02,2021,Q2,Central Europe and CIS,,TOTAL,87.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2021-08-01,2021,Q3,Central Europe and CIS,,PPA,81.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2021-08-01,2021,Q3,Central Europe and CIS,,SAT,17.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2021-08-01,2021,Q3,Central Europe and CIS,,CF,35.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2021-08-01,2021,Q3,Central Europe and CIS,,TOTAL,51.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2021-10-31,2021,Q4,Central Europe and CIS,,PPA,-20.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2021-10-31,2021,Q4,Central Europe and CIS,,SAT,-49.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2021-10-31,2021,Q4,Central Europe and CIS,,CF,18.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2021-10-31,2021,Q4,Central Europe and CIS,,TOTAL,-19.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2022-01-30,2022,Q1,Central Europe and CIS,,PPA,25.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2022-01-30,2022,Q1,Central Europe and CIS,,SAT,50.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2022-01-30,2022,Q1,Central Europe and CIS,,CF,9.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2022-01-30,2022,Q1,Central Europe and CIS,,TOTAL,23.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2022-05-01,2022,Q2,Central Europe and CIS,,PPA,-23.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2022-05-01,2022,Q2,Central Europe and CIS,,SAT,-5.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2022-05-01,2022,Q2,Central Europe and CIS,,CF,-30.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2022-05-01,2022,Q2,Central Europe and CIS,,TOTAL,-21.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2022-07-31,2022,Q3,Central Europe and CIS,,PPA,-12.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2022-07-31,2022,Q3,Central Europe and CIS,,SAT,-6.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2022-07-31,2022,Q3,Central Europe and CIS,,CF,-53.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2022-07-31,2022,Q3,Central Europe and CIS,,TOTAL,-24.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2022-10-30,2022,Q4,Central Europe and CIS,,PPA,9.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2022-10-30,2022,Q4,Central Europe and CIS,,SAT,-10.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2022-10-30,2022,Q4,Central Europe and CIS,,CF,-53.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2022-10-30,2022,Q4,Central Europe and CIS,,TOTAL,-17.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2023-01-29,2023,Q1,Central Europe and CIS,,PPA,0.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2023-01-29,2023,Q1,Central Europe and CIS,,SAT,-2.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2023-01-29,2023,Q1,Central Europe and CIS,,CF,-61.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2023-01-29,2023,Q1,Central Europe and CIS,,TOTAL,-22.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2023-04-30,2023,Q2,Central Europe and CIS,,PPA,-2.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2023-04-30,2023,Q2,Central Europe and CIS,,SAT,40.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2023-04-30,2023,Q2,Central Europe and CIS,,CF,-38.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2023-04-30,2023,Q2,Central Europe and CIS,,TOTAL,-1.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2023-07-30,2023,Q3,Central Europe and CIS,,PPA,-13.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2023-07-30,2023,Q3,Central Europe and CIS,,SAT,-22.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2023-07-30,2023,Q3,Central Europe and CIS,,CF,-11.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2023-07-30,2023,Q3,Central Europe and CIS,,TOTAL,-15.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2023-10-29,2023,Q4,Central Europe and CIS,,PPA,26.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2023-10-29,2023,Q4,Central Europe and CIS,,SAT,7.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2023-10-29,2023,Q4,Central Europe and CIS,,CF,-3.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2023-10-29,2023,Q4,Central Europe and CIS,,TOTAL,15.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2024-01-28,2024,Q1,Central Europe and CIS,,PPA,-11.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2024-01-28,2024,Q1,Central Europe and CIS,,SAT,-40.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2024-01-28,2024,Q1,Central Europe and CIS,,CF,25.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2024-01-28,2024,Q1,Central Europe and CIS,,TOTAL,-14.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2024-04-28,2024,Q2,Central Europe and CIS,,PPA,-30.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2024-04-28,2024,Q2,Central Europe and CIS,,SAT,-62.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2024-04-28,2024,Q2,Central Europe and CIS,,CF,1.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2024-04-28,2024,Q2,Central Europe and CIS,,TOTAL,-35.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2024-07-28,2024,Q3,Central Europe and CIS,,PPA,-33.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2024-07-28,2024,Q3,Central Europe and CIS,,SAT,-17.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2024-07-28,2024,Q3,Central Europe and CIS,,CF,8.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2024-07-28,2024,Q3,Central Europe and CIS,,TOTAL,-20.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2024-10-27,2024,Q4,Central Europe and CIS,,PPA,-58.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2024-10-27,2024,Q4,Central Europe and CIS,,SAT,-44.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2024-10-27,2024,Q4,Central Europe and CIS,,CF,0.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2024-10-27,2024,Q4,Central Europe and CIS,,TOTAL,-45.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2025-01-26,2025,Q1,Central Europe and CIS,,PPA,-62.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2025-01-26,2025,Q1,Central Europe and CIS,,SAT,-46.6,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2025-01-26,2025,Q1,Central Europe and CIS,,CF,-24.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2025-01-26,2025,Q1,Central Europe and CIS,,TOTAL,-48.9,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2025-04-27,2025,Q2,Central Europe and CIS,,PPA,-13.1,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2025-04-27,2025,Q2,Central Europe and CIS,,SAT,23.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2025-04-27,2025,Q2,Central Europe and CIS,,CF,-4.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2025-04-27,2025,Q2,Central Europe and CIS,,TOTAL,-5.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2025-07-27,2025,Q3,Central Europe and CIS,,PPA,49.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2025-07-27,2025,Q3,Central Europe and CIS,,SAT,85.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2025-07-27,2025,Q3,Central Europe and CIS,,CF,-2.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2025-07-27,2025,Q3,Central Europe and CIS,,TOTAL,37.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2025-11-02,2025,Q4,Central Europe and CIS,,PPA,70.5,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2025-11-02,2025,Q4,Central Europe and CIS,,SAT,49.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2025-11-02,2025,Q4,Central Europe and CIS,,CF,24.4,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2025-11-02,2025,Q4,Central Europe and CIS,,TOTAL,47.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2026-02-01,2026,Q1,Central Europe and CIS,,PPA,156.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2026-02-01,2026,Q1,Central Europe and CIS,,SAT,53.8,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2026-02-01,2026,Q1,Central Europe and CIS,,CF,7.0,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2026-02-01,2026,Q1,Central Europe and CIS,,TOTAL,71.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_ppa,2026-05-03,2026,Q2,Central Europe and CIS,,PPA,24.3,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_sat,2026-05-03,2026,Q2,Central Europe and CIS,,SAT,22.2,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_cf,2026-05-03,2026,Q2,Central Europe and CIS,,CF,20.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_ce_cis_yoy_total,2026-05-03,2026,Q2,Central Europe and CIS,,TOTAL,22.7,pct_yoy,calculated,calculated from ASC 606 footnote series above,
+de_rev_western_europe_total,2020-02-02,2020,Q1,Western Europe,,TOTAL,1139,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2020-05-03,2020,Q2,Western Europe,,TOTAL,1491,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2020-08-02,2020,Q3,Western Europe,,TOTAL,1501,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2020-11-01,2020,Q4,Western Europe,,TOTAL,1202,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2021-01-31,2021,Q1,Western Europe,,TOTAL,1398,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2021-05-02,2021,Q2,Western Europe,,TOTAL,1867,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2021-08-01,2021,Q3,Western Europe,,TOTAL,1727,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2021-10-31,2021,Q4,Western Europe,,TOTAL,1437,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2022-01-30,2022,Q1,Western Europe,,TOTAL,1383,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2022-05-01,2022,Q2,Western Europe,,TOTAL,1683,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2022-07-31,2022,Q3,Western Europe,,TOTAL,1696,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2022-10-30,2022,Q4,Western Europe,,TOTAL,1582,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2023-01-29,2023,Q1,Western Europe,,TOTAL,1459,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2023-04-30,2023,Q2,Western Europe,,TOTAL,2169,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2023-07-30,2023,Q3,Western Europe,,TOTAL,2091,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2023-10-29,2023,Q4,Western Europe,,TOTAL,1602,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2024-01-28,2024,Q1,Western Europe,,TOTAL,1421,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2024-04-28,2024,Q2,Western Europe,,TOTAL,1857,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2024-07-28,2024,Q3,Western Europe,,TOTAL,1560,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2024-10-27,2024,Q4,Western Europe,,TOTAL,1351,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2025-01-26,2025,Q1,Western Europe,,TOTAL,1016,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2025-04-27,2025,Q2,Western Europe,,TOTAL,1820,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2025-07-27,2025,Q3,Western Europe,,TOTAL,2029,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2025-11-02,2025,Q4,Western Europe,,TOTAL,1685,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2026-02-01,2026,Q1,Western Europe,,TOTAL,1430,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+de_rev_western_europe_total,2026-05-03,2026,Q2,Western Europe,,TOTAL,2141,USDm,10-Q/10-K,"challenge/offline-data/deere/filings/ ASC 606 footnote, same filings as CE&CIS",control region for the Russia structural-break test (no Russia exposure)
+macro_wheat_usd_mt,2018-10-01,,,Global,,,188.4616,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2018-11-01,,,Global,,,181.5524,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2018-12-01,,,Global,,,188.5358,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-01-01,,,Global,,,188.8449,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-02-01,,,Global,,,177.9167,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-03-01,,,Global,,,164.5066,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-04-01,,,Global,,,159.0301,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-05-01,,,Global,,,158.2817,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-06-01,,,Global,,,174.6978,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-07-01,,,Global,,,163.8768,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-08-01,,,Global,,,149.363,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-09-01,,,Global,,,146.5705,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-10-01,,,Global,,,153.2211,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-11-01,,,Global,,,157.5283,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2019-12-01,,,Global,,,165.2546,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-01-01,,,Global,,,178.2418,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-02-01,,,Global,,,172.2311,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-03-01,,,Global,,,170.8748,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-04-01,,,Global,,,179.7465,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-05-01,,,Global,,,174.955,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-06-01,,,Global,,,169.7223,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-07-01,,,Global,,,170.5741,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-08-01,,,Global,,,174.1825,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-09-01,,,Global,,,204.1373,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-10-01,,,Global,,,203.4263,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-11-01,,,Global,,,210.7539,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2020-12-01,,,Global,,,217.3125,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-01-01,,,Global,,,237.9442,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-02-01,,,Global,,,240.8064,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-03-01,,,Global,,,229.8875,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-04-01,,,Global,,,239.9361,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-05-01,,,Global,,,278.447,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-06-01,,,Global,,,238.767,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-07-01,,,Global,,,243.628,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-08-01,,,Global,,,274.876,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-09-01,,,Global,,,269.7335,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-10-01,,,Global,,,294.0368,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-11-01,,,Global,,,317.4374,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2021-12-01,,,Global,,,324.0179,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-01-01,,,Global,,,326.0817,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-02-01,,,Global,,,347.5032,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-03-01,,,Global,,,387.665,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-04-01,,,Global,,,406.0269,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-05-01,,,Global,,,444.1566,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-06-01,,,Global,,,397.6523,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-07-01,,,Global,,,321.9751,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-08-01,,,Global,,,323.0168,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-09-01,,,Global,,,346.3222,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-10-01,,,Global,,,353.7129,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-11-01,,,Global,,,344.3299,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2022-12-01,,,Global,,,323.6548,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-01-01,,,Global,,,320.097,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-02-01,,,Global,,,332.412,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-03-01,,,Global,,,309.4296,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-04-01,,,Global,,,312.8108,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-05-01,,,Global,,,299.44,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-06-01,,,Global,,,282.2767,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-07-01,,,Global,,,278.6176,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-08-01,,,Global,,,241.4139,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-09-01,,,Global,,,229.3907,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-10-01,,,Global,,,216.4639,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-11-01,,,Global,,,216.0003,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2023-12-01,,,Global,,,229.6334,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-01-01,,,Global,,,226.0785,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-02-01,,,Global,,,219.2381,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-03-01,,,Global,,,211.841,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-04-01,,,Global,,,208.3817,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-05-01,,,Global,,,227.4308,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-06-01,,,Global,,,205.2261,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-07-01,,,Global,,,183.2256,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-08-01,,,Global,,,175.5105,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-09-01,,,Global,,,188.5052,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-10-01,,,Global,,,197.3719,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-11-01,,,Global,,,185.7348,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2024-12-01,,,Global,,,185.7944,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-01-01,,,Global,,,190.6296,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-02-01,,,Global,,,190.1026,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-03-01,,,Global,,,179.6065,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-04-01,,,Global,,,174.8167,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-05-01,,,Global,,,196.8411,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-06-01,,,Global,,,173.1948,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-07-01,,,Global,,,165.2666,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-08-01,,,Global,,,159.3079,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-09-01,,,Global,,,155.1151,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-10-01,,,Global,,,157.3923,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-11-01,,,Global,,,169.2033,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2025-12-01,,,Global,,,165.6267,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-01-01,,,Global,,,169.2505,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-02-01,,,Global,,,174.7525,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-03-01,,,Global,,,193.8771,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-04-01,,,Global,,,202.6415,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-05-01,,,Global,,,220.8846,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_wheat_usd_mt,2026-06-01,,,Global,,,199.6483,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PWHEAMTUSDM (retrieved 2026-08-16),"IMF/World Bank global wheat price, monthly"
+macro_maize_usd_mt,2018-10-01,,,Global,,,160.3656,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2018-11-01,,,Global,,,160.8782,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2018-12-01,,,Global,,,167.4899,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-01-01,,,Global,,,166.8462,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-02-01,,,Global,,,169.6563,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-03-01,,,Global,,,166.3213,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-04-01,,,Global,,,161.6534,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-05-01,,,Global,,,171.1802,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-06-01,,,Global,,,195.1679,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-07-01,,,Global,,,189.4864,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-08-01,,,Global,,,163.6286,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-09-01,,,Global,,,157.3744,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-10-01,,,Global,,,167.2978,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-11-01,,,Global,,,166.3618,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2019-12-01,,,Global,,,167.059,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-01-01,,,Global,,,171.8141,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-02-01,,,Global,,,168.7446,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-03-01,,,Global,,,162.1791,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-04-01,,,Global,,,147.0122,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-05-01,,,Global,,,143.9892,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-06-01,,,Global,,,148.0424,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-07-01,,,Global,,,152.5876,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-08-01,,,Global,,,149.393,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-09-01,,,Global,,,166.6025,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-10-01,,,Global,,,186.7664,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-11-01,,,Global,,,190.625,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2020-12-01,,,Global,,,199.1844,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-01-01,,,Global,,,231.7545,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-02-01,,,Global,,,245.5541,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-03-01,,,Global,,,245.7604,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-04-01,,,Global,,,268.6224,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-05-01,,,Global,,,304.2975,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-06-01,,,Global,,,292.5237,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-07-01,,,Global,,,278.4458,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-08-01,,,Global,,,257.0208,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-09-01,,,Global,,,235.8156,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-10-01,,,Global,,,239.6025,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-11-01,,,Global,,,248.7677,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2021-12-01,,,Global,,,264.5731,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-01-01,,,Global,,,276.7192,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-02-01,,,Global,,,292.6716,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-03-01,,,Global,,,335.9307,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-04-01,,,Global,,,348.5071,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-05-01,,,Global,,,344.9093,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-06-01,,,Global,,,335.7171,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-07-01,,,Global,,,312.682,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-08-01,,,Global,,,293.9308,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-09-01,,,Global,,,312.5461,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-10-01,,,Global,,,343.5533,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-11-01,,,Global,,,320.9297,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2022-12-01,,,Global,,,302.2354,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-01-01,,,Global,,,302.84,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-02-01,,,Global,,,298.2453,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-03-01,,,Global,,,284.9574,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-04-01,,,Global,,,291.1797,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-05-01,,,Global,,,268.1725,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-06-01,,,Global,,,266.9352,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-07-01,,,Global,,,235.2719,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-08-01,,,Global,,,207.6759,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-09-01,,,Global,,,223.8477,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-10-01,,,Global,,,221.9025,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-11-01,,,Global,,,209.0403,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2023-12-01,,,Global,,,207.398,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-01-01,,,Global,,,198.7579,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-02-01,,,Global,,,188.9477,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-03-01,,,Global,,,190.2272,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-04-01,,,Global,,,190.9001,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-05-01,,,Global,,,201.0195,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-06-01,,,Global,,,191.2409,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-07-01,,,Global,,,177.7677,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-08-01,,,Global,,,169.2967,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-09-01,,,Global,,,183.6558,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-10-01,,,Global,,,189.5879,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-11-01,,,Global,,,201.3083,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2024-12-01,,,Global,,,202.83,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-01-01,,,Global,,,214.3599,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-02-01,,,Global,,,221.2545,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-03-01,,,Global,,,207.7517,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-04-01,,,Global,,,215.5691,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-05-01,,,Global,,,204.8084,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-06-01,,,Global,,,195.7191,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-07-01,,,Global,,,192.4526,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-08-01,,,Global,,,183.0247,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-09-01,,,Global,,,196.1459,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-10-01,,,Global,,,198.0176,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-11-01,,,Global,,,201.6579,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2025-12-01,,,Global,,,205.3151,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-01-01,,,Global,,,203.8978,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-02-01,,,Global,,,210.6355,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-03-01,,,Global,,,213.3041,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-04-01,,,Global,,,214.524,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-05-01,,,Global,,,215.6206,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_maize_usd_mt,2026-06-01,,,Global,,,195.7819,USD/mt,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PMAIZMTUSDM (retrieved 2026-08-16),"IMF/World Bank global maize price, monthly"
+macro_pln_per_usd,2018-10-01,,,Central Europe,,,3.7481,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2018-11-01,,,Central Europe,,,3.7881,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2018-12-01,,,Central Europe,,,3.7678,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-01-01,,,Central Europe,,,3.7606,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-02-01,,,Central Europe,,,3.8047,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-03-01,,,Central Europe,,,3.8015,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-04-01,,,Central Europe,,,3.8136,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-05-01,,,Central Europe,,,3.8409,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-06-01,,,Central Europe,,,3.7794,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-07-01,,,Central Europe,,,3.7968,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-08-01,,,Central Europe,,,3.9053,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-09-01,,,Central Europe,,,3.9548,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-10-01,,,Central Europe,,,3.8949,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-11-01,,,Central Europe,,,3.8765,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2019-12-01,,,Central Europe,,,3.8446,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-01-01,,,Central Europe,,,3.8299,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-02-01,,,Central Europe,,,3.9212,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-03-01,,,Central Europe,,,4.0136,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-04-01,,,Central Europe,,,4.1805,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-05-01,,,Central Europe,,,4.1606,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-06-01,,,Central Europe,,,3.944,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-07-01,,,Central Europe,,,3.8862,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-08-01,,,Central Europe,,,3.72,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-09-01,,,Central Europe,,,3.7929,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-10-01,,,Central Europe,,,3.8607,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-11-01,,,Central Europe,,,3.8023,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2020-12-01,,,Central Europe,,,3.6814,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-01-01,,,Central Europe,,,3.7288,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-02-01,,,Central Europe,,,3.7176,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-03-01,,,Central Europe,,,3.8639,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-04-01,,,Central Europe,,,3.8195,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-05-01,,,Central Europe,,,3.7285,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-06-01,,,Central Europe,,,3.7363,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-07-01,,,Central Europe,,,3.8602,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-08-01,,,Central Europe,,,3.8819,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-09-01,,,Central Europe,,,3.8797,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-10-01,,,Central Europe,,,3.96,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-11-01,,,Central Europe,,,4.0694,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2021-12-01,,,Central Europe,,,4.0845,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-01-01,,,Central Europe,,,4.0211,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-02-01,,,Central Europe,,,4.0139,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-03-01,,,Central Europe,,,4.3154,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-04-01,,,Central Europe,,,4.2949,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-05-01,,,Central Europe,,,4.3965,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-06-01,,,Central Europe,,,4.3891,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-07-01,,,Central Europe,,,4.6867,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-08-01,,,Central Europe,,,4.6604,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-09-01,,,Central Europe,,,4.7882,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-10-01,,,Central Europe,,,4.8894,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-11-01,,,Central Europe,,,4.6148,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2022-12-01,,,Central Europe,,,4.4224,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-01-01,,,Central Europe,,,4.3575,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-02-01,,,Central Europe,,,4.4268,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-03-01,,,Central Europe,,,4.3837,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-04-01,,,Central Europe,,,4.2332,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-05-01,,,Central Europe,,,4.1766,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-06-01,,,Central Europe,,,4.1197,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-07-01,,,Central Europe,,,4.019,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-08-01,,,Central Europe,,,4.0864,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-09-01,,,Central Europe,,,4.3033,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-10-01,,,Central Europe,,,4.2709,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-11-01,,,Central Europe,,,4.0736,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2023-12-01,,,Central Europe,,,3.9696,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-01-01,,,Central Europe,,,3.9991,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-02-01,,,Central Europe,,,4.0103,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-03-01,,,Central Europe,,,3.9636,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-04-01,,,Central Europe,,,4.01,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-05-01,,,Central Europe,,,3.9642,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-06-01,,,Central Europe,,,4.0153,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-07-01,,,Central Europe,,,3.9487,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-08-01,,,Central Europe,,,3.8986,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-09-01,,,Central Europe,,,3.851,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-10-01,,,Central Europe,,,3.9576,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-11-01,,,Central Europe,,,4.0784,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2024-12-01,,,Central Europe,,,4.0791,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-01-01,,,Central Europe,,,4.1033,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-02-01,,,Central Europe,,,4.0088,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-03-01,,,Central Europe,,,3.8702,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-04-01,,,Central Europe,,,3.8011,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-05-01,,,Central Europe,,,3.7699,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-06-01,,,Central Europe,,,3.7031,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-07-01,,,Central Europe,,,3.6405,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-08-01,,,Central Europe,,,3.6666,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-09-01,,,Central Europe,,,3.6292,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-10-01,,,Central Europe,,,3.6504,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-11-01,,,Central Europe,,,3.6683,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2025-12-01,,,Central Europe,,,3.6074,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-01-01,,,Central Europe,,,3.5907,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-02-01,,,Central Europe,,,3.5656,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-03-01,,,Central Europe,,,3.697,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-04-01,,,Central Europe,,,3.6395,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-05-01,,,Central Europe,,,3.6335,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_pln_per_usd,2026-06-01,,,Central Europe,,,3.6968,PLN/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02PLM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2018-10-01,,,Central Europe,,,282.1113,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2018-11-01,,,Central Europe,,,284.0259,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2018-12-01,,,Central Europe,,,283.3095,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-01-01,,,Central Europe,,,280.23,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-02-01,,,Central Europe,,,280.262,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-03-01,,,Central Europe,,,279.3686,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-04-01,,,Central Europe,,,285.5609,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-05-01,,,Central Europe,,,290.6183,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-06-01,,,Central Europe,,,285.855,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-07-01,,,Central Europe,,,289.9143,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-08-01,,,Central Europe,,,293.7236,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-09-01,,,Central Europe,,,301.921,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-10-01,,,Central Europe,,,300.1587,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-11-01,,,Central Europe,,,301.8367,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2019-12-01,,,Central Europe,,,297.7823,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-01-01,,,Central Europe,,,300.9061,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-02-01,,,Central Europe,,,309.2715,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-03-01,,,Central Europe,,,312.1145,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-04-01,,,Central Europe,,,327.9905,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-05-01,,,Central Europe,,,322.3638,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-06-01,,,Central Europe,,,308.675,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-07-01,,,Central Europe,,,306.5639,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-08-01,,,Central Europe,,,294.6157,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-09-01,,,Central Europe,,,305.6291,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-10-01,,,Central Europe,,,308.2845,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-11-01,,,Central Europe,,,304.2419,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2020-12-01,,,Central Europe,,,295.2391,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-01-01,,,Central Europe,,,295.0486,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-02-01,,,Central Europe,,,296.046,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-03-01,,,Central Europe,,,307.2309,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-04-01,,,Central Europe,,,301.9432,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-05-01,,,Central Europe,,,291.3957,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-06-01,,,Central Europe,,,290.2695,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-07-01,,,Central Europe,,,302.205,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-08-01,,,Central Europe,,,298.9782,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-09-01,,,Central Europe,,,299.2491,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-10-01,,,Central Europe,,,311.1481,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-11-01,,,Central Europe,,,319.3368,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2021-12-01,,,Central Europe,,,325.0365,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-01-01,,,Central Europe,,,316.7986,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-02-01,,,Central Europe,,,314.84,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-03-01,,,Central Europe,,,342.3561,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-04-01,,,Central Europe,,,346.431,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-05-01,,,Central Europe,,,363.6232,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-06-01,,,Central Europe,,,375.2345,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-07-01,,,Central Europe,,,396.8252,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-08-01,,,Central Europe,,,397.2665,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-09-01,,,Central Europe,,,407.8182,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-10-01,,,Central Europe,,,425.5452,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-11-01,,,Central Europe,,,399.7155,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2022-12-01,,,Central Europe,,,384.4373,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-01-01,,,Central Europe,,,367.3268,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-02-01,,,Central Europe,,,359.1925,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-03-01,,,Central Europe,,,359.9139,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-04-01,,,Central Europe,,,343.0385,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-05-01,,,Central Europe,,,342.767,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-06-01,,,Central Europe,,,342.1486,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-07-01,,,Central Europe,,,342.851,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-08-01,,,Central Europe,,,353.3487,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-09-01,,,Central Europe,,,361.7424,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-10-01,,,Central Europe,,,364.7727,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-11-01,,,Central Europe,,,350.8409,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2023-12-01,,,Central Europe,,,349.8719,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-01-01,,,Central Europe,,,350.1687,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-02-01,,,Central Europe,,,359.6852,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-03-01,,,Central Europe,,,363.6567,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-04-01,,,Central Europe,,,366.0332,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-05-01,,,Central Europe,,,358.7387,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-06-01,,,Central Europe,,,366.6765,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-07-01,,,Central Europe,,,362.1904,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-08-01,,,Central Europe,,,359.0659,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-09-01,,,Central Europe,,,355.5533,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-10-01,,,Central Europe,,,368.2239,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-11-01,,,Central Europe,,,385.4881,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2024-12-01,,,Central Europe,,,393.7423,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-01-01,,,Central Europe,,,397.55,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-02-01,,,Central Europe,,,387.294,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-03-01,,,Central Europe,,,369.9624,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-04-01,,,Central Europe,,,362.3291,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-05-01,,,Central Europe,,,357.9059,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-06-01,,,Central Europe,,,349.1767,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-07-01,,,Central Europe,,,341.5774,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-08-01,,,Central Europe,,,340.9119,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-09-01,,,Central Europe,,,333.8409,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-10-01,,,Central Europe,,,335.0696,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-11-01,,,Central Europe,,,332.6865,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2025-12-01,,,Central Europe,,,329.0939,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-01-01,,,Central Europe,,,327.5395,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-02-01,,,Central Europe,,,320.005,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-03-01,,,Central Europe,,,336.725,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-04-01,,,Central Europe,,,317.0345,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-05-01,,,Central Europe,,,307.3319,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_huf_per_usd,2026-06-01,,,Central Europe,,,307.2095,HUF/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02HUM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2018-10-01,,,Central Europe,,,22.4847,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2018-11-01,,,Central Europe,,,22.8158,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2018-12-01,,,Central Europe,,,22.6889,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-01-01,,,Central Europe,,,22.4702,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-02-01,,,Central Europe,,,22.6644,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-03-01,,,Central Europe,,,22.7158,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-04-01,,,Central Europe,,,22.8462,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-05-01,,,Central Europe,,,23.0337,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-06-01,,,Central Europe,,,22.6681,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-07-01,,,Central Europe,,,22.7709,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-08-01,,,Central Europe,,,23.1907,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-09-01,,,Central Europe,,,23.5068,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-10-01,,,Central Europe,,,23.2467,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-11-01,,,Central Europe,,,23.102,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2019-12-01,,,Central Europe,,,22.9581,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-01-01,,,Central Europe,,,22.7129,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-02-01,,,Central Europe,,,22.9726,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-03-01,,,Central Europe,,,24.0429,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-04-01,,,Central Europe,,,25.0697,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-05-01,,,Central Europe,,,25.0124,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-06-01,,,Central Europe,,,23.7065,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-07-01,,,Central Europe,,,23.145,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-08-01,,,Central Europe,,,22.1224,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-09-01,,,Central Europe,,,22.6799,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-10-01,,,Central Europe,,,23.0984,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-11-01,,,Central Europe,,,22.357,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2020-12-01,,,Central Europe,,,21.6299,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-01-01,,,Central Europe,,,21.4747,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-02-01,,,Central Europe,,,21.3881,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-03-01,,,Central Europe,,,22.002,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-04-01,,,Central Europe,,,21.6946,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-05-01,,,Central Europe,,,21.0436,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-06-01,,,Central Europe,,,21.1315,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-07-01,,,Central Europe,,,21.6916,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-08-01,,,Central Europe,,,21.6345,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-09-01,,,Central Europe,,,21.57,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-10-01,,,Central Europe,,,21.9732,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-11-01,,,Central Europe,,,22.2449,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2021-12-01,,,Central Europe,,,22.3379,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-01-01,,,Central Europe,,,21.6283,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-02-01,,,Central Europe,,,21.5496,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-03-01,,,Central Europe,,,22.699,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-04-01,,,Central Europe,,,22.5796,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-05-01,,,Central Europe,,,23.3992,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-06-01,,,Central Europe,,,23.3999,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-07-01,,,Central Europe,,,24.1107,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-08-01,,,Central Europe,,,24.261,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-09-01,,,Central Europe,,,24.8133,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-10-01,,,Central Europe,,,24.9605,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-11-01,,,Central Europe,,,23.8889,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2022-12-01,,,Central Europe,,,22.9168,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-01-01,,,Central Europe,,,22.2515,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-02-01,,,Central Europe,,,22.1294,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-03-01,,,Central Europe,,,22.1232,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-04-01,,,Central Europe,,,21.3776,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-05-01,,,Central Europe,,,21.7027,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-06-01,,,Central Europe,,,21.8602,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-07-01,,,Central Europe,,,21.5988,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-08-01,,,Central Europe,,,22.1043,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-09-01,,,Central Europe,,,22.8317,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-10-01,,,Central Europe,,,23.2758,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-11-01,,,Central Europe,,,22.6651,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2023-12-01,,,Central Europe,,,22.4427,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-01-01,,,Central Europe,,,22.6517,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-02-01,,,Central Europe,,,23.374,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-03-01,,,Central Europe,,,23.2684,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-04-01,,,Central Europe,,,23.5566,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-05-01,,,Central Europe,,,22.9704,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-06-01,,,Central Europe,,,23.0322,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-07-01,,,Central Europe,,,23.3326,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-08-01,,,Central Europe,,,22.8675,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-09-01,,,Central Europe,,,22.5984,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-10-01,,,Central Europe,,,23.1971,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-11-01,,,Central Europe,,,23.8031,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2024-12-01,,,Central Europe,,,24.0112,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-01-01,,,Central Europe,,,24.3,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-02-01,,,Central Europe,,,24.082,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-03-01,,,Central Europe,,,23.1375,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-04-01,,,Central Europe,,,22.3104,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-05-01,,,Central Europe,,,22.0833,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-06-01,,,Central Europe,,,21.5395,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-07-01,,,Central Europe,,,21.0877,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-08-01,,,Central Europe,,,21.0795,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-09-01,,,Central Europe,,,20.7528,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-10-01,,,Central Europe,,,20.903,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-11-01,,,Central Europe,,,20.9615,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2025-12-01,,,Central Europe,,,20.7127,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-01-01,,,Central Europe,,,20.6817,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-02-01,,,Central Europe,,,20.5161,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-03-01,,,Central Europe,,,21.1413,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-04-01,,,Central Europe,,,20.8692,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-05-01,,,Central Europe,,,20.8247,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_czk_per_usd,2026-06-01,,,Central Europe,,,21.0201,CZK/USD,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CCUSMA02CZM618N (retrieved 2026-08-16),OECD MEI monthly average
+macro_usd_per_eur_fq_avg,2019-01-27,2019,Q1,Central Europe,,,1.1383,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=57; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2019-04-28,2019,Q2,Central Europe,,,1.1302,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2019-07-28,2019,Q3,Central Europe,,,1.1232,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2019-11-03,2019,Q4,Central Europe,,,1.1072,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=68; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2020-02-02,2020,Q1,Central Europe,,,1.1087,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2020-05-03,2020,Q2,Central Europe,,,1.0945,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2020-08-02,2020,Q3,Central Europe,,,1.1232,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2020-11-01,2020,Q4,Central Europe,,,1.1795,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2021-01-31,2021,Q1,Central Europe,,,1.2063,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=57; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2021-05-02,2021,Q2,Central Europe,,,1.1981,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2021-08-01,2021,Q3,Central Europe,,,1.2004,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2021-10-31,2021,Q4,Central Europe,,,1.1713,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2022-01-30,2022,Q1,Central Europe,,,1.1346,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2022-05-01,2022,Q2,Central Europe,,,1.1049,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2022-07-31,2022,Q3,Central Europe,,,1.0438,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=62; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2022-10-30,2022,Q4,Central Europe,,,0.9968,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2023-01-29,2023,Q1,Central Europe,,,1.0499,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2023-04-30,2023,Q2,Central Europe,,,1.0792,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2023-07-30,2023,Q3,Central Europe,,,1.092,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=62; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2023-10-29,2023,Q4,Central Europe,,,1.0731,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2024-01-28,2024,Q1,Central Europe,,,1.0869,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2024-04-28,2024,Q2,Central Europe,,,1.0799,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2024-07-28,2024,Q3,Central Europe,,,1.0805,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=62; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2024-10-27,2024,Q4,Central Europe,,,1.1005,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=63; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2025-01-26,2025,Q1,Central Europe,,,1.0506,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2025-04-27,2025,Q2,Central Europe,,,1.0782,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2025-07-27,2025,Q3,Central Europe,,,1.1488,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=62; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2025-11-02,2025,Q4,Central Europe,,,1.1665,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=68; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2026-02-01,2026,Q1,Central Europe,,,1.1676,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=60; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2026-05-03,2026,Q2,Central Europe,,,1.1688,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=64; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+macro_usd_per_eur_fq_avg,2026-08-02,2026,Q3,Central Europe,,,1.1532,USD/EUR,FRED,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXUSEU (retrieved 2026-08-16),"mean of daily rates over the Deere fiscal quarter, n=62; Q3 FY2026 window 2026-05-04 to 2026-08-02 is complete"
+de_rev_ce_cis_fcst_ppa_central,2026-08-02,2026,Q3,Central Europe and CIS,,PPA,308,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 301; implied YoY +2.3%; confidence low"
+de_rev_ce_cis_fcst_ppa_low,2026-08-02,2026,Q3,Central Europe and CIS,,PPA,265,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 301; implied YoY -12.0%; confidence low"
+de_rev_ce_cis_fcst_ppa_high,2026-08-02,2026,Q3,Central Europe and CIS,,PPA,345,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 301; implied YoY +14.6%; confidence low"
+de_rev_ce_cis_fcst_sat_central,2026-08-02,2026,Q3,Central Europe and CIS,,SAT,120,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 130; implied YoY -7.7%; confidence low"
+de_rev_ce_cis_fcst_sat_low,2026-08-02,2026,Q3,Central Europe and CIS,,SAT,100,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 130; implied YoY -23.1%; confidence low"
+de_rev_ce_cis_fcst_sat_high,2026-08-02,2026,Q3,Central Europe and CIS,,SAT,140,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 130; implied YoY +7.7%; confidence low"
+de_rev_ce_cis_fcst_cf_central,2026-08-02,2026,Q3,Central Europe and CIS,,CF,110,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 103; implied YoY +6.8%; confidence medium"
+de_rev_ce_cis_fcst_cf_low,2026-08-02,2026,Q3,Central Europe and CIS,,CF,96,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 103; implied YoY -6.8%; confidence medium"
+de_rev_ce_cis_fcst_cf_high,2026-08-02,2026,Q3,Central Europe and CIS,,CF,124,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 103; implied YoY +20.4%; confidence medium"
+de_rev_ce_cis_fcst_fs_central,2026-08-02,2026,Q3,Central Europe and CIS,,FS,2,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 2; implied YoY +0.0%; confidence medium"
+de_rev_ce_cis_fcst_fs_low,2026-08-02,2026,Q3,Central Europe and CIS,,FS,1,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 2; implied YoY -50.0%; confidence medium"
+de_rev_ce_cis_fcst_fs_high,2026-08-02,2026,Q3,Central Europe and CIS,,FS,3,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 2; implied YoY +50.0%; confidence medium"
+de_rev_ce_cis_fcst_total_central,2026-08-02,2026,Q3,Central Europe and CIS,,TOTAL,540,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 536; implied YoY +0.7%; confidence low"
+de_rev_ce_cis_fcst_total_low,2026-08-02,2026,Q3,Central Europe and CIS,,TOTAL,462,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 536; implied YoY -13.8%; confidence low"
+de_rev_ce_cis_fcst_total_high,2026-08-02,2026,Q3,Central Europe and CIS,,TOTAL,612,USDm,forecast,"desk-central-europe-cis, 2026-08-16","FORECAST, not reported. Deere reports FY2026 Q3 on 2026-08-20. Base Q3 FY2025 = 536; implied YoY +14.2%; confidence low"

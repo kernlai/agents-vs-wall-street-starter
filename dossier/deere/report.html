@@ -1,0 +1,829 @@
+<title>Deere FY2026 Q3 — Forecast Research Report</title>
+<style>
+  /* ---------- tokens: light is the complete set ---------- */
+  :root {
+    --ground:      #F3F4F1;
+    --surface:     #FFFFFF;
+    --sunk:        #E9EBE5;
+    --rule:        #D5D9CF;
+    --rule-strong: #B4BAAD;
+
+    --ink:         #171A14;
+    --ink-2:       #4B5148;
+    --ink-3:       #787E74;
+
+    --brass:       #8A6A1C;
+    --brass-soft:  #EFE7D2;
+    --brass-line:  #C9AE6A;
+
+    --pos:         #2E6B4F;
+    --pos-soft:    #DCEAE1;
+    --neg:         #9C3B2E;
+    --neg-soft:    #F4DFDA;
+    --warn:        #A8781A;
+    --warn-soft:   #F6EBD4;
+
+    --shadow: 0 1px 2px rgba(23,26,20,.05), 0 6px 20px -12px rgba(23,26,20,.18);
+
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:      #14170F;
+      --surface:     #1C2018;
+      --sunk:        #23281F;
+      --rule:        #333A2D;
+      --rule-strong: #4C5544;
+
+      --ink:         #E9EBE2;
+      --ink-2:       #AEB5A6;
+      --ink-3:       #838B7C;
+
+      --brass:       #CBA555;
+      --brass-soft:  #2C2A1C;
+      --brass-line:  #6E5C2C;
+
+      --pos:         #74B992;
+      --pos-soft:    #1D2C23;
+      --neg:         #DB8471;
+      --neg-soft:    #33211C;
+      --warn:        #D2A44F;
+      --warn-soft:   #2E2718;
+
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:      #14170F;
+    --surface:     #1C2018;
+    --sunk:        #23281F;
+    --rule:        #333A2D;
+    --rule-strong: #4C5544;
+
+    --ink:         #E9EBE2;
+    --ink-2:       #AEB5A6;
+    --ink-3:       #838B7C;
+
+    --brass:       #CBA555;
+    --brass-soft:  #2C2A1C;
+    --brass-line:  #6E5C2C;
+
+    --pos:         #74B992;
+    --pos-soft:    #1D2C23;
+    --neg:         #DB8471;
+    --neg-soft:    #33211C;
+    --warn:        #D2A44F;
+    --warn-soft:   #2E2718;
+
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.7);
+  }
+
+  /* ---------- base ---------- */
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.62;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px 96px; }
+  .col  { max-width: 68ch; }
+
+  h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+  h1 { font-size: clamp(2.1rem, 4.6vw, 3.15rem); line-height: 1.06; letter-spacing: -.018em; }
+  h2 { font-size: clamp(1.4rem, 2.5vw, 1.85rem); line-height: 1.18; letter-spacing: -.012em; }
+  h3 { font-size: 1.08rem; line-height: 1.3; }
+  p  { margin: 0; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: .685rem;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+  .num { font-variant-numeric: tabular-nums; }
+  strong { font-weight: 650; color: var(--ink); }
+  a { color: var(--brass); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--brass); outline-offset: 3px; border-radius: 2px;
+  }
+
+  /* ---------- masthead ---------- */
+  header.mast {
+    border-bottom: 1px solid var(--rule);
+    background: var(--surface);
+  }
+  .mast-in { max-width: 1080px; margin: 0 auto; padding: 40px 28px 34px; display: flex; flex-direction: column; gap: 18px; }
+  .mast h1 { max-width: 20ch; }
+  .lede { font-size: 1.09rem; color: var(--ink-2); max-width: 62ch; }
+  .metastrip {
+    display: flex; flex-wrap: wrap; gap: 0 28px; row-gap: 8px;
+    padding-top: 16px; border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: .74rem; color: var(--ink-3);
+  }
+  .metastrip b { color: var(--ink-2); font-weight: 500; }
+
+  /* ---------- countdown banner ---------- */
+  .banner {
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px;
+    margin: 26px 0 0;
+    padding: 14px 18px;
+    background: var(--brass-soft);
+    border: 1px solid var(--brass-line);
+    border-radius: 3px;
+    font-size: .94rem;
+  }
+  .banner .k { font-family: var(--mono); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--brass); }
+
+  /* ---------- forecast cards ---------- */
+  .targets { display: grid; grid-template-columns: repeat(auto-fit, minmax(268px, 1fr)); gap: 16px; margin-top: 22px; }
+  .tcard {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--brass);
+    border-radius: 3px;
+    padding: 20px 20px 18px;
+    box-shadow: var(--shadow);
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .tcard .label { font-size: .9rem; font-weight: 600; line-height: 1.32; }
+  .tcard .unit  { font-family: var(--mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); }
+  .central { font-family: var(--serif); font-size: 2.55rem; line-height: 1; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .range {
+    display: flex; justify-content: space-between; gap: 10px;
+    padding-top: 11px; border-top: 1px solid var(--rule);
+    font-family: var(--mono); font-size: .76rem; color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .range span i { font-style: normal; color: var(--ink-3); letter-spacing: .08em; font-size: .66rem; text-transform: uppercase; display: block; }
+  .yoy { font-family: var(--mono); font-size: .75rem; }
+  .yoy.up   { color: var(--pos); }
+  .yoy.down { color: var(--neg); }
+
+  /* ---------- sections ---------- */
+  section { margin-top: 60px; }
+  .shead { display: flex; flex-direction: column; gap: 7px; margin-bottom: 20px; }
+  .shead .rule { height: 2px; background: var(--ink); width: 34px; margin-bottom: 3px; }
+  .body-copy { display: flex; flex-direction: column; gap: 15px; }
+
+  /* ---------- tables ---------- */
+  .scroll { overflow-x: auto; margin-top: 18px; border: 1px solid var(--rule); border-radius: 3px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; font-size: .875rem; }
+  caption {
+    caption-side: bottom; text-align: left; padding: 10px 14px;
+    font-size: .76rem; color: var(--ink-3); border-top: 1px solid var(--rule);
+  }
+  th, td { padding: 9px 14px; text-align: left; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+  thead th {
+    font-family: var(--mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-3); font-weight: 500; background: var(--sunk);
+    position: sticky; top: 0;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: .82rem; }
+  tr.total td { font-weight: 650; background: var(--sunk); }
+  td.wrap-ok { white-space: normal; min-width: 22ch; }
+
+  .pos { color: var(--pos); }
+  .neg { color: var(--neg); }
+
+  /* ---------- pills ---------- */
+  .pill {
+    display: inline-block; padding: 1px 8px; border-radius: 100px;
+    font-family: var(--mono); font-size: .66rem; letter-spacing: .07em; text-transform: uppercase;
+    border: 1px solid transparent; white-space: nowrap;
+  }
+  .pill.fact { background: var(--pos-soft); color: var(--pos); border-color: var(--pos); }
+  .pill.est  { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
+  .pill.inf  { background: var(--sunk); color: var(--ink-3); border-color: var(--rule-strong); }
+
+  /* ---------- finding blocks ---------- */
+  .findings { display: flex; flex-direction: column; gap: 2px; margin-top: 20px; border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+  .finding { background: var(--surface); padding: 18px 20px; display: flex; flex-direction: column; gap: 8px; border-bottom: 1px solid var(--rule); }
+  .finding:last-child { border-bottom: none; }
+  .finding .fh { display: flex; align-items: baseline; gap: 11px; flex-wrap: wrap; }
+  .finding .fh h3 { flex: 1; min-width: 15ch; }
+  .finding p { color: var(--ink-2); font-size: .93rem; max-width: 76ch; }
+  .impact {
+    font-family: var(--mono); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase;
+    padding: 1px 8px; border-radius: 2px; white-space: nowrap;
+  }
+  .impact.up   { background: var(--pos-soft); color: var(--pos); }
+  .impact.down { background: var(--neg-soft); color: var(--neg); }
+  .impact.flat { background: var(--sunk); color: var(--ink-3); }
+
+  /* ---------- callout ---------- */
+  .callout {
+    margin-top: 20px; padding: 18px 20px;
+    background: var(--surface); border: 1px solid var(--rule);
+    border-left: 3px solid var(--brass); border-radius: 3px;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .callout p { color: var(--ink-2); font-size: .94rem; max-width: 76ch; }
+  .callout.warn { border-left-color: var(--neg); }
+
+  blockquote {
+    margin: 0; padding: 2px 0 2px 18px; border-left: 2px solid var(--brass-line);
+    font-family: var(--serif); font-size: 1.02rem; color: var(--ink-2); font-style: italic;
+  }
+  blockquote cite { display: block; margin-top: 6px; font-family: var(--mono); font-style: normal; font-size: .7rem; letter-spacing: .06em; color: var(--ink-3); text-transform: uppercase; }
+
+  /* ---------- two-up ---------- */
+  .twoup { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 20px; }
+  .panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 3px; padding: 18px 20px; display: flex; flex-direction: column; gap: 10px; }
+  .panel ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 7px; color: var(--ink-2); font-size: .92rem; }
+
+  footer { margin-top: 72px; padding-top: 22px; border-top: 1px solid var(--rule); color: var(--ink-3); font-size: .82rem; display: flex; flex-direction: column; gap: 8px; }
+
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<header class="mast">
+  <div class="mast-in">
+    <span class="eyebrow">Agents vs Wall Street · Company 1 of 4 · Working draft</span>
+    <h1>Deere &amp; Company, fiscal Q3 2026</h1>
+    <p class="lede">A forecast of three reported figures for the quarter ended 2 August 2026, built from a 310-document frozen corpus, SEC XBRL, and public data gathered during the event. Deere reports in four days.</p>
+    <div class="metastrip">
+      <span><b>Compiled</b> 16 Aug 2026, 11:20 BST</span>
+      <span><b>Ticker</b> NYSE: DE</span>
+      <span><b>Last reported</b> Q2 FY2026, 21 May 2026</span>
+      <span><b>Corpus freeze</b> 14 Aug 2026</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="banner">
+    <span class="k">Prints</span>
+    <span><strong>Thursday 20 August 2026, 09:00 US Central</strong> — four days after the forecast locks. Confirmed by Deere press release, 5 Aug 2026. No Q3 FY2026 actuals exist anywhere; this is a genuine out-of-sample prediction.</span>
+  </div>
+
+  <section style="margin-top:26px">
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Preliminary central case</span>
+      <h2>The three numbers</h2>
+    </div>
+    <div class="targets">
+      <div class="tcard">
+        <div>
+          <div class="label">Worldwide net sales and revenues</div>
+          <div class="unit">USD millions</div>
+        </div>
+        <div class="central">12,400</div>
+        <div class="yoy up">▲ +3.2% vs Q3 FY2025 ($12,018m)</div>
+        <div class="range">
+          <span><i>Low</i>12,150</span>
+          <span><i>Central</i>12,400</span>
+          <span><i>High</i>12,600</span>
+        </div>
+      </div>
+      <div class="tcard">
+        <div>
+          <div class="label">Diluted EPS (GAAP)</div>
+          <div class="unit">USD per share</div>
+        </div>
+        <div class="central">4.55</div>
+        <div class="yoy down">▼ −4.2% vs Q3 FY2025 ($4.75)</div>
+        <div class="range">
+          <span><i>Low</i>3.70</span>
+          <span><i>Central</i>4.55</span>
+          <span><i>High</i>5.40</span>
+        </div>
+      </div>
+      <div class="tcard">
+        <div>
+          <div class="label">Production &amp; Precision Ag operating profit</div>
+          <div class="unit">USD millions</div>
+        </div>
+        <div class="central">450</div>
+        <div class="yoy down">▼ −22% vs Q3 FY2025 ($580m)</div>
+        <div class="range">
+          <span><i>Low</i>340</span>
+          <span><i>Central</i>450</span>
+          <span><i>High</i>610</span>
+        </div>
+      </div>
+    </div>
+    <div class="callout">
+      <p><strong>How these were built.</strong> One connected chain — segment sales → total sales → segment operating profit → reconciling items → tax → share count → EPS — so the three figures are mutually consistent rather than three separate guesses. Total operating profit of $1,585m works out at 12.8% of revenue against 13.0% in Q3 FY2025, and the implied full-year net income of ~$4.91bn sits upper-middle of guidance. Confidence is <strong>medium</strong> on revenue and EPS, <strong>low</strong> on PPA operating profit.</p>
+      <p><strong>Sensitivities worth knowing.</strong> Tax rate ±1pt moves EPS by ∓$0.13 — and H1 ran at 22.8%, so H2 must run 25–28% to land inside the 24–26% full-year guide. Q3 taking 45% of H2 gives $4.15; 53% gives $4.89. A repeat IEEPA tariff tranche would add ~$0.75. Share count is not a swing factor — buybacks slowed to $193m in Q2.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Foundation</span>
+      <h2>Verified anchors</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Everything downstream rests on these. All are reported fact taken from Deere filings, cross-checked against SEC EDGAR XBRL.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Measure</th><th class="n">Q3 FY2025 (base)</th><th class="n">Q2 FY2026</th><th class="n">H1 FY2026</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Worldwide net sales &amp; revenues</td><td class="n">12,018 <span class="neg">−9%</span></td><td class="n">13,369 <span class="pos">+5%</span></td><td class="n">22,981 <span class="pos">+8%</span></td></tr>
+          <tr><td>Net sales (equipment only)</td><td class="n">10,357</td><td class="n">11,778</td><td class="n">19,779</td></tr>
+          <tr><td>Net income attributable to Deere</td><td class="n">~1,287</td><td class="n">1,773</td><td class="n">2,429</td></tr>
+          <tr><td>Diluted EPS (GAAP)</td><td class="n">4.75</td><td class="n">6.55</td><td class="n">8.97</td></tr>
+          <tr><td>PPA net sales</td><td class="n">4,273 <span class="neg">−16%</span></td><td class="n">4,503 <span class="neg">−14%</span></td><td class="n">7,666 <span class="neg">−8%</span></td></tr>
+          <tr><td>Small Ag &amp; Turf net sales</td><td class="n">3,025</td><td class="n">3,485 <span class="pos">+16%</span></td><td class="n">5,653 <span class="pos">+19%</span></td></tr>
+          <tr><td>Construction &amp; Forestry net sales</td><td class="n">3,059</td><td class="n">3,790 <span class="pos">+29%</span></td><td class="n">6,460 <span class="pos">+31%</span></td></tr>
+          <tr><td>Diluted shares outstanding</td><td class="n">~271.9m</td><td class="n">~270.7m</td><td class="n">~269.9m</td></tr>
+        </tbody>
+        <caption>USD millions except EPS. Q3 FY2025 net income derived from reported EPS × share count. Source: Q3 FY2025 8-K (15 Aug 2025), Q2 FY2026 8-K (21 May 2026), 10-Q (28 May 2026).</caption>
+      </table>
+    </div>
+
+    <h3 style="margin-top:28px">FY2026 guidance, and how it moved</h3>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Guided item</th><th>Nov 2025 (Q4 FY25)</th><th>Feb 2026 (Q1)</th><th>May 2026 (Q2)</th><th>Direction</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Net income attributable to Deere</td><td class="n">$4.00–4.75B</td><td class="n">$4.5–5.0B</td><td class="n">$4.5–5.0B</td><td class="pos">Raised at Q1, then held</td></tr>
+          <tr><td>Effective tax rate</td><td class="n">25–27%</td><td class="n">25–27%</td><td class="n">24–26%</td><td class="pos">Cut — EPS tailwind</td></tr>
+          <tr><td>PPA net sales</td><td class="n">Down 5–10%</td><td class="n">Down 5–10%</td><td class="n">Down 5–10%</td><td>Never moved</td></tr>
+          <tr><td>PPA operating margin</td><td class="n">11–13%</td><td class="n">11–13%</td><td class="n">11–13%</td><td>Never moved</td></tr>
+          <tr><td>Small Ag &amp; Turf net sales</td><td class="n">Up ~10%</td><td class="n">Up ~15%</td><td class="n">Up ~15%</td><td class="pos">Raised</td></tr>
+          <tr><td>Construction &amp; Forestry net sales</td><td class="n">Up ~10%</td><td class="n">Up ~15%</td><td class="n">Up ~20%</td><td class="pos">Raised twice</td></tr>
+          <tr><td>C&amp;F operating margin</td><td class="n">8–10%</td><td class="n">9–11%</td><td class="n">10–12%</td><td class="pos">Raised twice</td></tr>
+          <tr><td>Financial Services net income</td><td class="n">~$830M</td><td class="n">~$840M</td><td class="n">~$860M</td><td class="pos">Raised twice</td></tr>
+        </tbody>
+        <caption>The FY2026 upgrade is entirely a mix story. Every raise sits outside PPA — management has signalled zero PPA upside all year.</caption>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Triangulation</span>
+      <h2>Three independent paths to the revenue number</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Built separately and deliberately not averaged. Two of the three land within $4m of each other — though on a band that wide, that closeness is coincidence, not corroboration.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Method</th><th class="n">Q3 FY2026</th><th class="n">Band</th><th class="wrap-ok">What it is</th></tr></thead>
+        <tbody>
+          <tr><td>Regional bottom-up — desks</td><td class="n">12,363</td><td class="n">11,881 – 12,845</td><td class="wrap-ok">24 cells forecast by six dedicated regional desks on local drivers</td></tr>
+          <tr><td>Regional bottom-up — matrix model</td><td class="n">~12,440</td><td class="n">—</td><td class="wrap-ok">The same 24 cells built independently from the extracted matrix and its own driver set</td></tr>
+          <tr><td>Guidance-implied</td><td class="n">12,359</td><td class="n">11,637 – 13,168</td><td class="wrap-ok">FY guides less H1 actual, H2 split on Q3-share medians adjusted for management's cadence language</td></tr>
+          <tr><td>Simple seasonality</td><td class="n">12,589</td><td class="n">11,541 – 14,101</td><td class="wrap-ok">Median Q2→Q3 sequential ratio of 0.942 applied to Q2 actual</td></tr>
+          <tr class="total"><td>Adopted central</td><td class="n">12,400</td><td class="n">12,150 – 12,600</td><td class="wrap-ok">Mean of the two independent cell-level builds; band compressed by the dealer and plant-labour evidence, both of which exclude the low end</td></tr>
+        </tbody>
+        <caption>USD millions. Spread between the three centrals is 230m, or 1.9%.</caption>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>Why the bottom-up wins.</strong> It is the only method with segment × geography resolution — the level at which this quarter's drivers actually operate. US C&amp;F at +21.5% and Latin America PPA at −22.3% are invisible to a total-level ratio. It is also the only one built on <em>in-quarter observed</em> data: AEM retail through July, FADA India registrations for all three months, CEMA April–July, completed-window USD/BRL and EUR/USD averages, CONAB of 13 August. And it survives the guide test independently — rolled to a full year it implies PPA −7.9%, SAT +14.9%, C&amp;F +20.4%, inside all three guides, with Q4 net sales of 10,903 above Q3's 10,727, matching management's stated cadence.</p>
+      <p>The simple-seasonality method sits $226m high for identifiable reasons, not mysterious ones: it is blind to the Western Europe FX tailwind collapsing from +8.2pp to +0.3pp, to Latin America PPA facing its hardest comp of the year, and to Q3 FY2025 being a far less depressed base than Q1 or Q2 FY2025. Those three effects roughly sum to its excess.</p>
+    </div>
+    <div class="callout warn">
+      <p><strong>The error is asymmetric.</strong> The largest identifiable single weakness — an unexplained US PPA residual — is worth about +$100m upward, with nothing comparable pointing down. If the bottom-up is wrong, it is more likely wrong <em>low</em>. A print of 12,500–12,600 should not be treated as a surprise.</p>
+    </div>
+
+    <h3 style="margin-top:30px">Two independent builds of the same grid</h3>
+    <div class="col body-copy">
+      <p>The 24 cells were forecast twice, by separate teams with separate driver sets, specifically as a disagreement detector. On equipment revenue they land <strong>0.64% apart</strong> — $10,954m against $11,024m.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Cell</th><th class="n">Desks</th><th class="n">Matrix model</th><th class="n">Gap</th><th class="wrap-ok">Where they differ</th></tr></thead>
+        <tbody>
+          <tr><td>Latin America PPA</td><td class="n">820</td><td class="n">890</td><td class="n neg">+70</td><td class="wrap-ok">Desks weight the underproduction statement and hardest-comp effect; model lets a +10% BRL translation tailwind stop the decline short</td></tr>
+          <tr><td>Western Europe PPA</td><td class="n">695</td><td class="n">650</td><td class="n pos">−45</td><td class="wrap-ok">Both agree the euro tailwind collapses from +8.4% to +0.4%; they disagree on how much underlying demand offsets it</td></tr>
+          <tr><td>United States SAT</td><td class="n">1,700</td><td class="n">1,740</td><td class="n neg">+40</td><td class="wrap-ok">Restocking pace after last year's underproduction</td></tr>
+          <tr><td>United States PPA</td><td class="n">1,440</td><td class="n">1,480</td><td class="n neg">+40</td><td class="wrap-ok">How much credit to give the trough comp — Q3 FY2025 was −40.7%, the easiest base in the grid</td></tr>
+          <tr class="total"><td>Equipment total</td><td class="n">10,954</td><td class="n">11,024</td><td class="n">+70</td><td class="wrap-ok">+0.64%</td></tr>
+        </tbody>
+        <caption>USD millions. Every other cell agrees within $30m. The PPA gap is almost entirely Latin America, partly offset by Western and Central Europe.</caption>
+      </table>
+    </div>
+    <div class="callout warn">
+      <p><strong>Latin America PPA is the one cell to adjudicate.</strong> A $70m spread on an $850m cell, driven by a genuine analytical disagreement rather than a data error: Brazil delivered a record 180.6Mt soy crop (CONAB, 13 Aug), the real strengthened ~10%, and Plano Safra rates fell from 14.0% to 12.5% — all supportive. Against that, management explicitly said <em>"in Brazil we expect to underproduce retail demand, most notably in combines"</em>, and the cell faces its hardest comparative of the year. Shipments, not demand, decide this one — which argues for the lower number.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">The core disagreement</span>
+      <h2>Guidance says one thing, consensus says another</h2>
+    </div>
+    <div class="col body-copy">
+      <p>This is the central forecasting question, and it is unresolved. Working the company's own full-year guidance down to a quarter gives a materially lower EPS than the sell-side is carrying.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Path</th><th class="n">Q3 FY2026 EPS</th><th class="wrap-ok">Reasoning</th><th>Type</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Guidance arithmetic</td><td class="n">4.10 – 4.40</td><td class="wrap-ok">FY $4.5–5.0B less H1 $2.429B gives H2 $2.07–2.57B, with Q3 the smaller half as guided</td><td><span class="pill inf">Inference</span></td></tr>
+          <tr><td>Historical H2 split</td><td class="n">4.27 – 5.30</td><td class="wrap-ok">Q3 averaged 55.6% of H2 net income FY2014–25 — but management says FY2026 breaks this</td><td><span class="pill inf">Inference</span></td></tr>
+          <tr><td>Clean Q2 × seasonality</td><td class="n">5.07</td><td class="wrap-ok">Q2 net income ex-tariff-refund × the 12-year Q3÷Q2 ratio of 0.873</td><td><span class="pill inf">Inference</span></td></tr>
+          <tr><td>Sell-side consensus</td><td class="n">4.85 – 4.86</td><td class="wrap-ok">Zacks 28 Jul 2026; Barchart / Yahoo 23 Jul 2026</td><td><span class="pill est">Estimate</span></td></tr>
+          <tr><td>Year-ago actual</td><td class="n">4.75</td><td class="wrap-ok">Q3 FY2025 reported</td><td><span class="pill fact">Fact</span></td></tr>
+          <tr class="total"><td>Our central case</td><td class="n">4.55</td><td class="wrap-ok">Built from one connected model; below methods that assume normal seasonality, because management said this year is not normal</td><td><span class="pill inf">Inference</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>The two cannot both be right.</strong> Consensus at $4.85 implicitly requires either Q4 &lt; Q3 — which management has explicitly contradicted — or full-year net income above the $5.0bn guidance ceiling. Nine separate methods span $4.14 to $5.07 with a median of $4.66. We sit below that median deliberately: every method above it assumes normal seasonality, and this year is not normal by management's own account.</p>
+      <p>Cutting the other way, Deere has beaten its Q3-vintage full-year guidance in <strong>11 of the last 11 years</strong>, median overshoot +1.4% across FY2021–25 with dispersion of only +0.3% to +4.0%. Our chain implies FY2026 net income of ~$4.91bn — upper-middle of guidance, just above the Street's $4.88bn. That is the reconciliation: a modest beat at the full-year level, but delivered in Q4 rather than Q3.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Signals</span>
+      <h2>Six findings that move the number</h2>
+    </div>
+    <div class="findings">
+
+      <article class="finding">
+        <div class="fh"><h3>Management pre-announced an abnormal H2 shape</h3><span class="impact down">Lowers Q3</span></div>
+        <p>The single most load-bearing piece of forward evidence in the corpus. Deere told the market on 21 May that Q4 would be the bigger half — reversing the pattern of FY2023, FY2024 and FY2025, where Q3 beat Q4. The reason given is specific and physical: Waterloo large-tractor shipments are back-half loaded this year.</p>
+        <blockquote>Slightly higher revenue in the back half, with the fourth quarter being higher than the third quarter… most favorable cost comparisons in the fourth quarter.<cite>CFO T. Brent Norwood, Q2 FY2026 earnings call, 21 May 2026</cite></blockquote>
+        <blockquote>More Waterloo large tractor shipments shipping to North America in the back half than the front half. That's abnormal for us.<cite>Q2 FY2026 call Q&amp;A</cite></blockquote>
+        <p>Any model that splits H2 on historical seasonality will overstate Q3. This is why our EPS sits below both consensus and the twelve-year seasonal method.</p>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>Revenue growth is inventory restocking, not demand</h3><span class="impact flat">Structural</span></div>
+        <p>Deere sells wholesale to <em>independent</em> dealers, so reported revenue is shipments, not retail. Deere deliberately underproduced retail through FY2025 to destock the channel, depressing that year's revenue. FY2026 shipments are catching back up. On the Q2 call an analyst put the gap directly to management: construction is growing +29% against an industry forecast of +5%.</p>
+        <blockquote>Recall that we underproduced retail in the first half of fiscal 2025, which set us up to produce in line with retail demand this year.<cite>Q1 FY2026 earnings call, 19 Feb 2026</cite></blockquote>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>The easy comparatives are behind us</h3><span class="impact down">Lowers Q3</span></div>
+        <p>Because underproduction ended during FY2025, that year's quarterly path rose steadily — C&amp;F went 1,994 → 2,947 → 3,059 → 3,382. Q3 therefore faces a much harder comparative than Q2 did. Guidance implies H2 growth of roughly +12% for C&amp;F against +31% in H1, and +11% for Small Ag &amp; Turf against +19%. Extrapolating H1 growth rates into Q3 overstates the result by close to a billion dollars.</p>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>Q2 profit was flattered by a one-off tariff refund</h3><span class="impact down">Lowers PPA</span></div>
+        <p>Q2 FY2026 GAAP results include a <strong>$272m IEEPA tariff recovery</strong> following the 20 Feb 2026 Supreme Court decision, allocated 20% PPA / 30% SAT / 50% C&amp;F. That is roughly <strong>$54m inside PPA operating profit</strong>: clean Q2 PPA was about $652m (14.5% margin) against $706m reported (15.7%). Unless a further tranche lands, it does not repeat in Q3 — anyone anchoring on the reported Q2 margin will run too high.</p>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>US ag retail deteriorated through the quarter</h3><span class="impact down">Lowers PPA</span></div>
+        <p>AEM data shows US ag tractor sales <strong>−18.4% year-on-year in June 2026</strong>, −13.6% year to date, with 4WD down 24.6% YTD, and −17.3% across the exact May–July window. This is precisely the PPA end market, and it worsened inside the quarter. Set against it: dealer inventories have already normalised sharply — combines at 12% of trailing-twelve-month retail versus 17% a year ago — so the destocking drag on shipments is largely spent.</p>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>Seasonality is unusually tight, and points down</h3><span class="impact down">Lowers revenue</span></div>
+        <p>Across FY2014–25, Q3 total revenue has run at <strong>0.94× Q2</strong> on average (median 0.94), narrowing to 0.91× over the last three years and 0.906× across down-cycle years specifically. Applied to Q2's $13,369m that gives $12.1–12.6B. The ratio has never exceeded 1.055 in twelve years.</p>
+      </article>
+
+      <article class="finding">
+        <div class="fh"><h3>The revision-direction rule is eight for eight</h3><span class="impact up">Raises FY</span></div>
+        <p>In every year Deere raised guidance at Q1, the year finished above the Q1 midpoint; in every year it held or cut, the year finished below. That rule is 8/8 across the corpus. FY2026 was <strong>raised</strong> at Q1, from $4.00–4.75B to $4.5–5.0B. On the historical pattern that argues for a full-year outcome in the upper half of the current range or above it — which pulls Q3 toward the top of our band.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Anatomy</span>
+      <h2>What Deere actually is</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Three independent cuts of the same $13,369m quarter, all disclosed in the Q2 FY2026 revenue-recognition footnote.</p>
+      <p><strong>The two bases tie exactly at the total.</strong> Verified across all seven quarters where both are disclosed — Q1 FY2026 9,611 = 9,611, Q2 FY2026 13,369 = 13,369, Q3 FY2025 12,018 = 12,018 — so no total-level reconciliation is needed. The wedge lives only in the segment split, and it is a roughly constant <em>dollar</em> amount rather than a percentage: PPA +106m, SAT +57m, C&amp;F +64m at the median of the last five quarters, with the PPA wedge staying in a 96–111m band while PPA revenue ranges from 3,269m to 5,326m. Treating it as a 2.3% ratio would introduce error at both ends of the range.</p>
+    </div>
+    <div class="twoup">
+      <div class="panel">
+        <span class="eyebrow">By segment</span>
+        <div class="scroll" style="margin-top:4px">
+          <table>
+            <thead><tr><th>Segment</th><th class="n">USDm</th><th class="n">Share</th></tr></thead>
+            <tbody>
+              <tr><td>Production &amp; Precision Ag</td><td class="n">4,607</td><td class="n">34.5%</td></tr>
+              <tr><td>Construction &amp; Forestry</td><td class="n">3,854</td><td class="n">28.8%</td></tr>
+              <tr><td>Small Ag &amp; Turf</td><td class="n">3,542</td><td class="n">26.5%</td></tr>
+              <tr><td>Financial Services</td><td class="n">1,366</td><td class="n">10.2%</td></tr>
+              <tr class="total"><td>Total</td><td class="n">13,369</td><td class="n">100%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">By product line</span>
+        <div class="scroll" style="margin-top:4px">
+          <table>
+            <thead><tr><th>Line</th><th class="n">USDm</th><th class="n">Share</th></tr></thead>
+            <tbody>
+              <tr><td>Production agriculture</td><td class="n">4,403</td><td class="n">32.9%</td></tr>
+              <tr><td>Small agriculture</td><td class="n">2,339</td><td class="n">17.5%</td></tr>
+              <tr><td>Construction</td><td class="n">1,514</td><td class="n">11.3%</td></tr>
+              <tr><td>Financial products</td><td class="n">1,457</td><td class="n">10.9%</td></tr>
+              <tr><td>Roadbuilding</td><td class="n">1,270</td><td class="n">9.5%</td></tr>
+              <tr><td>Turf</td><td class="n">1,063</td><td class="n">8.0%</td></tr>
+              <tr><td>Compact construction</td><td class="n">653</td><td class="n">4.9%</td></tr>
+              <tr><td>Other</td><td class="n">376</td><td class="n">2.8%</td></tr>
+              <tr><td>Forestry</td><td class="n">294</td><td class="n">2.2%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:30px">Segment × geography</h3>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Primary geographic market</th><th class="n">PPA</th><th class="n">SAT</th><th class="n">C&amp;F</th><th class="n">Fin Svcs</th><th class="n">Total</th><th class="n">% of co.</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>United States</td><td class="n">2,012</td><td class="n">1,833</td><td class="n">2,317</td><td class="n">1,036</td><td class="n">7,198</td><td class="n">53.8%</td></tr>
+          <tr><td>Western Europe</td><td class="n">654</td><td class="n">827</td><td class="n">608</td><td class="n">52</td><td class="n">2,141</td><td class="n">16.0%</td></tr>
+          <tr><td>Latin America</td><td class="n">828</td><td class="n">128</td><td class="n">280</td><td class="n">32</td><td class="n">1,268</td><td class="n">9.5%</td></tr>
+          <tr><td>Asia, Africa, Oceania, Middle East</td><td class="n">329</td><td class="n">446</td><td class="n">369</td><td class="n">54</td><td class="n">1,198</td><td class="n">9.0%</td></tr>
+          <tr><td>Canada</td><td class="n">487</td><td class="n">187</td><td class="n">175</td><td class="n">190</td><td class="n">1,039</td><td class="n">7.8%</td></tr>
+          <tr><td>Central Europe and CIS</td><td class="n">297</td><td class="n">121</td><td class="n">105</td><td class="n">2</td><td class="n">525</td><td class="n">3.9%</td></tr>
+          <tr class="total"><td>Total</td><td class="n">4,607</td><td class="n">3,542</td><td class="n">3,854</td><td class="n">1,366</td><td class="n">13,369</td><td class="n">100%</td></tr>
+        </tbody>
+        <caption>Q2 FY2026, USD millions, revenue-recognition basis. Extracted for 30 quarters back to Q1 FY2019 — the disclosure begins at ASC 606 adoption. C&amp;F is the most US-concentrated equipment segment at 60% of its revenue; PPA is the most diversified at 44% US, with Latin America at 18%.</caption>
+      </table>
+    </div>
+
+    <h3 style="margin-top:30px">The Q3 FY2026 forecast, cell by cell</h3>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Geography</th><th class="n">PPA</th><th class="n">SAT</th><th class="n">C&amp;F</th><th class="n">Fin Svcs</th><th class="n">Row total</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>United States</td><td class="n">1,440 <span class="neg">−14.5%</span></td><td class="n">1,700 <span class="pos">+10.6%</span></td><td class="n">2,050 <span class="pos">+21.5%</span></td><td class="n">1,070 <span class="neg">−2.7%</span></td><td class="n">6,260</td></tr>
+          <tr><td>Western Europe</td><td class="n">695 <span class="pos">+2.7%</span></td><td class="n">810 <span class="pos">+7.0%</span></td><td class="n">590 <span class="pos">+7.3%</span></td><td class="n">53 <span class="pos">+17.8%</span></td><td class="n">2,148</td></tr>
+          <tr><td>Latin America</td><td class="n">820 <span class="neg">−22.3%</span></td><td class="n">136 <span class="pos">+9.7%</span></td><td class="n">285 <span class="pos">+13.1%</span></td><td class="n">33 <span class="pos">+17.9%</span></td><td class="n">1,274</td></tr>
+          <tr><td>Asia, Africa, Oceania, Middle East</td><td class="n">355 <span class="pos">+6.9%</span></td><td class="n">440 <span class="pos">+12.0%</span></td><td class="n">380 <span class="pos">+21.4%</span></td><td class="n">55 <span class="pos">+3.8%</span></td><td class="n">1,230</td></tr>
+          <tr><td>Canada</td><td class="n">340 <span class="pos">+1.5%</span></td><td class="n">175 <span class="pos">+18.2%</span></td><td class="n">200 <span class="neg">−9.9%</span></td><td class="n">196 <span class="pos">+3.2%</span></td><td class="n">911</td></tr>
+          <tr><td>Central Europe and CIS</td><td class="n">308 <span class="pos">+2.3%</span></td><td class="n">120 <span class="neg">−7.7%</span></td><td class="n">110 <span class="pos">+6.8%</span></td><td class="n">2 <span>0.0%</span></td><td class="n">540</td></tr>
+          <tr class="total"><td>Total</td><td class="n">3,958</td><td class="n">3,381</td><td class="n">3,615</td><td class="n">1,409</td><td class="n">12,363</td></tr>
+        </tbody>
+        <caption>USD millions, revenue-recognition basis, with year-on-year change against the Q3 FY2025 cell. Each cell forecast on its own local drivers by a dedicated regional desk. The two extremes carry the story: US Construction &amp; Forestry at +21.5% and Latin America PPA at −22.3%, the latter facing its hardest comparative of the year against a Q3 FY2025 that was itself +25.4%.</caption>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Profit mix</span>
+      <h2>PPA is losing its grip on earnings</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Revenue share and profit share diverge sharply, and the divergence is widening. This matters directly, because PPA operating profit is one of the three figures we must forecast — and it is the segment being compressed from both sides at once.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Segment</th><th class="n">FY2025 sales</th><th class="n">FY2025 margin</th><th class="n">FY2025 op profit</th><th class="n">FY2026 guided margin</th><th class="n">FY2026 implied op profit</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Production &amp; Precision Ag</td><td class="n">17,311</td><td class="n">15.4%</td><td class="n">~2,666</td><td class="n">11–13%</td><td class="n">1,710–2,140</td></tr>
+          <tr><td>Small Ag &amp; Turf</td><td class="n">10,224</td><td class="n">11.8%</td><td class="n">~1,207</td><td class="n">13.5–15%</td><td class="n">1,590–1,760</td></tr>
+          <tr><td>Construction &amp; Forestry</td><td class="n">11,382</td><td class="n">9.0%</td><td class="n">~1,024</td><td class="n">10–12%</td><td class="n">1,370–1,640</td></tr>
+        </tbody>
+        <caption>USD millions. FY2025 margins read from earnings-call slide decks; treat as ±0.1pp. FY2026 implied profit applies guided margins to guided sales growth off the FY2025 base.</caption>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>PPA was 55% of segment operating profit in FY2025. On FY2026 guidance it falls to roughly 37%.</strong> Deere's profit engine is rotating out of large agriculture into turf and construction. Margin is moving opposite to revenue in every segment — which is why revenue can grow while EPS goes sideways.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Seasonality</span>
+      <h2>Twelve years of Q3</h2>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th>Sample</th><th class="n">Mean Q3÷Q2</th><th class="n">Median</th><th class="n">Range</th><th class="wrap-ok">Applied to Q2 FY2026 ($13,369m)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>All 12 years (FY2014–25)</td><td class="n">0.935</td><td class="n">0.942</td><td class="n">0.854 – 1.055</td><td class="n">12,500</td></tr>
+          <tr><td>Last 5 years (FY2021–25)</td><td class="n">0.945</td><td class="n">0.942</td><td class="n">0.863 – 1.055</td><td class="n">12,633</td></tr>
+          <tr><td>Last 3 years (FY2023–25)</td><td class="n">0.905</td><td class="n">0.909</td><td class="n">0.863 – 0.942</td><td class="n">12,099</td></tr>
+          <tr class="total"><td>Down-cycle years only</td><td class="n">0.906</td><td class="n">0.907</td><td class="n">0.854 – 0.965</td><td class="n">12,112</td></tr>
+        </tbody>
+        <caption>Q3 has also averaged 26.08% of full-year revenue with a standard deviation of just 0.68pp — one of the most stable ratios in the business. Note FY2019 and FY2025 were 53-week years, with the extra week falling in Q4.</caption>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Channel</span>
+      <h2>The dealers are solvent. The farmers are not.</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Deere ships wholesale to independent dealers, so dealer health sits directly upstream of the revenue line. The credit-quality footnote separates the two exposures, and they are diverging sharply.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Exposure</th><th class="n">Balance</th><th class="n">Stressed</th><th class="n">Rate</th><th class="wrap-ok">Read</th></tr></thead>
+        <tbody>
+          <tr><td>Wholesale — owed by <strong>dealers</strong></td><td class="n">7,426</td><td class="n">4</td><td class="n pos">0.05%</td><td class="wrap-ok">$0 past due 30+ days; allowance unchanged for eight quarters</td></tr>
+          <tr><td>Retail — owed by <strong>customers</strong></td><td class="n">41,857</td><td class="n">742</td><td class="n neg">1.77%</td><td class="wrap-ok">Worst of the CECL era, roughly double the FY2022 trough of 0.89%</td></tr>
+        </tbody>
+        <caption>Q2 FY2026, USD millions. Total customer stress runs at 3.48% against dealer stress of 0.05% — a 64× gap. The Q2 10-Q attributes the deterioration to "higher expected losses on construction retail accounts".</caption>
+      </table>
+    </div>
+    <div class="callout">
+      <p><strong>This is the favourable regime for shipments.</strong> Farmers are under real financial pressure while dealers are well-capitalised and destocked, so Deere can keep shipping into the channel. Aged trade receivables over 12 months — Deere's own measure of dealer lots not clearing — peaked at 7% in April 2025, the worst reading in the eleven-year corpus, and have since collapsed to 3, 3, 2 and 1% over four quarters, back to the 2015–19 baseline. Wholesale floor-plan receivables are down 16.8% year on year.</p>
+      <p>The offset is that dealers are <em>solvent but unprofitable</em>. Dealer profitability sits at a five-year low, roughly 30% below peak; only 72.5% forecast a profitable year, the weakest in five years by a wide margin. A dealer in that position replaces what it sells rather than building position — which removes downside from Q3 without creating upside.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>Correction to an earlier read.</strong> Large-tractor inventory at 30% of trailing retail is <em>not</em> elevated — measured against the 2013–25 April seasonal mean of 30.3%, it is dead on normal, and has stayed within ±1.0 point for seven of the last eight quarters. The earlier inference that large-tractor destocking still had far to run was wrong. Combines are the genuine outlier: at 12% they sit 6.9 points below the April norm, the lowest April reading in the corpus, after a violent ~12-point seasonally-adjusted cut in a single quarter that already sits inside reported Q2.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>Used values, covering the whole forecast window.</strong> Sandhills data for May, June and July 2026 — the July print published 11 August — shows 100+hp tractor auction values at +2.36%, +3.74% and +2.97% year on year with inventory down 16.75%, a fourteenth consecutive monthly decline. The used-equipment overhang that blocked new sales is clearing. Combines are the soft spot, decaying from +9.6% to +0.38% year on year, and sprayers are actively deteriorating at −5.14% — both inside PPA.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>A tempting correlation, correctly rejected.</strong> Wholesale receivables appear to lead net sales by four quarters at r = −0.885 (n=19). That result does not survive scrutiny: autocorrelation of 0.927 and 0.854 in predictor and target gives a Bartlett-adjusted <strong>effective n of about 2.2</strong>. Dropping the 2023–26 cycle collapses it to r = −0.523, and the reverse direction is also significant — both are the same inventory identity read from opposite ends of one build-and-bust. Its naive output of +13.6% would have put revenue above the top of our range. Treated as a narrative constraint, never as a predictor.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Tested hypothesis</span>
+      <h2>Is Q3 revenue already locked in?</h2>
+    </div>
+    <div class="col body-copy">
+      <p>The proposition put to the swarm: Deere's order book fixes Q3 revenue in advance, so revenue should be forecast tightly and the real uncertainty belongs on margin. Verdict after four evidence agents and an adversarial adjudication: <strong>partially supported — right conclusion, wrong mechanism.</strong></p>
+    </div>
+
+    <div class="twoup">
+      <div class="panel">
+        <span class="eyebrow">What holds</span>
+        <ul>
+          <li>Order coverage reaches past Q3 in <strong>13 of 13</strong> Q2 calls since 2013; mean forward coverage 4.57 months.</li>
+          <li>Revenue is <strong>3.05× more predictable</strong> than margin one quarter ahead — sd 9.62% vs 29.34%, n=45, p&lt;0.0001.</li>
+          <li>Margin owns <strong>79%</strong> of PPA operating-profit surprise variance and 68% of EPS surprise; revenue only 15–21%.</li>
+          <li>Conditioning on Q2 guidance roughly halves revenue error, from 9.62% to a Q3 1-sigma of <strong>4.45%</strong>.</li>
+          <li>Q3 is empirically the <em>most</em> predictable quarter for enterprise revenue (MAE 6.3%).</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">What breaks</span>
+        <ul>
+          <li><strong>The mechanism is not build time.</strong> Deere never once cites manufacturing cycle time as binding across 310 documents; order-to-production-start is only ~3 months.</li>
+          <li><strong>The order book pins the half, not the quarter.</strong> The Q3-vs-Q4 split term exceeds the guidance term for every target — 6.97% vs 3.07% on PPA sales.</li>
+          <li><strong>Costs don't drive realised profit.</strong> Production costs plus warranty contribute <em>negative</em> variance share (−22.6% PPA); volume/mix carries 65–90%.</li>
+          <li><strong>The edge is decaying.</strong> Revenue's predictability advantage falls from 3.39× (FY2015–20) to 1.54× and statistically insignificant in the FY2023–26 down-cycle.</li>
+          <li>It barely applies to Small Ag &amp; Turf, where Deere has never quantified order visibility in 14 years.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>The apparent contradiction resolves cleanly</strong>, and the resolution is the most useful thing this analysis produced. Two decompositions answer two different questions, and both are correct. On <em>realised</em> variation, volume/mix dominates — 85.6% pooled across 69 reconciled segment-quarters. On <em>unforecastable</em> variation, margin dominates — 79% of the surprise. Volume drives what actually changes, but volume is knowable in advance from the order book; what remains genuinely unpredictable is margin. So the practical prescription stands even though the stated mechanism does not: forecast revenue tight, hold the range wide on profit.</p>
+      <p>The real lead time is <strong>commercial, not industrial</strong>: early order programmes close 8–14 months before the use season, and rolling order books run 3–5 months out. That is what fixes the quarter.</p>
+    </div>
+
+    <div class="callout">
+      <p><strong>What management said on 21 May, and what it covers.</strong> <em>"Demand and that production plan for 2026 is set at this point. Our EOPs for this year have closed, and we know where we're going to build in combines, sprayers, and planters."</em> Waterloo large tractors: order books <em>"well into the fourth quarter."</em> Europe and South America: visibility <em>"extends through the third quarter and into the fourth."</em> C&amp;F: <em>"over 80% of production slots filled for the year."</em> Best estimate — essentially all of Q3 PPA orders and 80%+ of Q3 C&amp;F orders were in hand, covering roughly 70% of equipment revenue. Residual Q3 revenue uncertainty is shipment timing and cancellation, not demand arrival.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>The caveat that matters most for FY2026.</strong> Revenue predictability degrades 1.6–1.8× at cycle turning points, and management has called FY2026 the bottom of the large-ag cycle. The assumption is weakest exactly where we are relying on it — which is why the revenue band here sits near 1-sigma rather than inside it.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Rejected indicator</span>
+      <h2>Plant hiring does not predict shipments</h2>
+    </div>
+    <div class="col body-copy">
+      <p>We mapped Deere's plants and built a layoff and recall tracker from WARN filings, on the theory that headcount is an observable proxy for production rate. Tested properly, it fails as a predictor — and we are reporting that rather than quietly using it.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Predicting next-quarter revenue</th><th class="n">PPA</th><th class="n">SAT</th><th class="n">C&amp;F</th></tr></thead>
+        <tbody>
+          <tr class="total"><td>Naive persistence — revenue predicting itself</td><td class="n">+0.61</td><td class="n">+0.84</td><td class="n">+0.81</td></tr>
+          <tr><td>Plant labour signal</td><td class="n">+0.52</td><td class="n">+0.45</td><td class="n">+0.57</td></tr>
+          <tr><td>Labour → <em>acceleration</em> in revenue</td><td class="n">+0.001</td><td class="n">−0.003</td><td class="n">+0.35</td></tr>
+          <tr><td>Directional hit rate on acceleration</td><td class="n">38%</td><td class="n">25%</td><td class="n">38%</td></tr>
+        </tbody>
+        <caption>n=8–9. The labour signal loses to doing nothing in all three segments. With this sample the honest reading is "no detectable directional skill", not "inverted".</caption>
+      </table>
+    </div>
+    <div class="callout warn">
+      <p><strong>The trap it avoided.</strong> An annual test shows r = +0.891 between UAW headcount change and equipment sales change — a compelling-looking result. Both sides are the <em>same fiscal year</em>. It is coincident by construction and says nothing about lead time. Two of three tests looked supportive and were worthless; only benchmarking against naive persistence exposed it.</p>
+    </div>
+    <div class="callout">
+      <p><strong>What survived.</strong> An asymmetry worth keeping: in down years headcount falls slightly more than sales (−3.8pp gap), while in up years it badly understates growth (−9.4pp). So a layoff number can be scaled into revenue; a hiring number cannot. And composition beats count — FY2025 Q4 saw 339 layoffs in the very quarter all three segments turned positive, but those 339 were entirely PPA, and two quarters later PPA printed −13.9% against C&amp;F at +28.6%.</p>
+      <p>A data-handling correction also came out of it: naively summing the WARN file overstates production cuts roughly threefold. FY2024 Q3 is 303 production workers, not 895, once salaried, corporate and contractor rows are removed.</p>
+    </div>
+    <div class="callout">
+      <p><strong>As a nowcast, it still earns its place.</strong> Because the quarter is closed, coincident is sufficient. There were <strong>zero Deere WARN notices in Iowa, Illinois or Wisconsin in all of calendar 2026</strong> — a hard zero, not a data gap: the Iowa database is current to 13 August and carries 77 other CY2026 notices. On 11 June Dubuque hired 30 new external employees after exhausting its recall list, with 400 US employees returned or hired since January. The scenario behind the FY2024–25 negative surprises was Deere cutting into a quarter; that did not happen. It removes the downside tail without arguing for upside.</p>
+      <p>Segment split: C&amp;F corroborated — every 2026 event is Dubuque, Davenport or Coffeyville. PPA mixed — 146 recalled to the Waterloo 8R lines, but <strong>Harvester Works, the only North American combine plant, received nothing in 2026</strong> after 415 cuts. SAT silent, which is no information rather than support.</p>
+    </div>
+    <div class="callout warn">
+      <p><strong>The gap we could not close.</strong> Summer shutdown weeks are negotiated into the UAW master agreement and never publicly disclosed, so the shutdown comparison could not be built and was not estimated. There is a calendar subtlety on top: FY2025 Q3 ended 27 July while FY2026 Q3 ended 2 August, so a shutdown falling outside last year's window could fall inside this year's. This is the largest unquantified risk in the revenue forecast.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Exposure</span>
+      <h2>What would break this forecast</h2>
+    </div>
+    <div class="twoup">
+      <div class="panel">
+        <span class="eyebrow">Upside risks</span>
+        <ul>
+          <li>Guidance conservatism is real and measured — 11/11 Q3 beats — and could be larger than the +1.4% median we have applied.</li>
+          <li>A further IEEPA tariff refund tranche landing in Q3 would repeat the Q2 flattering effect.</li>
+          <li>C&amp;F momentum has beaten guidance twice already this year; a third raise is plausible.</li>
+          <li>The tax-rate cut to 24–26% is a direct EPS tailwind not yet fully in consensus models.</li>
+          <li><strong>No extended summer shutdown occurred.</strong> Searched specifically: zero John Deere WARN filings in calendar 2026, and the only PPA production news in the window is expansionary — 146 Waterloo workers called back for 8R tractor demand. The Ankeny layoffs completed 28 April fall inside Q2.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Downside risks</span>
+        <ul>
+          <li>June AEM tractor sales at −18.4% suggest PPA volume deteriorated inside the quarter.</li>
+          <li>Brazilian combine underproduction was explicitly guided for Q2 <em>and</em> Q3 — a direct drag on Latin America PPA.</li>
+          <li>Shipment timing between Q3 and Q4 is the largest single error term — bigger than guidance error on every target — and Deere reallocates between the two most years.</li>
+          <li>PPA margin guidance has never moved all year, signalling no management confidence in upside.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="callout warn">
+      <p><strong>The largest remaining uncertainty is PPA operating profit</strong>, and it is flagged low-confidence for good reason. No published consensus for it exists anywhere — seven agents searched Zacks, Yahoo, AlphaQuery, StockStory, TipRanks, Visible Alpha, MarketScreener, Nasdaq and the WSJ and found nothing. It is built bottom-up with no external anchor, and the methods disagree by nearly two-fold: delta regressions give $293–319m, a hand-built eight-bucket bridge gives ~$355m, a levels model gives $517m, and guidance top-down gives $365–620m.</p>
+      <p>The check that stops us going lower: at a Q3 of $355m, the full-year PPA margin lands at 10.9% — <em>below</em> the 11% floor Deere reaffirmed on 21 May with H1 already booked at 11.0%. That is the strongest argument the pessimistic methods are wrong, and it is why we weight guidance and levels at ~65%.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="shead">
+      <div class="rule"></div>
+      <span class="eyebrow">Provenance</span>
+      <h2>Method and evidence base</h2>
+    </div>
+    <div class="col body-copy">
+      <p>Built during the event from the organiser-supplied frozen corpus plus public information, as permitted under competition rule 22. Every figure above traces to a filing path or a dated URL.</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Source</th><th class="wrap-ok">Coverage</th><th class="n">Depth</th></tr></thead>
+        <tbody>
+          <tr><td>Frozen corpus — Deere</td><td class="wrap-ok">Filings, call transcripts, slide decks</td><td class="n">310 docs, 2012–2026</td></tr>
+          <tr><td>SEC EDGAR XBRL</td><td class="wrap-ok">Revenues, EPS, net income, share count (CIK 315189)</td><td class="n">FY2007–FY2026 Q2</td></tr>
+          <tr><td>Segment × geography matrix</td><td class="wrap-ok">6 regions × 4 segments, quarterly</td><td class="n">30 quarters</td></tr>
+          <tr><td>PPA segment history</td><td class="wrap-ok">Sales, operating profit, margin</td><td class="n">26 quarters</td></tr>
+          <tr><td>Macro &amp; sector drivers</td><td class="wrap-ok">FRED, USDA, commodity and FX series</td><td class="n">Up to 20 years</td></tr>
+          <tr><td>Post-freeze sweep</td><td class="wrap-ok">EDGAR filings, newsroom, AEM, consensus</td><td class="n">28 May – 16 Aug 2026</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <p><strong>Two structural limits worth stating plainly.</strong> The Production &amp; Precision Ag segment only exists from FY2021, with FY2020 available as restated comparatives — about 26 quarters, not the 78 available for revenue and EPS. Any model fitted on PPA operating profit is working with a short sample, and a rich specification would over-fit. Separately, the segment × geography matrix begins only at ASC 606 adoption in fiscal 2019.</p>
+    </div>
+
+    <div class="callout warn">
+      <p><strong>Corpus defect 1 — mislabelled transcript.</strong> The index contains a row labelled <span style="font-family:var(--mono);font-size:.85em">2026-05-21 | Call Transcript | Q3 2026</span>. It is dated the day of the Q2 release and its contents are unambiguously the Q2 FY2026 call. An agent trusting that metadata would conclude Q3 had already reported and fabricate actuals. Every agent was warned; two independently re-verified it.</p>
+      <p><strong>Corpus defect 2 — stripped minus signs.</strong> The Q2 slide deck's April retail-sales table renders the industry column as bare positives (12 / 4 / 14 / 24 / 5%). Those figures are <strong>negative</strong>. The markdown conversion mangled comparison operators throughout that table — row labels read <span style="font-family:var(--mono);font-size:.85em">($40$ PTO hp)</span> where the original was <span style="font-family:var(--mono);font-size:.85em">(&lt; 40 PTO hp)</span> — and took the minus signs with them. Deere's own adjacent column reading "Down more than the industry" against a supposed +14% is internally incoherent, and the −24% for 4WD matches the independently sourced AEM figure of −24.6% YTD. A sign-flipped prior on US large-ag retail was circulated to the regional desks in the task brief; one desk caught and overrode it, another did not. Corrected here.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Deere &amp; Company FY2026 Q3 forecast research · compiled 16 August 2026 for Agents vs Wall Street.</span>
+    <span>Preliminary working document. Figures marked as inference are the authors' derivations, not reported results. Deere reports 20 August 2026.</span>
+  </footer>
+
+</div>
